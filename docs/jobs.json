@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-25T06:07:11.278782",
-  "total_scraped": 149,
-  "total_matched": 148,
+  "generated_at": "2026-07-26T06:27:24.034524",
+  "total_scraped": 121,
+  "total_matched": 121,
   "jobs": [
     {
-      "id": "qa-engineer-frontend-mobile-java-trading-at-jobgether-4444332783",
-      "title": "QA Engineer (Frontend, Mobile, Java) - Trading",
-      "company": "Jobgether",
+      "id": "automation-qa-engineer-%E2%80%93-java-playwright-at-digile-4398600556",
+      "title": "Automation QA Engineer – Java & Playwright",
+      "company": "Digile",
       "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/qa-engineer-frontend-mobile-java-trading-at-jobgether-4444332783",
+      "url": "https://in.linkedin.com/jobs/view/automation-qa-engineer-%E2%80%93-java-playwright-at-digile-4398600556",
       "source": "linkedin",
       "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.467518",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:24:59.613546",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -35,320 +35,23 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-quality-assurance-automation-engineer-at-luxoft-4445216889",
-      "title": "Senior Quality Assurance Automation Engineer",
-      "company": "Luxoft",
-      "location": "Los Angeles Metropolitan Area",
-      "url": "https://www.linkedin.com/jobs/view/senior-quality-assurance-automation-engineer-at-luxoft-4445216889",
+      "id": "automation-selenium-sdet-ii-at-deloitte-4444679134",
+      "title": "Automation Selenium-SDET II",
+      "company": "Deloitte",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://in.linkedin.com/jobs/view/automation-selenium-sdet-ii-at-deloitte-4444679134",
       "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:34.975991",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-quality-assurance-engineer-at-ruxlo-4445282828",
-      "title": "Senior Quality Assurance Engineer",
-      "company": "Ruxlo",
-      "location": "New Jersey, United States",
-      "url": "https://www.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-ruxlo-4445282828",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
+      "category": "india_remote",
       "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:03:35.114059",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-quality-assurance-automation-engineer-at-luxoft-4445226588",
-      "title": "Senior Quality Assurance Automation Engineer",
-      "company": "Luxoft",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/senior-quality-assurance-automation-engineer-at-luxoft-4445226588",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:35.179192",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-qa-engineer-at-beauty-pie-4444962253",
-      "title": "Senior QA Engineer",
-      "company": "Beauty Pie",
-      "location": "London, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/senior-qa-engineer-at-beauty-pie-4444962253",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.283050",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "lead-test-engineer-at-hm-revenue-customs-4433109995",
-      "title": "Lead Test Engineer",
-      "company": "HM Revenue & Customs",
-      "location": "Newcastle Upon Tyne, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/lead-test-engineer-at-hm-revenue-customs-4433109995",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.612291",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "lead-test-engineer-at-hm-revenue-customs-4433110807",
-      "title": "Lead Test Engineer",
-      "company": "HM Revenue & Customs",
-      "location": "London, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/lead-test-engineer-at-hm-revenue-customs-4433110807",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.679366",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-software-test-engineer-%E2%80%93-robot-arm-mensch-at-neura-robotics-4443565033",
-      "title": "Senior Software Test Engineer – Robot Arm (Mensch)",
-      "company": "NEURA Robotics",
-      "location": "Metzingen, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-software-test-engineer-%E2%80%93-robot-arm-mensch-at-neura-robotics-4443565033",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.712071",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-qa-engineer-m-f-d-at-ge-healthcare-4405164246",
-      "title": "Senior QA Engineer (m/f/d)",
-      "company": "GE HealthCare",
-      "location": "Munich, Bavaria, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-qa-engineer-m-f-d-at-ge-healthcare-4405164246",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.776264",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "shine_527407",
-      "title": "QA Automation Engineer (Senior / Lead)",
-      "company": "",
-      "location": "India (Remote)",
-      "url": "https://www.shine.com/jobs/qa-automation-engineer-senior-lead/undocked/19258965",
-      "description": "QA Automation Engineer (Senior / Lead) at . Remote/WFH QA role in India.",
-      "source": "shine",
-      "category": "india_remote",
-      "type": "India Remote",
-      "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:02:38.398821",
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "shine_781704",
-      "title": "Automation Test Engineer / Senior QA Automation Engineer",
-      "company": "",
-      "location": "India (Remote)",
-      "url": "https://www.shine.com/jobs/automation-test-engineer-senior-qa-automation-engineer/ust/19105045",
-      "description": "Automation Test Engineer / Senior QA Automation Engineer at . Remote/WFH QA role in India.",
-      "source": "shine",
-      "category": "india_remote",
-      "type": "India Remote",
-      "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:02:42.035854",
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-quality-assurance-automation-engineer-at-ajackus-4444365462",
-      "title": "Senior Quality Assurance Automation Engineer",
-      "company": "Ajackus",
-      "location": "Mumbai Metropolitan Region",
-      "url": "https://in.linkedin.com/jobs/view/senior-quality-assurance-automation-engineer-at-ajackus-4444365462",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.330637",
+      "scraped_at": "2026-07-26T06:25:13.323425",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
-      "match_score": 70,
+      "match_score": 75,
       "match_reasons": [
         "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
+        "Mid-level position matches your profile",
+        "Selenium mentioned in title"
       ],
       "missing_skills": [
         "Cypress",
@@ -363,112 +66,23 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-quality-assurance-engineer-at-the-reliable-jobs-4444304851",
-      "title": "Senior Quality Assurance Engineer",
-      "company": "The Reliable Jobs",
-      "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-the-reliable-jobs-4444304851",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.602717",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-qa-automation-engineer-qa-automation-lead-at-dawerone-4441810103",
-      "title": "Senior QA Automation Engineer / QA Automation Lead",
-      "company": "DawerOne",
-      "location": "Gurugram, Haryana, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-qa-automation-engineer-qa-automation-lead-at-dawerone-4441810103",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.669030",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "principal-engineer-test-automation-at-harman-india-4423678384",
-      "title": "Principal Engineer - Test Automation",
-      "company": "HARMAN India",
+      "id": "automation-selenium-sdet-ii-at-deloitte-4444683132",
+      "title": "Automation Selenium-SDET II",
+      "company": "Deloitte",
       "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/principal-engineer-test-automation-at-harman-india-4423678384",
+      "url": "https://in.linkedin.com/jobs/view/automation-selenium-sdet-ii-at-deloitte-4444683132",
       "source": "linkedin",
       "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.800703",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:25:13.415120",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
-      "match_score": 70,
+      "match_score": 75,
       "match_reasons": [
         "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "lead-automation-engineer-at-mcgraw-hill-4381295971",
-      "title": "Lead Automation Engineer",
-      "company": "McGraw Hill",
-      "location": "Noida, Uttar Pradesh, India",
-      "url": "https://in.linkedin.com/jobs/view/lead-automation-engineer-at-mcgraw-hill-4381295971",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:57.523275",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
+        "Mid-level position matches your profile",
+        "Selenium mentioned in title"
       ],
       "missing_skills": [
         "Cypress",
@@ -493,7 +107,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:00:06+00:00",
-      "scraped_at": "2026-07-25T06:02:01.859416",
+      "scraped_at": "2026-07-26T06:22:12.894692",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -522,7 +136,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:45:09+00:00",
-      "scraped_at": "2026-07-25T06:02:01.862095",
+      "scraped_at": "2026-07-26T06:22:12.896460",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -551,7 +165,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-14T12:05:03+00:00",
-      "scraped_at": "2026-07-25T06:02:06.394635",
+      "scraped_at": "2026-07-26T06:22:18.018364",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -580,7 +194,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-12T03:11:57+00:00",
-      "scraped_at": "2026-07-25T06:02:06.396052",
+      "scraped_at": "2026-07-26T06:22:18.019498",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -609,36 +223,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-09T11:49:55+00:00",
-      "scraped_at": "2026-07-25T06:02:06.399160",
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_147744",
-      "title": "Senior Software Quality Engineer (Mexico Remote)",
-      "company": "Turnitin, LLC",
-      "location": "Mexico",
-      "url": "https://jobicy.com/jobs/147744-senior-software-quality-engineer-mexico-remote",
-      "description": "Company Description When you join Turnitin, you'll be welcomed into a company that is a recognized innovator in global education. For over 25 years, Turnitin has partnered with educators and institutions to develop learning integrity solutions that recognize the enduring value of critical thinking in a rapidly changing world. Over 16,000 academic institutions, publishers, and corporations use our services in more than 185 countries around the world: Turnitin Feedback Studio, Clarity, Originality, Gradescope, ExamSoft, Similarity, and iThenticate. Protecting the value of an authentic education is at the heart of who we are. Experience a remote-first culture that empowers you to work with purpose and accountability in a way that best suits you, supported by a comprehensive package that prioritizes your overall well-being. Our diverse community of colleagues are all unified by a shared desire to make a difference in education. Turnitin is a global organization with team members in over 35 countries including the United States, Mexico, United Kingdom, Australia, Japan, India, and the Philippines. Job Description The Senior Software Quality Engineer (SSQE) plays a critical role in assuring quality (adherence to requirements and user experience) by testing the company's applications. This role shares ownership over moderate to complex architecture developments, including strategy, plan, framework, and solution development. The SSQE is responsible for creating automation frameworks from scratch, solving high complexity problems, developing Continuous Testing (CT) models, and acting as a Point of Contact (POC) for technical guidance across the product domain. They exhibit advanced, wide-ranging experience, using in-depth professional knowledge, acumen, and concepts to develop and resolve complex models and procedures creatively and effectively. Responsibilities: Defines, develops, and implements quality assurance best practices and procedures: test strategies, test plans, test cases, and other quality-related assessments for their Domain. Participates in all aspects of testing, including functional, regression, integration, and test planning. Works collaboratively with their team during all project stages to provide in-process testing results. Designs, writes, executes, and maintains automated and manual tests, as well as frameworks for UI tests. Augments development teams by enhancing test coverage where needed. Investigates, records, triages, and tracks defects, and verifies their fixes. Participates in code releases and the code review process. Stays up-to-date with new testing tools and test strategies. Provides leadership, guidance, training, and mentoring to implement quality validations and initiatives for the domain. AI Integration: Leverages generative AI coding assistants to optimize framework scripting, and implements prompt engineering methodologies to draft automated test workflows and generate scalable test datasets. Qualifications Experien",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-06-25T11:08:25+00:00",
-      "scraped_at": "2026-07-25T06:02:07.985542",
+      "scraped_at": "2026-07-26T06:22:18.021647",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -667,7 +252,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-17T08:45:06+00:00",
-      "scraped_at": "2026-07-25T06:02:11.304143",
+      "scraped_at": "2026-07-26T06:22:23.738448",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -696,7 +281,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-06-26T06:28:26+00:00",
-      "scraped_at": "2026-07-25T06:02:11.311165",
+      "scraped_at": "2026-07-26T06:22:23.744596",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -715,15 +300,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-quality-assurance-automation-engineer-at-maganti-it-resources-llc-4441596995",
-      "title": "Senior Quality Assurance Automation Engineer",
-      "company": "Maganti IT Resources, LLC",
+      "id": "senior-qa-automation-engineer-at-csc-4425335094",
+      "title": "Senior QA Automation Engineer",
+      "company": "CSC",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/senior-quality-assurance-automation-engineer-at-maganti-it-resources-llc-4441596995",
+      "url": "https://www.linkedin.com/jobs/view/senior-qa-automation-engineer-at-csc-4425335094",
       "source": "linkedin",
       "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:05:52.679732",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.047595",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -745,375 +330,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "qa-automation-engineer-at-preferred-travel-group-4338152638",
-      "title": "QA Automation Engineer",
-      "company": "Preferred Travel Group",
-      "location": "Newport Beach, CA",
-      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-at-preferred-travel-group-4338152638",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:34.838318",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-ii-test-automation-at-jpmorganchase-4417490247",
-      "title": "Software Engineer II- Test Automation",
-      "company": "JPMorganChase",
-      "location": "New York, NY",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-ii-test-automation-at-jpmorganchase-4417490247",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:34.908047",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "quality-assurance-automation-engineer-at-blankfactor-4441851169",
-      "title": "Quality Assurance Automation Engineer",
-      "company": "Blankfactor",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/quality-assurance-automation-engineer-at-blankfactor-4441851169",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:35.244854",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qa-automation-engineer-at-four-hands-4444991409",
-      "title": "QA Automation Engineer",
-      "company": "Four Hands",
-      "location": "Austin, TX",
-      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-at-four-hands-4444991409",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:35.440422",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qa-automation-engineer-at-gojoe-4445260443",
-      "title": "QA Automation Engineer",
-      "company": "GoJoe",
-      "location": "United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/qa-automation-engineer-at-gojoe-4445260443",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.125872",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-automation-specialist-at-eteam-4444970286",
-      "title": "Test Automation Specialist",
-      "company": "eTeam",
-      "location": "Milton Keynes, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/test-automation-specialist-at-eteam-4444970286",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.192681",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "technical-test-engineer-at-euroclear-4395434869",
-      "title": "Technical Test Engineer",
-      "company": "Euroclear",
-      "location": "London, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/technical-test-engineer-at-euroclear-4395434869",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.349385",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "automation-engineer-at-hastings-direct-4436738456",
-      "title": "Automation Engineer",
-      "company": "Hastings Direct",
-      "location": "Bexhill, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/automation-engineer-at-hastings-direct-4436738456",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.416189",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "automation-test-engineer-at-integrated-care-24-4443955943",
-      "title": "Automation Test Engineer",
-      "company": "Integrated Care 24",
-      "location": "Ashford, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/automation-test-engineer-at-integrated-care-24-4443955943",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.547644",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-automation-engineer-at-chartered-insurance-institute-4445200246",
-      "title": "Test Automation Engineer",
-      "company": "Chartered Insurance Institute",
-      "location": "London, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/test-automation-engineer-at-chartered-insurance-institute-4445200246",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.743717",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-test-engineer-m-w-d-at-cts-eventim-ag-co-kgaa-4436331468",
-      "title": "Software Test Engineer (m/w/d)",
-      "company": "CTS EVENTIM AG & Co. KGaA",
-      "location": "Berlin, Germany",
-      "url": "https://de.linkedin.com/jobs/view/software-test-engineer-m-w-d-at-cts-eventim-ag-co-kgaa-4436331468",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.236024",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-test-engineer-m-w-d-at-cts-eventim-ag-co-kgaa-4436344124",
-      "title": "Software Test Engineer (m/w/d)",
-      "company": "CTS EVENTIM AG & Co. KGaA",
-      "location": "Bremen, Bremen, Germany",
-      "url": "https://de.linkedin.com/jobs/view/software-test-engineer-m-w-d-at-cts-eventim-ag-co-kgaa-4436344124",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.301384",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "testautomation-engineer-m-w-d-vollzeit-teilzeit-at-stiftung-f%C3%BCr-hochschulzulassung-4441873017",
-      "title": "Testautomation Engineer (m/w/d) Vollzeit / Teilzeit",
-      "company": "Stiftung für Hochschulzulassung",
-      "location": "Berlin, Berlin, Germany",
-      "url": "https://de.linkedin.com/jobs/view/testautomation-engineer-m-w-d-vollzeit-teilzeit-at-stiftung-f%C3%BCr-hochschulzulassung-4441873017",
+      "id": "software-test-automation-engineer-at-boeing-4423673292",
+      "title": "Software Test Automation Engineer",
+      "company": "Boeing",
+      "location": "Hazelwood, MO",
+      "url": "https://www.linkedin.com/jobs/view/software-test-automation-engineer-at-boeing-4423673292",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:03:59.369713",
+      "scraped_at": "2026-07-26T06:23:50.303974",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -1135,17 +360,46 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-test-engineer-m-w-d-at-guldberg-gmbh-4444347891",
-      "title": "Software Test Engineer (m/w/d)",
-      "company": "Guldberg GmbH",
-      "location": "Greater Munich Metropolitan Area",
-      "url": "https://de.linkedin.com/jobs/view/software-test-engineer-m-w-d-at-guldberg-gmbh-4444347891",
+      "id": "shine_4878",
+      "title": "QA Automation Engineer  Identity Governance (Pune)",
+      "company": "",
+      "location": "India (Remote)",
+      "url": "https://www.shine.com/jobs/qa-automation-engineer-identity-governance-pune/intervention-workforce-solutions/19277123",
+      "description": "QA Automation Engineer  Identity Governance (Pune) at . Remote/WFH QA role in India.",
+      "source": "shine",
+      "category": "india_remote",
+      "type": "India Remote",
+      "date_posted": "2026-07-26",
+      "scraped_at": "2026-07-26T06:22:51.387090",
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "automation-test-engineer-fully-remote-%E2%80%93-top-us-mnc-enterprise-software-at-skillscapital-4444667502",
+      "title": "Automation Test Engineer (Fully Remote) – Top US MNC (Enterprise Software)",
+      "company": "SkillsCapital",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/automation-test-engineer-fully-remote-%E2%80%93-top-us-mnc-enterprise-software-at-skillscapital-4444667502",
       "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.516933",
+      "category": "india_remote",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:24:59.468844",
       "description": "",
-      "type": "Outside India (Sponsorship)",
+      "type": "India Remote",
       "easy_apply": false,
       "match_score": 65,
       "match_reasons": [
@@ -1165,17 +419,17 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "quality-assurance-engineer-at-noir-4444953034",
+      "id": "quality-assurance-engineer-at-agilegrid-solutions-4445369405",
       "title": "Quality Assurance Engineer",
-      "company": "Noir",
-      "location": "Rosenheim, Bavaria, Germany",
-      "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-at-noir-4444953034",
+      "company": "AgileGrid Solutions",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-agilegrid-solutions-4445369405",
       "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.582210",
+      "category": "india_remote",
+      "date_posted": "2026-07-26",
+      "scraped_at": "2026-07-26T06:24:59.516477",
       "description": "",
-      "type": "Outside India (Sponsorship)",
+      "type": "India Remote",
       "easy_apply": false,
       "match_score": 65,
       "match_reasons": [
@@ -1195,45 +449,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-test-engineer-m-f-d-at-evomotiv-4444354111",
-      "title": "Software Test Engineer (m/f/d)",
-      "company": "EVOMOTIV",
-      "location": "Ulm, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/software-test-engineer-m-f-d-at-evomotiv-4444354111",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.841867",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "quality-assurance-engineer-at-flexiple-4444947966",
+      "id": "quality-assurance-engineer-at-flexiple-4445341249",
       "title": "Quality Assurance Engineer",
       "company": "Flexiple",
       "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-flexiple-4444947966",
+      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-flexiple-4445341249",
       "source": "linkedin",
       "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.262714",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:24:59.564589",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -1255,45 +479,225 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "automation-test-engineer-at-zensar-technologies-4441593368",
-      "title": "Automation Test Engineer",
-      "company": "Zensar Technologies",
-      "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/automation-test-engineer-at-zensar-technologies-4441593368",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.536114",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-technologist-test-automation-at-philips-4435208262",
-      "title": "Software Technologist - Test Automation",
-      "company": "Philips",
+      "id": "qa-automation-engineer-at-netsmart-4422420466",
+      "title": "QA Automation Engineer",
+      "company": "Netsmart",
       "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/software-technologist-test-automation-at-philips-4435208262",
+      "url": "https://in.linkedin.com/jobs/view/qa-automation-engineer-at-netsmart-4422420466",
       "source": "linkedin",
       "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:57.391531",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:24:59.708903",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "test-automation-engineer-quality-engineering-husky-guindy-chennai-at-husky-technologies-4444696882",
+      "title": "Test Automation Engineer (Quality Engineering) - Husky (Guindy,Chennai)",
+      "company": "Husky Technologies",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/test-automation-engineer-quality-engineering-husky-guindy-chennai-at-husky-technologies-4444696882",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-26",
+      "scraped_at": "2026-07-26T06:24:59.756119",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "automation-tester-at-pani-4445388086",
+      "title": "Automation Tester",
+      "company": "PANI",
+      "location": "Mulshi, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/automation-tester-at-pani-4445388086",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-26",
+      "scraped_at": "2026-07-26T06:24:59.847698",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "test-automation-engineer-at-capgemini-4436771136",
+      "title": "Test Automation Engineer",
+      "company": "Capgemini",
+      "location": "Pune Division, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/test-automation-engineer-at-capgemini-4436771136",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:24:59.893009",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "sdet-software-development-engineer-in-test-at-techdome-4444673453",
+      "title": "SDET (Software Development Engineer in Test)",
+      "company": "Techdome",
+      "location": "Indore, Madhya Pradesh, India",
+      "url": "https://in.linkedin.com/jobs/view/sdet-software-development-engineer-in-test-at-techdome-4444673453",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:25:13.461473",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "quality-assurance-engineer-at-geoserve-4442316202",
+      "title": "Quality Assurance Engineer",
+      "company": "GeoServe",
+      "location": "Greater Bengaluru Area",
+      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-geoserve-4442316202",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:25:13.507150",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "qa-automation-engineer-at-pani-4445379086",
+      "title": "QA Automation Engineer",
+      "company": "PANI",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/qa-automation-engineer-at-pani-4445379086",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-26",
+      "scraped_at": "2026-07-26T06:25:28.042335",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "quality-assurance-engineer-at-siemens-energy-4386862105",
+      "title": "Quality Assurance Engineer",
+      "company": "Siemens Energy",
+      "location": "Bangalore Urban, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-siemens-energy-4386862105",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:25:28.131748",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -1325,7 +729,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:05:05+00:00",
-      "scraped_at": "2026-07-25T06:02:01.857741",
+      "scraped_at": "2026-07-26T06:22:12.893553",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1354,7 +758,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:28:18+00:00",
-      "scraped_at": "2026-07-25T06:02:01.864152",
+      "scraped_at": "2026-07-26T06:22:12.897741",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1383,7 +787,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-06-26T06:28:23+00:00",
-      "scraped_at": "2026-07-25T06:02:11.312339",
+      "scraped_at": "2026-07-26T06:22:23.745416",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1412,7 +816,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:56:31+00:00",
-      "scraped_at": "2026-07-25T06:02:11.345289",
+      "scraped_at": "2026-07-26T06:22:23.773104",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1431,135 +835,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "qa-automation-engineer-%2480-hr-remote-at-crossing-hurdles-4444317948",
-      "title": "QA Automation Engineer | $80/hr Remote",
-      "company": "Crossing Hurdles",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-%2480-hr-remote-at-crossing-hurdles-4444317948",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:05:52.335374",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qa-automation-engineer-at-bright-vision-technologies-4445291080",
+      "id": "qa-automation-engineer-at-sundayy-4445316803",
       "title": "QA Automation Engineer",
-      "company": "Bright Vision Technologies",
-      "location": "Secaucus, NJ",
-      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-at-bright-vision-technologies-4445291080",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:05:52.402445",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-automation-engineer-at-bright-vision-technologies-4445275891",
-      "title": "Test Automation Engineer",
-      "company": "Bright Vision Technologies",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/test-automation-engineer-at-bright-vision-technologies-4445275891",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:05:52.541433",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qa-sdet-engineer-nearshore-at-tential-solutions-4436438306",
-      "title": "QA/SDET Engineer (Nearshore)",
-      "company": "Tential Solutions",
+      "company": "Sundayy",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/qa-sdet-engineer-nearshore-at-tential-solutions-4436438306",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:05:52.610897",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-automation-engineer-at-bright-vision-technologies-4445278705",
-      "title": "Test Automation Engineer",
-      "company": "Bright Vision Technologies",
-      "location": "Tempe, AZ",
-      "url": "https://www.linkedin.com/jobs/view/test-automation-engineer-at-bright-vision-technologies-4445278705",
+      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-at-sundayy-4445316803",
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:05:52.748682",
+      "scraped_at": "2026-07-26T06:26:13.903500",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1581,15 +865,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-development-engineer-in-test-sdet-at-healthedge-4444967375",
+      "id": "software-development-engineer-in-test-sdet-at-the-blue-venture-fund-4444815130",
       "title": "Software Development Engineer in Test (SDET)",
-      "company": "HealthEdge",
+      "company": "The Blue Venture Fund",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-at-healthedge-4444967375",
+      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-at-the-blue-venture-fund-4444815130",
       "source": "linkedin",
       "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:05:52.815286",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:13.953386",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1611,15 +895,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-development-engineer-in-test-sdet-at-jecona-4445231009",
-      "title": "Software Development Engineer in Test (SDET)",
-      "company": "Jecona",
+      "id": "test-automation-engineer-at-haystack-4442302833",
+      "title": "Test Automation Engineer",
+      "company": "Haystack",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-at-jecona-4445231009",
+      "url": "https://www.linkedin.com/jobs/view/test-automation-engineer-at-haystack-4442302833",
       "source": "linkedin",
       "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:05:52.880561",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.000347",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1641,15 +925,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "sdet-engineer-at-bright-vision-technologies-4445224809",
-      "title": "SDET Engineer",
-      "company": "Bright Vision Technologies",
-      "location": "Secaucus, NJ",
-      "url": "https://www.linkedin.com/jobs/view/sdet-engineer-at-bright-vision-technologies-4445224809",
+      "id": "ai-qa-engineer-test-specialist-at-mercor-4445330458",
+      "title": "AI QA Engineer - Test Specialist",
+      "company": "Mercor",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/ai-qa-engineer-test-specialist-at-mercor-4445330458",
       "source": "linkedin",
       "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:06:15.331420",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.096066",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1671,20 +955,169 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "jobicy_149563",
-      "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
-      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We are hiring Python and Kubernetes Specialist Engineers focused on Data, Workflows, AI/ML and Analytics Solutions to join our teams building open source solutions for public cloud and private infrastructure. As a software engineer on the team, you'll collaborate on end-to-end data analytics and MLOps solutions composed of popular, open-source, machine learning tools, such as Kubeflow, MLFlow, DVC, and Feast. You may also work on ETL, data governance and visualization tools like Apache SuperSet, dbt, workflow orchestration tools such as Airflow and Temporal, or data warehouse solutions such as Apache Trino, or ClickHouse. These solutions may be run on servers or on the cloud, on machines or on Kubernetes, on developer desktops, or as web services. We serve the needs of individuals and community members as much as the needs of our Global 2000 and Fortune 500 customers; we make our primary work available free of charge and our Pro subscriptions are also available to individuals for personal use at no cost. Our goal is to enable more people to enjoy the benefits of open source, regardless of their circumstances. Location: This initiative spans many teams that are home-based and in multiple time zones. We believe in distributed collaboration but we also try to ensure that colleagues have company during their work hours! Successful candidates will join a team where most members and your manager are broadly in the same time zone so that you have the benefits of constant collaboration and discussion. What your day will look like Develop your understanding of the entire Linux stack, from kernel, networking, and storage, to the application layer Design, build and maintain solutions that will be deployed on public and private clouds and local workstations Master distributed systems concepts such as observability, identity, tracing Work with both Kubernetes and machine-oriented open source applications Collaborate proactively with a distributed team of engineers, designers and product managers Debug issues and interact in public with upstream and Ubuntu communities Generate and discuss ideas, and collaborate on finding good solutions What we are looking for in you Professional or academic software delivery using Python Exceptional academic track record from b",
+      "id": "qa-engineer-ii-at-sundayy-4445319707",
+      "title": "QA Engineer II",
+      "company": "Sundayy",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/qa-engineer-ii-at-sundayy-4445319707",
+      "source": "linkedin",
+      "category": "remote_worldwide",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.144127",
+      "description": "",
+      "type": "Remote Worldwide",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "qa-engineer-ostro-at-ostro-4444683031",
+      "title": "QA Engineer - Ostro",
+      "company": "Ostro",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/qa-engineer-ostro-at-ostro-4444683031",
+      "source": "linkedin",
+      "category": "remote_worldwide",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.194954",
+      "description": "",
+      "type": "Remote Worldwide",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "salesforce-quality-assurance-engineer-remote-at-icf-4416796701",
+      "title": "Salesforce Quality Assurance Engineer (Remote)",
+      "company": "ICF",
+      "location": "Reston, VA",
+      "url": "https://www.linkedin.com/jobs/view/salesforce-quality-assurance-engineer-remote-at-icf-4416796701",
+      "source": "linkedin",
+      "category": "remote_worldwide",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.241929",
+      "description": "",
+      "type": "Remote Worldwide",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "field-service-engineer-warranty-and-quality-assurance-at-siemens-4427268157",
+      "title": "Field Service Engineer - Warranty and Quality Assurance",
+      "company": "Siemens",
+      "location": "Dallas, TX",
+      "url": "https://www.linkedin.com/jobs/view/field-service-engineer-warranty-and-quality-assurance-at-siemens-4427268157",
+      "source": "linkedin",
+      "category": "remote_worldwide",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:26:14.289159",
+      "description": "",
+      "type": "Remote Worldwide",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "ai-%E2%80%93-junior-mid-qa-manual-%2B-automation-engineer-at-stackular-4444685112",
+      "title": "AI – Junior/Mid QA Manual + Automation Engineer",
+      "company": "Stackular",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://in.linkedin.com/jobs/view/ai-%E2%80%93-junior-mid-qa-manual-%2B-automation-engineer-at-stackular-4444685112",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-07-25",
+      "scraped_at": "2026-07-26T06:24:59.802254",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 50,
+      "match_reasons": [
+        "Job title matches QA/Testing domain"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_147602",
+      "title": "Senior AI Software Engineer, Python",
+      "company": "Scorpion",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/147602-senior-ai-software-engineer-python",
+      "description": "About Us Scorpion is the leading provider of technology and services helping local businesses thrive. We do this by helping customers understand local market dynamics, make the most of their marketing, and deliver experiences their customers will love. We offer tools to know what’s going on with marketing, competitors, and customers. We offer a unique blend of AI support and teams of real human people with local expertise committed to customer success. At Scorpion, we are ready to do whatever it takes to help our clients reach their goals. Our technology and personalized tools bring everything together to help local businesses easily understand their unique business, market, and customer needs. We put SEO, Reviews, Advertising, Email Marketing, Chat and Messaging, Social Media, Website, Lead Management, Appointment Scheduling, and more to work for local businesses. We’re a technology-led service with a human touch. About the Role The Senior AI Software Engineer, Python will be responsible for making Scorpion’s Conversational Intelligence Platform production-grade by building reliable, observable, and scalable infrastructure for real-time AI workloads, including LLM orchestration, streaming responses, and event-driven messaging across multiple communication channels. This role owns the runtime reliability of systems that process LLM inference pipelines, manage backpressure across async workloads, and maintain clean service boundaries with downstream teams. Operating within an established architecture, the Senior AI Software Engineer, Python is responsible for the operational excellence required to make the platform production-ready. What Your Success Will Look Like Own the reliability of the event-driven messaging layer, including backpressure management, idempotency, dead-letter handling, and retry strategies. Build and operate the infrastructure that runs LLM orchestration workloads at scale. Own the operational data layer for the CI runtime, including state management, session persistence, and real-time data access patterns. Own observability for the CI platform, including structured logging, distributed tracing (OpenTelemetry), and error tracking (Sentry). Maintain and harden the interfaces between CI and downstream platforms, including contract testing, versioning, and failure handling. Conduct code reviews and mentor team members on Python engineering practices and production readiness. Own production support for CI infrastructure, including on-call responsibilities and incident response. Who You Are And What You Bring Experience 5+ Years of Experience or Relevant Experience. Developing production-grade Python services at scale. Operating real-time or high-throughput infrastructure supporting AI/ML workloads. Designing and operating distributed, event-driven systems in production environments. Hard / Technical Skills Deep command of Python internals: async/await lifecycle, event loop mechanics, GIL implications for concurrency strategy, memo",
       "source": "jobicy",
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T16:20:33+00:00",
-      "scraped_at": "2026-07-25T06:02:01.933975",
-      "match_score": 25,
+      "date_posted": "2026-07-25T10:20:11+00:00",
+      "scraped_at": "2026-07-26T06:22:12.888750",
+      "match_score": 30,
       "match_reasons": [
-        "Mid-level position matches your profile",
+        "Seniority level matches your experience",
         "Python mentioned in title"
       ],
       "missing_skills": [
@@ -1700,18 +1133,17 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-software-engineer-in-test-f-m-d-x-at-emil-group-4444389488",
-      "title": "Senior Software Engineer in Test (f/m/d/x)",
-      "company": "EMIL Group",
-      "location": "Berlin, Berlin, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-software-engineer-in-test-f-m-d-x-at-emil-group-4444389488",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:59.452161",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
+      "id": "jobicy_147493",
+      "title": "Senior Product Designer I (PLG)",
+      "company": "Housecall Pro",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/147493-senior-product-designer-i-plg",
+      "description": "Why Housecall Pro? Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they can be with their families and live well. While our headquarters are based in Denver, Colorado, our team spans the globe, with teammates across Brazil, Poland, the Philippines, Mexico, and beyond. We care deeply about our customers and foster a culture where our company, people and Pros grow and succeed together—no matter where they’re based. Leadership is as focused on growing team members’ careers as they expect their teams to be on creating solutions for Pros. We also offer: A generous benefits program that supports the whole you with medical, dental, vision, life, disability, and 401(k) Paid holidays and flexible, take-it-as-you-need-it paid time off Equity in a rapidly growing startup backed by top-tier VCs Monthly tech reimbursements A culture built on innovation that values big ideas, no matter where they come from Role Overview As a Senior Product Designer I, you lead the design direction for key product initiatives while directly managing and mentoring a small team of designers. You bring together creative expertise, user-centered thinking, and a working knowledge of AI capabilities to deliver elegant, scalable, and accessible experiences. You collaborate cross-functionally to ensure our products align with user needs and business goals, and you actively contribute to evolving our design system, processes, and culture. You are highly skilled at navigating ambiguity, balancing strategic thinking with hands-on execution, and empowering your team to do their best work. You build strong partnerships across product, engineering, and research, and you know how to use AI thoughtfully: to accelerate your practice, sharpen your output, and ship better experiences for users who depend on them. Our team is passionate, empathetic, hard working, and above all else focused on improving the lives of our service professionals (our Pros). Our success is their success. What you do each day: Lead a small team of product designers, setting direction, providing feedback, and supporting their growth Translate product strategy into elegant, user-centered design solutions through wireframes, prototypes, and high-fidelity visuals Collaborate closely with product managers, engineers, and other stakeholders to define problems, explore solutions, and ship high-quality experiences Conduct and synthesize user research and usability testing to validate decisions and uncover new insights Bring sharp judgment to every AI decision, evaluating where it genuinely adds value for our customers, pushing back when it doesn't, and carrying that perspective into discovery, prioritization, and design. Design AI-assist",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:45:05+00:00",
+      "scraped_at": "2026-07-26T06:22:12.882055",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1729,18 +1161,45 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-development-engineer-in-test-iii-lead-gen-at-highlevel-4423634523",
-      "title": "Software Development Engineer in Test III - Lead Gen",
-      "company": "HighLevel",
-      "location": "Delhi, Delhi, India",
-      "url": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-iii-lead-gen-at-highlevel-4423634523",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.734993",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
+      "id": "jobicy_144640",
+      "title": "Transplant Agile Lead I",
+      "company": "Sanofi",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/144640-transplant-agile-lead-i",
+      "description": "Job Title: Transplant Agile Lead, West coast Location: Remote, US About the Job If you would like to join a team with a winning culture and high executional standards – Transplant is the place for you. Do you thrive in an agile, collaborative, customer centric environment? Any innovation that you have just wanted to try out? We are responsible for the implementation of the new go-to-market strategy within the Transplant team and are searching for highly motivated and talented Agile Leads to pave this path forward with us. The Transplant Team is evolving the way we operate and design a business model that can be responsive to fast-changing customer needs to deliver the right solutions at the right place at the right time. We have a track-record of exceeding expectations in regard to both innovation and financial performance. We set high goals and support one another to grow each day. We are relentless because the consequences of the diseases we treat are devastating with high unmet need. The Transplant team consists of a Solid Organ Transplant (SOT) team (Thymoglobulin) and a Hematopoietic Stem Cell Transplant (HCST) team (Rezurock). This position is for the HSCT team. If you hold yourself to a high standard and prefer being a part of teams of a similar mindset – join us to help more patients benefit from our medicines. Join the team transforming how healthcare is delivered for chronic and specialty conditions worldwide. In General Medicines, you’ll help drive meaningful outcomes in diabetes, transplant, and immunology - with the scale and urgency patients deserve. About Sanofi We’re an R&D-driven, AI-powered biopharma company committed to improving people’s lives and delivering compelling growth. Our deep understanding of the immune system – and innovative pipeline – enables us to invent medicines and vaccines that treat and protect millions of people around the world. Together, we chase the miracles of science to improve people’s lives. Main Responsibilities: As the Agile Lead you will have a deep knowledge of HSCT and all this unique therapeutic area entails: You are a field-based change agent and have a proven track record of developing and maintaining KOL relationships You have the ability to gain rapid insight into key issues at the account level and build collaborative coalitions providing solutions that benefit Sanofi, our customers, and our shared patients. You work closely with the sales leadership team and our highly talented sales team to garner bottom-up insights. You enjoy developing innovative approaches to synergize sales efforts and lead regional projects. You are a field marketer and work closely with the Brand team to provide market insights. You excel at adaptability, demonstrate learning and business agility and influence without authority to achieve mutually beneficial outcomes. You will be part of developing the Agile culture in Transplant, promoting “new ways of working” and Agile principles and practices at the Regional le",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:23:09+00:00",
+      "scraped_at": "2026-07-26T06:22:12.886624",
+      "match_score": 20,
+      "match_reasons": [
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_144633",
+      "title": "Senior Business Engineer - Ads",
+      "company": "Reddit",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/144633-senior-business-engineer-ads",
+      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit is entering a period of unprecedented innovation and growth—and there’s never been a more exciting time to join. The Ads Business Engineering team operates at the intersection of engineering, product, sales, and business development, delivering technical expertise and solutions that empower technology partners, agencies, and advertisers to seamlessly integrate with Reddit’s advertising platform. As a key member of this rapidly expanding team, you’ll have the opportunity to take meaningful ownership—driving cutting-edge AdTech integrations, launching and managing strategic partnership programs, and helping scale Reddit’s developer ecosystem. At Reddit, a Business Engineer plays a critical role in driving the success of our advertising API products and platform integrations. This experienced engineer role combines deep technical consulting with hands-on engineering, where you'll guide strategic integrations, often contributing directly to implementation across Reddit’s stack or in the codebases of partners (or direct advertisers). You will be a key technical advisor—trusted to own the end-to-end relationship with Reddit’s most important advertising partners, and execute on the long-term strategy for how we develop an ecosystem of developers. You’ll work across engineering, product, sales, and business development teams to connect Reddit’s capabilities to the evolving needs of the market. You won’t just recommend solutions—you’ll implement them across systems, including platform changes, and also help define frameworks for scaling and repeatability. If you're passionate about creating high-impact technical partnerships, influencing roadmaps, and building at the intersection of AdTech and developer experience, this is the role for you. Responsibilities Act as a trusted technical advisor and solutions architect for strategic partners (or direct advertisers), guiding them through the integration and adoption of Reddit’s advertising APIs and tools. Design and prototype proof-of-concept solutions that accelerate technical enablement and create tangible value for partners (or direct advertisers). These builds may occur in Reddit’s systems or directly within the client’s or partner’s codebase. Collaborate directly with engineering teams at partner (or direct advertiser) organizations to optimize performance, address integration gaps, and troubleshoot complex issues. Lead onboarding, testing, and pre-launch support to ensure a smooth and successful implementation experience. Represent the technical voice",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:23:08+00:00",
+      "scraped_at": "2026-07-26T06:22:12.887555",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1768,7 +1227,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:30:10+00:00",
-      "scraped_at": "2026-07-25T06:02:01.856365",
+      "scraped_at": "2026-07-26T06:22:12.891535",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1796,7 +1255,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:00:07+00:00",
-      "scraped_at": "2026-07-25T06:02:01.858813",
+      "scraped_at": "2026-07-26T06:22:12.894194",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1824,7 +1283,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:55:06+00:00",
-      "scraped_at": "2026-07-25T06:02:01.860575",
+      "scraped_at": "2026-07-26T06:22:12.895431",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1852,7 +1311,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T07:39:48+00:00",
-      "scraped_at": "2026-07-25T06:02:01.868716",
+      "scraped_at": "2026-07-26T06:22:12.900744",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1880,7 +1339,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T07:39:47+00:00",
-      "scraped_at": "2026-07-25T06:02:01.869919",
+      "scraped_at": "2026-07-26T06:22:12.901543",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1908,7 +1367,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T07:39:36+00:00",
-      "scraped_at": "2026-07-25T06:02:01.873819",
+      "scraped_at": "2026-07-26T06:22:12.903976",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1936,7 +1395,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T11:23:13+00:00",
-      "scraped_at": "2026-07-25T06:02:01.881659",
+      "scraped_at": "2026-07-26T06:22:12.908214",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1964,7 +1423,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T10:42:07+00:00",
-      "scraped_at": "2026-07-25T06:02:01.887463",
+      "scraped_at": "2026-07-26T06:22:12.912814",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1992,7 +1451,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T16:45:03+00:00",
-      "scraped_at": "2026-07-25T06:02:01.900351",
+      "scraped_at": "2026-07-26T06:22:12.921185",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2020,7 +1479,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T13:30:06+00:00",
-      "scraped_at": "2026-07-25T06:02:01.902050",
+      "scraped_at": "2026-07-26T06:22:12.922290",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2048,7 +1507,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:44:07+00:00",
-      "scraped_at": "2026-07-25T06:02:01.907206",
+      "scraped_at": "2026-07-26T06:22:12.924514",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2076,7 +1535,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:44:05+00:00",
-      "scraped_at": "2026-07-25T06:02:01.909387",
+      "scraped_at": "2026-07-26T06:22:12.925981",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2104,7 +1563,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:52+00:00",
-      "scraped_at": "2026-07-25T06:02:01.915110",
+      "scraped_at": "2026-07-26T06:22:12.929114",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2132,7 +1591,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:50+00:00",
-      "scraped_at": "2026-07-25T06:02:01.916446",
+      "scraped_at": "2026-07-26T06:22:12.929965",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2160,7 +1619,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:37+00:00",
-      "scraped_at": "2026-07-25T06:02:01.921041",
+      "scraped_at": "2026-07-26T06:22:12.933959",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2188,7 +1647,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-21T16:20:58+00:00",
-      "scraped_at": "2026-07-25T06:02:01.923975",
+      "scraped_at": "2026-07-26T06:22:12.935785",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2216,7 +1675,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-21T16:20:51+00:00",
-      "scraped_at": "2026-07-25T06:02:01.925267",
+      "scraped_at": "2026-07-26T06:22:12.936611",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2244,7 +1703,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-14T11:50:05+00:00",
-      "scraped_at": "2026-07-25T06:02:11.305335",
+      "scraped_at": "2026-07-26T06:22:23.739419",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2272,7 +1731,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-12T11:25:04+00:00",
-      "scraped_at": "2026-07-25T06:02:11.308094",
+      "scraped_at": "2026-07-26T06:22:23.741251",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2300,7 +1759,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-12T10:15:02+00:00",
-      "scraped_at": "2026-07-25T06:02:11.308995",
+      "scraped_at": "2026-07-26T06:22:23.741838",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2328,7 +1787,35 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-09T11:50:10+00:00",
-      "scraped_at": "2026-07-25T06:02:11.309928",
+      "scraped_at": "2026-07-26T06:22:23.743819",
+      "match_score": 20,
+      "match_reasons": [
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_144634",
+      "title": "Senior Technical Product Manager, Ads ML Platform",
+      "company": "Reddit",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/144634-senior-technical-product-manager-ads-ml-platform",
+      "description": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Team Description: The Ads Marketplace team is a strategic growth engine for Reddit Ads. Our mission is to democratize high-performance advertising by enabling brands to achieve world-class results with minimal friction. To achieve this, we need an incredibly robust, scalable, and state-of-the-art Machine Learning infrastructure. The Ads ML Platform team is at the core of this mission, tasked with building the foundation that powers all of our content understanding, ad targeting, and ad ranking models. We are empowering our ML engineers and data scientists to move faster and build smarter. The Role: As the Senior Product Manager for the Ads ML Platform, you will hold significant ownership over the infrastructure and tools that make our ads marketplace intelligent. You will define the vision and build the roadmap for a platform that enables unparalleled engineering velocity and supports the most modern ML architectures. You will be the bridge between complex ML systems and business outcomes. Whether it's integrating generative AI to increase developer productivity, establishing unified model-serving infrastructure, or optimizing GPU utilization, your work will directly accelerate how quickly and effectively we can ship highly-performant ad products. If you are passionate about the intersection of platform engineering and state-of-the-art ML research, this is the role for you. Responsibilities Define the Vision: Shape the long-term strategy and roadmap for Reddit’s Ads ML platform, ensuring we are adopting cutting-edge technologies (including Generative AI and LLM workflows) to stay ahead of the curve. Accelerate Velocity: Build products and tooling that dramatically reduce friction for Machine Learning Engineers (MLEs) and Data Scientists, enabling them to train, deploy, and iterate on models faster than ever. Cross-Functional Leadership: Partner deeply with Engineering, Data Science, and Ads Product teams to understand their constraints, prioritize platform initiatives, and deliver scalable infrastructure. Drive Execution and Adoption: Own key performance indicators (KPIs) around platform reliability, latency, cost-efficiency, usage metrics, and developer productivity. Stay Cutting-Edge: Keep your finger on the pulse of the broader ML ecosystem. Read the latest research papers, understand emerging architectures, and determine how they can be practically applied to Reddit’s Ads ML platform. Distill pain points, translate to requirements : Conduct regular user research with MLEs in Ranking, Creative Eff",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:23:05+00:00",
+      "scraped_at": "2026-07-26T06:22:23.749237",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2356,7 +1843,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:00:09+00:00",
-      "scraped_at": "2026-07-25T06:02:11.315593",
+      "scraped_at": "2026-07-26T06:22:23.753330",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2384,7 +1871,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:55:04+00:00",
-      "scraped_at": "2026-07-25T06:02:11.316661",
+      "scraped_at": "2026-07-26T06:22:23.753997",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2412,7 +1899,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:30:13+00:00",
-      "scraped_at": "2026-07-25T06:02:11.334725",
+      "scraped_at": "2026-07-26T06:22:23.766085",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2440,7 +1927,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:30:10+00:00",
-      "scraped_at": "2026-07-25T06:02:11.337351",
+      "scraped_at": "2026-07-26T06:22:23.767811",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2468,7 +1955,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:30:07+00:00",
-      "scraped_at": "2026-07-25T06:02:11.340103",
+      "scraped_at": "2026-07-26T06:22:23.769618",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2486,208 +1973,7 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "jobicy_149585",
-      "title": "Senior Customer Success Manager",
-      "company": "Samsara",
-      "location": "Mexico",
-      "url": "https://jobicy.com/jobs/149585-senior-customer-success-manager-3",
-      "description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term. About the role: Our Customer Success Managers pick up where our Implementation team leaves off, working closely with our customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner. Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering and Product, enabling you to experience multiple aspects of a hyper-growth company from within. This is a remote position open to candidates residing in Monterrey, Guadalajara and Mexico City. May require travel to customer sites up to 15% of the time. You should apply if: You want to impact the industries that run our world: Your efforts will result in real-world impact—helping to keep the lights on, get food into grocery stores, reduce emissions, and most importantly, ensure workers return home safely. You are the architect of your own career: If you put in the work, this role won’t be your last at Samsara. We set up our employees for success and have built a culture that encourages rapid career development, and countless opportunities to experiment and master your craft in a hyper-growth environment. You’re energized by our opportunity. Our vision to digitize large sectors of the global economy requires your full focus and best efforts to generate creative, ambitious ideas for our customers. You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by a high-caliber team that will encourage you to do your best. In this role, you will: Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform. Compose joint success plans with customers, outlining their objectives, metrics, timelines, and effectively removing any barriers to achieving business value. Orchestrate renewal-focused business reviews with our",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-22T04:43:36+00:00",
-      "scraped_at": "2026-07-25T06:02:11.356034",
-      "match_score": 20,
-      "match_reasons": [
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_148939",
-      "title": "Senior Customer Success Manager",
-      "company": "Genesys",
-      "location": "USA",
-      "url": "https://jobicy.com/jobs/148939-senior-customer-success-manager",
-      "description": "Be the one building AI-powered experiences where they matter most. At Genesys, we help organizations create better customer experiences through AI-powered experience orchestration. Our platform connects people, systems, data and AI to help organizations deliver more personalized service, improve operational efficiency and build stronger customer relationships. Help build, support and operate technology used by more than 8,000 organizations in over 100 countries – moving AI from possibility to production in real-world enterprise environments every day. Role Overview: Drive enterprise transformation by partnering with global organizations to turn customer experience into a measurable growth engine. This role influences how leading brands design, orchestrate, and scale AI-powered customer journeys using Genesys Cloud. You will own strategic relationships with senior executives, aligning technology adoption with business outcomes such as revenue growth, cost efficiency, and customer loyalty. At Genesys, you help organizations deliver more human, empathetic experiences at scale while shaping the future of AI-driven engagement. This position offers direct exposure to enterprise strategy, platform innovation, and executive decision-making, creating a clear path for expanded leadership impact. Key Responsibilities: Own end-to-end strategic relationships with enterprise customers, aligning Genesys Cloud capabilities to business transformation goals and measurable outcomes Lead development of multi-year customer experience roadmaps that improve revenue performance, operational efficiency, and customer satisfaction metrics Deliver executive business reviews that provide data-driven insights, performance analysis, and forward-looking recommendations Influence customer strategy across AI adoption, automation, and omnichannel engagement to drive scalable and differentiated experiences Drive platform adoption and expansion by identifying high-impact use cases and aligning them to business value outcomes Orchestrate cross-functional collaboration across Sales, Product, Professional Services, and Renewals to ensure seamless delivery and growth Establish and execute strategic account plans that increase retention, expansion, and long-term customer value Measure and communicate ROI by linking Genesys solutions to tangible business results such as cost reduction, NPS improvement, and revenue growth Represent the customer voice internally to shape product innovation and go-to-market strategy Required Qualifications: 8+ years of experience in enterprise customer success, management consulting, or business transformation within SaaS or technology environments Demonstrated success managing complex enterprise accounts with annual contract values exceeding $1M Proven ability to influence executive stakeholders such as CIO, COO, CMO, or CCO through strategic advisory and data-driven storytelling Strong background in customer experience transformation, digital channels, AI,",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-22T03:55:05+00:00",
-      "scraped_at": "2026-07-25T06:02:11.358109",
-      "match_score": 20,
-      "match_reasons": [
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-development-engineer-in-test-web-applications-at-zoox-4416960015",
-      "title": "Software Development Engineer in Test, Web Applications",
-      "company": "Zoox",
-      "location": "Foster City, CA",
-      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-web-applications-at-zoox-4416960015",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:35.043893",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "quality-software-engineer-iii-ui-automation-at-jpmorganchase-4444980549",
-      "title": "Quality Software Engineer III - UI Automation",
-      "company": "JPMorganChase",
-      "location": "Palo Alto, CA",
-      "url": "https://www.linkedin.com/jobs/view/quality-software-engineer-iii-ui-automation-at-jpmorganchase-4444980549",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:35.311177",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-in-test-at-okaya-infocom-4445233990",
-      "title": "Software Engineer in Test",
-      "company": "OKAYA INFOCOM",
-      "location": "Seattle, WA",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-in-test-at-okaya-infocom-4445233990",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:35.375839",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "automation-test-analyst-at-response-informatics-4444995145",
-      "title": "Automation Test Analyst",
-      "company": "Response Informatics",
-      "location": "Belfast, Northern Ireland, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/automation-test-analyst-at-response-informatics-4444995145",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:03:46.482189",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "it-specialist-w-m-d-schwerpunkt-testautomatisierung-at-pandologic-4444644025",
-      "title": "IT-Specialist (w/m/d) - Schwerpunkt Testautomatisierung",
-      "company": "PandoLogic",
-      "location": "Frankfurt, Hesse, Germany",
-      "url": "https://de.linkedin.com/jobs/view/it-specialist-w-m-d-schwerpunkt-testautomatisierung-at-pandologic-4444644025",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:03:59.646741",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "shine_594944",
+      "id": "shine_947393",
       "title": "DevOps Engineer (Kubernetes + Terraform)",
       "company": "",
       "location": "India (Remote)",
@@ -2696,8 +1982,8 @@
       "source": "shine",
       "category": "india_remote",
       "type": "India Remote",
-      "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:02:47.514546",
+      "date_posted": "2026-07-26",
+      "scraped_at": "2026-07-26T06:23:03.052071",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2715,76 +2001,74 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-engineer-in-test-embedded-payments-at-xplor-technologies-4444935582",
-      "title": "Software Engineer in Test - Embedded Payments",
-      "company": "Xplor Technologies",
-      "location": "Pune/Pimpri-Chinchwad Area",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-in-test-embedded-payments-at-xplor-technologies-4444935582",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.398657",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-in-test-at-creospan-private-limited-4444331926",
-      "title": "Software Engineer in Test",
-      "company": "Creospan Private Limited",
-      "location": "Pune District, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-in-test-at-creospan-private-limited-4444331926",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:04:43.866042",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "manual-testing-healthcare-domain-3-to-4-years-remote-at-the-whiteboard-4441882635",
-      "title": "Manual Testing-Healthcare Domain - 3 to 4 Years - Remote",
-      "company": "The Whiteboard",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/manual-testing-healthcare-domain-3-to-4-years-remote-at-the-whiteboard-4441882635",
+      "id": "sde-iv-qa-at-jumio-corporation-4436761602",
+      "title": "SDE IV - QA",
+      "company": "Jumio Corporation",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/sde-iv-qa-at-jumio-corporation-4436761602",
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:04:57.307543",
+      "scraped_at": "2026-07-26T06:24:59.662587",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_147551",
+      "title": "Digital Content Social Marketing Manager",
+      "company": "Fortive",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/147551-digital-content-social-marketing-manager",
+      "description": "Position Title: Digital Content & Social Marketing Manager JD-Click or tap here to enter text. Revision:A Job Category: Marketing Primary Site: Other Exemption Status: Exempt QMS Impact Category: Indirect Position Summary Position Overview We are seeking a strategic and execution-focused Digital Content & Social Marketing Manager to own our content engine and social media presence. This role will transform internal initiatives, sales insights, and company expertise into compelling external content that drives brand awareness, engagement, and business growth. This individual will play a key role in creating consistency across messaging, supporting sales and events, and ensuring our brand shows up effectively in the market. This role was created to support the expansion of ASP’s downstream NA commercial marketing team. Duties and Responsibilities Content Strategy & Execution Develop and manage a monthly editorial content calendar aligned with business priorities Translate internal initiatives (sales, product, events) into external-facing content Create high-quality written content, including social posts, campaign messaging, and thought leadership This role will support the localization of Global initiatives, Fortive, IPG, CWS and other internal business support. Work with category managers to align on marketing briefs to create and drive 360 integrated marketing plan, create content, sales tools etc Optimize digital campaign content across owned, earned and paid channels (LinkedIn, web, email, paid social) A/B testing of content messaging to ensure most effective messaging to represent our products and brands. Track and analyze content, build metrics, track and report out via Fortive standards (DVM) Campaign Management Social Media Management and Tradeshow Own and manage all company social media channels (primarily LinkedIn) Plan, schedule, and publish consistent, high-quality content Monitor performance and optimize based on engagement and results Report out timely lead capture data from tradeshows and pre/post emails Cross-Functional Collaboration Partner with sales teams, Marketing and Cross-Functional teams to identify customer insights and content opportunities Work with internal stakeholders to extract and develop subject matter expertise into content Support trade shows and events through pre-, during-, and post-event content Design & Creative Management Work with freelance designers and internal requests from cross-functional team members and corporate-related needs for asset creation (ads, one-pagers, social graphics) Develop and maintain templates to streamline content production Ensure brand consistency across all materials and compliance/regulatory rules are followed Performance Tracking Track and report on key metrics such as engagement, content output, and campaign performance, organized Content Calendar very important. Provide insights and recommendations for continuous improvement. Contribute to and help maintain digital asset libr",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:30:10+00:00",
+      "scraped_at": "2026-07-26T06:22:12.885302",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_149069",
+      "title": "Customer Experience Associate (Temporary)",
+      "company": "Natera",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/149069-customer-experience-associate-temporary",
+      "description": "Customer Experience Associate (Temporary) POSITION SUMMARY: The Customer Experience Associate (Temporary) reports to the Customer Experience Supervisor. This role works directly with Natera’s internal teams and external domestic and international customers, including medical professionals, patients, laboratory personnel, channel partners, supply chain personnel, and sales. This is a fast-paced, high-volume environment where speed, execution, and ownership are critical. Note: This is a temporary position. PRIMARY RESPONSIBILITIES: Partner with internal and external customers via phone and digital channels to secure missing information required for processing submitted test samples. Gather necessary patient contact, health, physician, clinic, billing, and medical insurance information. Communicate test status, resend test results, and schedule requests for mobile phlebotomy. Triage customer technical issues and clinical inquiries to Genetic Counseling staff. Own account requests for the Sales team, driving fast and accurate account setups, kit and supply orders, medical order processing, and order tracking. Resolve customer inquiries and escalations regarding missing or delayed test samples and result reports. Perform customer verifications and obtain all relevant information to evaluate and handle complaints. Escalate unresolvable issues clearly and maintain momentum in the resolution process. Manage customer accounts by documenting all interactions, communications, actions taken, and follow-ups. Maintain working knowledge of all Natera genetic tests, required samples, turnaround times, required patient health information, request forms, and waivers. Partner with new employees to provide training and onboarding support. Maintain compliance with HIPAA policies and Natera procedures regarding patient privacy and Protected Health Information (PHI). Complete and maintain all current Natera training requirements. Step in to create clarity and maintain momentum when processes or expectations are undefined. QUALIFICATIONS: High School degree or equivalent required; Two- or Four-year undergraduate degree or certification preferred. At least 2 years of prior customer service experience. Multi-lingual skills are a strong plus. Experience with Salesforce CRM, LIMS, Twilio, or other virtual communication platforms is preferred. KNOWLEDGE, SKILLS, AND ABILITIES: Knowledge of customer service principles, practices, administrative procedures, and protocols. Ability to analyze, resolve, or escalate customer questions quickly and accurately within established protocols. Operate with speed and adaptability in a fast-paced environment that requires perseverance through change. Experience providing both phone and written customer support. Intermediate proficiency with Microsoft Office and Google Suite applications. High attention to detail, strong organizational skills, and professional communication standards. The pay range is listed and actual compensation packages",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T05:10:07+00:00",
+      "scraped_at": "2026-07-26T06:22:12.889935",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2812,7 +2096,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:44:21+00:00",
-      "scraped_at": "2026-07-25T06:02:01.855269",
+      "scraped_at": "2026-07-26T06:22:12.890971",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2840,7 +2124,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:35:07+00:00",
-      "scraped_at": "2026-07-25T06:02:01.863276",
+      "scraped_at": "2026-07-26T06:22:12.897192",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2868,7 +2152,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:28:23+00:00",
-      "scraped_at": "2026-07-25T06:02:01.864012",
+      "scraped_at": "2026-07-26T06:22:12.897656",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2896,7 +2180,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:22:06+00:00",
-      "scraped_at": "2026-07-25T06:02:01.866409",
+      "scraped_at": "2026-07-26T06:22:12.899268",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2924,7 +2208,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T07:39:53+00:00",
-      "scraped_at": "2026-07-25T06:02:01.867434",
+      "scraped_at": "2026-07-26T06:22:12.899973",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2952,7 +2236,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T07:39:41+00:00",
-      "scraped_at": "2026-07-25T06:02:01.872169",
+      "scraped_at": "2026-07-26T06:22:12.902968",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2980,7 +2264,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T20:20:07+00:00",
-      "scraped_at": "2026-07-25T06:02:01.877704",
+      "scraped_at": "2026-07-26T06:22:12.905726",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3008,7 +2292,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T20:07:33+00:00",
-      "scraped_at": "2026-07-25T06:02:01.878634",
+      "scraped_at": "2026-07-26T06:22:12.906295",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3036,7 +2320,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T19:40:06+00:00",
-      "scraped_at": "2026-07-25T06:02:01.879672",
+      "scraped_at": "2026-07-26T06:22:12.906898",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3064,7 +2348,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T10:42:14+00:00",
-      "scraped_at": "2026-07-25T06:02:01.884005",
+      "scraped_at": "2026-07-26T06:22:12.909738",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3092,7 +2376,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T10:42:09+00:00",
-      "scraped_at": "2026-07-25T06:02:01.884691",
+      "scraped_at": "2026-07-26T06:22:12.910184",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3120,7 +2404,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:40:10+00:00",
-      "scraped_at": "2026-07-25T06:02:01.888851",
+      "scraped_at": "2026-07-26T06:22:12.913648",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3148,7 +2432,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:30:15+00:00",
-      "scraped_at": "2026-07-25T06:02:01.891396",
+      "scraped_at": "2026-07-26T06:22:12.915344",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3176,7 +2460,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:30:08+00:00",
-      "scraped_at": "2026-07-25T06:02:01.894102",
+      "scraped_at": "2026-07-26T06:22:12.917106",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3204,7 +2488,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T18:25:07+00:00",
-      "scraped_at": "2026-07-25T06:02:01.898376",
+      "scraped_at": "2026-07-26T06:22:12.919918",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3232,35 +2516,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:56:34+00:00",
-      "scraped_at": "2026-07-25T06:02:01.903559",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149600",
-      "title": "Software Engineer",
-      "company": "NBCUniversal",
-      "location": "USA",
-      "url": "https://jobicy.com/jobs/149600-software-engineer-2",
-      "description": "Company Description NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations & Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information. Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world. Job Description NBCUniversal’s Intellectual Property Analytics, Operations, and Technology (IPAOT) team supports NBCUniversal’s content globally. The team builds applications to support our internal legal intellectual property partners as well as platform operations on YouTube, TikTok, and Facebook. The applications help monitor NBCUniversal titles across search engines, data sharing networks, and various content deliver pipelines. The data is collected by the team and analyzed internally to support business-decision driving initiatives at the company. Role Purpose: The IPAOT team at NBCUniversal is looking for a self-motivated, highly organized, proactive, and passionate problem solver who will assist with the design, build, and ongoing maintenance of content and rights management systems, as well as content delivery systems and pipelines. We are looking for a Software Engineer who can comfortably execute full-stack development. You will collaborate with other Software Engineers and Operations Analysts. This is a fast-paced role that interfaces with the entire department and many other internal business units and stakeholders at NBCUniversal. Responsibilities: Assist with software development using Python to design and build available, scalable, and secure back-end web services and APIs for a variety of legal and intellectual property stakeholders, including software for platforms such as YouTube, TikTok, and Facebook Assist in the management and troubleshooting of production systems and refactorin",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-22T04:44:00+00:00",
-      "scraped_at": "2026-07-25T06:02:01.910343",
+      "scraped_at": "2026-07-26T06:22:12.923316",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3288,7 +2544,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:57+00:00",
-      "scraped_at": "2026-07-25T06:02:01.911561",
+      "scraped_at": "2026-07-26T06:22:12.926759",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3316,7 +2572,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:55+00:00",
-      "scraped_at": "2026-07-25T06:02:01.913023",
+      "scraped_at": "2026-07-26T06:22:12.927740",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3344,7 +2600,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:45+00:00",
-      "scraped_at": "2026-07-25T06:02:01.917831",
+      "scraped_at": "2026-07-26T06:22:12.931935",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3372,7 +2628,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:41+00:00",
-      "scraped_at": "2026-07-25T06:02:01.919267",
+      "scraped_at": "2026-07-26T06:22:12.932834",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3400,7 +2656,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:43:34+00:00",
-      "scraped_at": "2026-07-25T06:02:01.922580",
+      "scraped_at": "2026-07-26T06:22:12.934953",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3428,7 +2684,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-21T16:20:50+00:00",
-      "scraped_at": "2026-07-25T06:02:01.926392",
+      "scraped_at": "2026-07-26T06:22:12.937315",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3456,119 +2712,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-21T16:20:47+00:00",
-      "scraped_at": "2026-07-25T06:02:01.928157",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149570",
-      "title": "Engineering Manager - Ubuntu Linux Kernel",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "url": "https://jobicy.com/jobs/149570-engineering-manager-ubuntu-linux-kernel",
-      "description": "Canonical, the company behind the Ubuntu Linux distribution, is searching for highly skilled senior software engineers, tech leads, or team leads who are ready to take the next step in their careers by transitioning into engineering management. As a Kernel Engineering Manager, you will step into a pivotal leadership role overseeing the engineers who build, maintain, and optimize the Linux kernel that powers millions of systems globally. Our platform, Ubuntu, is in widespread use in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. You will collaborate closely with the world's leading public cloud and silicon providers to deliver a world-class operating system. We do not require prior direct people management experience for this role. Instead, we are looking for individuals who possess a solid technical foundation, a proven track record of technical leadership or project delivery, and a strong desire to learn how to lead complex, system-level projects and the engineers who build them. The company is founder-led, profitable, and growing, making this an exceptional opportunity to grow your career into the core of open-source technology leadership. Location: Working from home, worldwide. We have kernel teams and openings in every time zone and with the notable exception of Taipei, Taiwan, have no offices and therefore no pressure to work from an office. The role entails Transition from individual contribution or technical leadership into full-time people and project management. Lead and mentor a globally distributed team of talented Linux kernel engineers. Manage the delivery, testing, and maintenance of Ubuntu kernels across various platforms (cloud, server, desktop, and IoT). Drive engineering excellence, ensuring code quality, security, and performance standards are met consistently. Develop and execute team strategies, aligning with broader company goals and product roadmaps. Collaborate with silicon vendors, cloud partners, and internal Canonical teams to enable new hardware and features. Own the release cycles and update cadence for your team's kernel portfolios. Foster a culture of continuous learning, feedback, open-source collaboration, and accountability within the team. What we are looking for in you Proven experience as a Senior Software Engineer, Tech Lead, or similar role with a strong desire to transition into a formal management position (no prior direct management experience required). Solid technical background in systems software, C programming, or operating systems concepts. Direct experience with the Linux or other operating system kernels would be highly regarded, but is not essential. Prior experience developing with software packaging formats, with direct Ubuntu/Debian/Snap experience being highly regarded. Demonstrated ability to mentor junior engineers, guide complex technical projects, or drive architectural decisions. Leadership potential and a commitment to skills",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T16:20:45+00:00",
-      "scraped_at": "2026-07-25T06:02:01.929381",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149569",
-      "title": "Cloud Engineering Manager",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager",
-      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. We are hiring an Engineering Manager ... This role is an opportunity for a technologist with a passion for Linux and Cloud technologies to build a career with Canonical and drive the success with those leveraging Ubuntu and open source products. If you have an affinity for open source development and a passion for technology, then you will enjoy working with some of the best people in the industry at Canonical. The BootStack team designs, builds, and operates modern distributed systems on private infrastructure for customers. From Kubernetes to OpenStack and everything in-between, you’ll be working with the latest technology in a fast-paced engineering environment. As a Cloud Engineering Manager for the BootStack team, you will be responsible for managing the engineers that oversee day-to-day Managed Service of customer environments, including customer service management, managed services operations and consistent product improvement engineering. Collaboration with customers, product engineering, and operations is critical to success. Location: This is a globally remote role. The role entails Manage a growing engineering team to optimise the quality and velocity of both development and operations Identify and measure team health indicators Implement disciplined engineering and operations processes Represent the BootStack team with respect to stakeholders, customers, and external teams Ensure proper team focus on priorities, milestones, and deliverables Work to meet service level agreements with customer deployments around the globe Deliver quality managed services in a consistent, timely manner What we are looking for in you Bachelors (or equivalent) education in a technology field Proven track record of professional experience of either software delivery using Python, Go, C, C++, Java, or similar and/or managing operations teams Proven experience with OpenStack Demonstrated strong commitment to testing methodologies and maintainable code quality Experience with Linux system administration, Ubuntu/Debian a plus Strong communication and cooperation skills Experience with agile software development methodologies Experience working in and managing distributed teams Technical aptitude for understanding complex distributed systems Experience with cloud to",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T16:20:43+00:00",
-      "scraped_at": "2026-07-25T06:02:01.930579",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149567",
-      "title": "Embedded & Desktop Linux Systems Engineer - Optimisation",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "url": "https://jobicy.com/jobs/149567-embedded-desktop-linux-systems-engineer-optimisation",
-      "description": "Work across the full Linux stack from kernel through GUI to optimise Ubuntu, the world’s most widely used Linux desktop and server, for the latest silicon. The role is a fast-paced, problem-solving role that’s challenging yet very exciting. The right candidate must be resourceful, articulate, and able to deliver on a wide variety of solutions across PC and IoT technologies. Our teams partner with specialist engineers from major silicon companies to integrate next-generation features and performance enhancements for upcoming hardware. Location: This is a Globally remote role What your day will look like Design and implement the best Ubuntu integration for the latest IoT and server-class hardware platforms and software stacks Work with partners to deliver a delightful, optimised, first class Ubuntu experience on their platforms Take a holistic approach to the Ubuntu experience on partner platforms with inputs on technical plans, testing strategy, quality metrics Participate as technical lead on complex customer engagements involving complete system architectures from cloud to edge Help our customers integrate their apps, SDKs, build device OS images, optimize applications with Ubuntu Core, Desktop and Server Work with the most advanced operating systems and application technologies available in the enterprise world. Joining Canonical, you will partner with bright minds from all over the world, and work with an exciting set of new technologies in a fast growing company with a truly unique and ambitious vision to build a better platform with free software. You will work with customers on exciting IoT and server platforms and technologies, built to support different verticals: from robots to data centers, from telco to retail. What we are looking for in you You love technology and working with brilliant people You have a Bachelor’s degree in Computer Science, STEM or similar You have experience with Linux packaging (Debian, RPM, Yocto) You have experience working with open source communities and licences You have experience working with C, C++ You can work in a globally distributed team through self-discipline and self-motivation. Additional skills that you might also bring Experience with graphics stacks Good understanding of networking - TCP/IP, DHCP, HTTP/REST Basic understanding of security best practices in IoT or server environments Good communication skills, ideally public speaking experience IoT / Embedded experience – from board and SoC, BMCs, bootloaders and firmware to OS, through apps and services Some experience with Docker/OCI containers/K8s What we offer you Your base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workf",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T16:20:40+00:00",
-      "scraped_at": "2026-07-25T06:02:01.931610",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149565",
-      "title": "Ubuntu Security Engineer",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "url": "https://jobicy.com/jobs/149565-ubuntu-security-engineer",
-      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. Canonical is building a team dedicated to providing security coverage across a wide range of ecosystems and environments, working to make the world a better, safer place. We are hiring an Ubuntu Security Engineer to join an industry-leading security engineering team and help protect the open source community and Ubuntu users from emerging threats. We are looking for candidates across all levels of experience, from Graduate to Senior. As part of the Ubuntu Security Team, you will work with some of the best and brightest people in technology to monitor, triage, respond to, and document new and existing vulnerabilities in open source software. You will collaborate with internal teams and external partners to identify issues, prioritize them, and coordinate remediation. This is an engineering-focused role that may also involve activities such as producing security assessments, building features, conducting code reviews, developing internal tools, engaging with the open source community, and participating in industry initiatives and events. This role requires international travel at least twice a year, usually for one week. It also requires the ability to be productive in a globally distributed team through self-discipline and self-motivation. Location: Worldwide, this is a globally remote role The role entails Analyzing, fixing, and testing vulnerabilities in open source packages Keeping track of vulnerabilities in the Ubuntu ecosystem as they are discovered, researched, and fixed, leveraging internal tools Collaborating with other teams in the Ubuntu community and upstream developers, as needed, to exchange or develop vulnerability patches and ensure that Ubuntu includes the most robust security features Auditing source code for vulnerabilities Building features and tools to help teams strengthen the security of their products and contribute to the overall security of Ubuntu What we are looking for in you You have a thorough understanding of the common categories of security vulnerabilities and techniques for fixing them You are familiar with coordinated disclosure practices You are familiar with open source development tools and methodologies You are skilled in one or more of C, Python, Go, Rust, Java, Ruby, PHP or JavaScript/TypeScript You have excell",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T16:20:37+00:00",
-      "scraped_at": "2026-07-25T06:02:01.932650",
+      "scraped_at": "2026-07-26T06:22:12.938422",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3596,7 +2740,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-18T19:40:05+00:00",
-      "scraped_at": "2026-07-25T06:02:06.397530",
+      "scraped_at": "2026-07-26T06:22:18.020514",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3624,7 +2768,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-06T16:05:03+00:00",
-      "scraped_at": "2026-07-25T06:02:06.400452",
+      "scraped_at": "2026-07-26T06:22:18.022507",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3652,7 +2796,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-13T14:26:01+00:00",
-      "scraped_at": "2026-07-25T06:02:07.981351",
+      "scraped_at": "2026-07-26T06:22:19.880506",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3680,7 +2824,147 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-02T07:46:48+00:00",
-      "scraped_at": "2026-07-25T06:02:07.984338",
+      "scraped_at": "2026-07-26T06:22:19.882540",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_146501",
+      "title": "Technical Product Manager",
+      "company": "Autodesk",
+      "location": "EMEA,  Netherlands",
+      "url": "https://jobicy.com/jobs/146501-technical-product-manager",
+      "description": "Job Requisition ID # 26WD98566 Autodesk is the global leader in design and make technology, including industry-leading 3D design, engineering, and entertainment software and services, that offer customers better outcomes through automation and insights for their design and make processes. If you’ve ever driven a high-performance car, admired a towering skyscraper, used a smartphone, or watched a great film, chances are you’ve experienced what millions of Autodesk customers are doing with our software. We're looking for a strategic and customer-obsessed Product Manager to define and drive the vision for our data products at Autodesk. In this role, you'll shape roadmaps — identifying market opportunities across global regions, and partnering closely with architecture, engineering, and product teams to bring meaningful capabilities to life. You'll champion the value of data, as a transformative tool for customer workflows, communicating that value persuasively to customers, executives, and external audiences. Success here requires someone who can make the complex simple, navigate ambiguity with confidence, and build trusted relationships across a diverse, global organization. If you're energized by the intersection of AEC industry dynamics, data interoperability, and platform-scale thinking — and you're ready to represent Autodesk on the world stage — this is your role. Responsibilities Define the vision and roadmap for data products, from initial concept to execution and delivery Cultivate and manage relationships with architecture, engineering, and product teams across Autodesk and different regions Recognize market opportunities in various regions and guide the Product Data vision and strategy, including decisions on building in-house versus buying Collaborate directly with Autodesk product teams to outline, prioritize, and plan the development of new methodologies and tools Convey the value of our products to customers, differentiating Autodesk's offerings from competitors, and create and manage a robust go-to-market plan Represent the product strongly at customer sites, conferences, and other external venues, showcasing Autodesk's understanding of the industry and the competitive market Synthesize customer feedback and analyze quantitative data to draw insights, make informed decisions, and measure the success of a product Learn More About Autodesk Welcome to Autodesk! Amazing things are created every day with our software – from the greenest buildings and cleanest cars to the smartest factories and biggest hit movies. We help innovators turn their ideas into reality, transforming not only how things are made, but what can be made. We take great pride in our culture here at Autodesk – it’s at the core of everything we do. Our culture guides the way we work and treat each other, informs how we connect with customers and partners, and defines how we show up in the world. When you’re an Autodesker, you can do meaningful work that helps build a bet",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T11:30:03+00:00",
+      "scraped_at": "2026-07-26T06:22:23.746045",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_147423",
+      "title": "Lifecycle Specialist: Time & Attendance",
+      "company": "Remote",
+      "location": "EMEA",
+      "url": "https://jobicy.com/jobs/147423-lifecycle-specialist-time-attendance",
+      "description": "About Remote Remote is solving modern organizations’ biggest challenge – navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You can find Remoters working from 6 different continents (Antarctica left to go!) and all of our positions are fully remote. With Innovation as one of the core values, we have built Automation and AI capabilities into the requirements for every role. We encourage every member of the Remote team to bring their talents, experiences and culture to the table to help us build the best-in-class HR platform. If you are energetic, curious, motivated and ambitious, be part of our world. Apply now and define the future of work! What this job can offer you The Time & Attendance Specialist will play an essential role in ensuring the accurate and efficient management of Time & Attendance activities for Remote's external employees and clients. This individual contributor position places a strong emphasis on legal compliance and delivering an exceptional employee experience while maintaining efficient processes. When joining the Time & Attendance team you will be reporting to the Manager Lifecycle: Time & Attendance. What you bring Demonstrate proven experience with a strong background in managing employee lifecycle events with care, sensitivity and legal compliance; and providing comprehensive HR support and guidance on employment laws and regulations, spanning various jurisdictions. Display excellent communication, influencing, conflict management, and negotiation skills, with the ability to confidently lead difficult conversations to a positive outcome, often where parties have conflicting interests, maintaining professionalism and strict confidentiality. Possess advanced proficiency in written and spoken English at a business level, with additional languages considered a plus. Show an an aptitude and enthusiasm for innovating and optimizing processes, consistently identifying and implementing opportunities for automation and promoting best practices. Demonstrate efficiency in operations, with an awareness of the importance of thorough documentation and data integrity. Be Tech-savvy, with the ability to successfully collaborate asynchronously on various tools, and adapt to new and evolving systems. Capable of working independently and cohesively in an international team in a fast-paced, asynchronous, remote environment with multiple priorities. Willingness to work flexible hours as needed. Familiar with communication, documentation, and project management tools such as Notion, Slack, Zendesk and G-suite. AI Fluency: Actively use AI-assisted tools in day-to-day work (e.g., drafting, knowledge retrieval, case research, or workflow automation) and understand where AI can be applied safely in an HR c",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T11:05:03+00:00",
+      "scraped_at": "2026-07-26T06:22:23.747544",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_144635",
+      "title": "Accounting Process and AI Technology Expert",
+      "company": "Gartner",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/144635-accounting-process-and-ai-technology-expert",
+      "description": "Accounting Process & AI Technology Expert This is an individual contributor position, based remotely in North America or Europe. Gartner is looking for an Analyst to provide research and advisory to global clients in the US, EMEA and beyond. The successful candidate will have demonstrated experience leveraging technology to transform financial reporting systems across record to report processes. They will have a deep understanding of the challenges facing Controllers when it comes to transforming the AP, AR and financial close process and a keen sense of business, AI and automation challenges facing CFOs and Corporate Controllers. Analysts create must-have insights for our clients through published research and client interaction. You will meet with clients everyday: in a videoconference or from the stage at a Gartner event. In every client interaction and every insight, you produce, you will help clients solve difficult challenges that lead to better performance. What you'll do: You will serve as a subject matter expert for transforming controllership processes; accounts payable, accounts receivable and the financial close processes. You will guide clients in how to transform these processes using AI and automation techniques to not only drive processing efficiency but drive strategic outcomes for the office of the CFO. You will work with a collaborative team of highly experienced analysts to build authoritative research and advice that directly addresses the priorities and challenges of senior finance leaders. The focus is helping clients understand the impact of AI and automation technology on the controllership function and selecting the best fit vendors for their organization based on their specific use cases and needs. Deliver high quality advice through face-to-face and video-based presentation and discussion with clients. Remain ahead of the curve on development and issues across accounting technologies and processes as well as applicable adjacent areas such as finance technology and transformation strategy. Who you are: To thrive in this role, it helps if you are obsessed with your area of expertise. Gartner analysts are correctly viewed as THE experts. This means you need to know your markets, vendors, trends, and process best practices, etc. Adept at writing insightful and actionable content to business leaders, that supports their strategic goals. Excellent collaborator with the ability to quickly build rapport and gain client trust. Confident presenter with a high level of executive presence (prior experience with speaking engagements is a plus) Analytical thinker with the ability to process information quickly and make actionable recommendations. Willing to challenge conventional norms and views. What you'll need: 10+ years of relevant field or industry experience. 8+ years of experience in leading accounting teams supporting the record to report processes in large multinational organisations with demonstrated experience transformin",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:23:10+00:00",
+      "scraped_at": "2026-07-26T06:22:23.748260",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_147611",
+      "title": "Customer Marketing Manager",
+      "company": "Workleap",
+      "location": "Canada",
+      "url": "https://jobicy.com/jobs/147611-customer-marketing-manager-5",
+      "description": "Company Description Workleap is a Montreal-based tech company, founded in 2006. We're builders at heart, we make simple products that actually matter to the people who use them. We have two product lines: The Workleap Agent , our agentic HR platform that helps managers become better leaders, and ShareGate , the world's leading solution for Microsoft 365 migration and governance. More than 15,000 companies worldwide trust us to do exactly that. We're intentional about who joins us. If you're the kind of person who gets excited by a hard problem and wants to help shape what comes next, there's a place for you here. Your role We're looking for a customer marketer who sees our existing customer base as our biggest growth opportunity and who wants to own the work of turning that into expansion, upsell, and retention. This role calls for a data-driven person who can rely on product and market signals to proactively drive our customer program. You'll take the customers we already have, figure out how to get them more value from Workleap, and build and run the programs that deliver it. You'll own the channels, the messaging, and the results. This is a hands-on role. You'll run initiatives from start to finish: a webinar, an ABM play, a campaign, an exclusive dinner, name it. This means you need to be just as happy, for instance, to gather signals with your team, draft emails, send your work via HubSpot, and review performance to optimize your next round. This is an A to Z role. Your impact: Own and drive customer marketing initiatives end-to-end, from identifying high-leverage cohorts to launching campaigns built on your messaging and creative directions; Develop messaging and positioning for existing customers, with a particular focus on driving awareness and adoption of the Manager Agent among our existing base; Build a content engine rooted in customer activity: surface stories, proof points, and product-in-action moments that feed back into the broader marketing system; Carry new product and feature launches to the existing base, turning each release into adoption and deeper utilization of what customers already have; Be the voice of the customer internally. Feed what you learn back to product, Customer Success, and marketing; Collaborate with Customer Success and Sales to identify at-risk accounts, expansion opportunities, and customers ready for the next step — building the messaging, content, and plays that protect retention and drive upsell. Design and execute engagement programs across owned channels (email, in-product, events, webinars) to turn happy customers into references and advocates. Use AI to scale your output without compromising quality — automating what can be automated, moving faster, and elevating everything you produce above the generic AI baseline; Track and report on commercial impact: deals influenced, expansion pipeline touched, and CSM-attributed activity driven by customer marketing. No two weeks look alike, but most start w",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:15:12+00:00",
+      "scraped_at": "2026-07-26T06:22:23.750192",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_147613",
+      "title": "Analyst, GTM Customer Intelligence",
+      "company": "Apollo.io",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/147613-analyst-gtm-customer-intelligence",
+      "description": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in SaaS, raising approximately $250 million to date and valued at $1.6 billion. Apollo.io provides sales and marketing teams with easy access to verified contact data for over 210 million B2B contacts and 35 million companies worldwide, along with tools to engage and convert these contacts in one unified platform. By helping revenue professionals find the most accurate contact information and automating the outreach process, Apollo.io turns prospects into customers. Apollo raised a series D in 2023 and is backed by top-tier investors, including Sequoia Capital, Bain Capital Ventures, and more, and counts the former President and COO of Hubspot, JD Sherman, among its board members. As a GTM Customer Intelligence Analyst, you will be an embedded analytics partner to Apollo's Customer Success organization and CS Operations team. You will build the post-sales intelligence layer that powers retention, expansion, and customer health decision-making—from health scoring and renewal analytics to billing insights, support analytics, and the dashboards that CS leadership depends on to manage the business. This is a high-impact role for an analyst or technical ops professional who wants to go deep on post-sales analytics and intelligence. You will report directly to the GTM Analytics Manager and work closely with CS leadership, CS Operations, Finance, and data engineering teams to translate complex customer lifecycle questions into reliable, scalable reporting. What You'll Do Key Outcomes: Success in this role will be measured by your ability to: Build and maintain the analytics infrastructure behind Apollo's customer health scoring model. Partner with CS leadership to validate scoring logic, surface at-risk customers, and identify leading indicators of churn or expansion. Turn health data into actionable insights for GTMEs and CS leadership. Own health scoring analytics and improvement. Develop renewal pipeline reporting that gives CS and Finance visibility into renewal timing, risk, and expected outcomes. Establish recurring reporting cadences and work with CS Ops to identify where to intervene early. Build renewal analytics that drive predictable retention. Instrument and analyze data from billing systems, support ticket volumes, and other post-sales touchpoints to identify patterns that predict churn or expansion. Surface these signals into CS workflows and dashboards so teams can act on them. Build analytics around billing, support, and adjacent retention signals. Build reporting around upsell and cross-sell motion—including expansion pipeline, seat growth, product adoption metrics, and net revenue retention. Help CS and Sales leadership understand where expansion opportunity is conc",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-07-25T10:15:11+00:00",
+      "scraped_at": "2026-07-26T06:22:23.751084",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3708,7 +2992,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T18:45:06+00:00",
-      "scraped_at": "2026-07-25T06:02:11.313421",
+      "scraped_at": "2026-07-26T06:22:23.751855",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3736,7 +3020,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:30:09+00:00",
-      "scraped_at": "2026-07-25T06:02:11.314355",
+      "scraped_at": "2026-07-26T06:22:23.752466",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3764,7 +3048,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:55:03+00:00",
-      "scraped_at": "2026-07-25T06:02:11.318062",
+      "scraped_at": "2026-07-26T06:22:23.754821",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3792,7 +3076,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:50:06+00:00",
-      "scraped_at": "2026-07-25T06:02:11.318817",
+      "scraped_at": "2026-07-26T06:22:23.755414",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3820,7 +3104,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T09:35:06+00:00",
-      "scraped_at": "2026-07-25T06:02:11.319747",
+      "scraped_at": "2026-07-26T06:22:23.756054",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3848,7 +3132,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T19:54:52+00:00",
-      "scraped_at": "2026-07-25T06:02:11.323138",
+      "scraped_at": "2026-07-26T06:22:23.757457",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3876,7 +3160,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T19:50:05+00:00",
-      "scraped_at": "2026-07-25T06:02:11.325251",
+      "scraped_at": "2026-07-26T06:22:23.758830",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3904,7 +3188,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T19:45:13+00:00",
-      "scraped_at": "2026-07-25T06:02:11.327594",
+      "scraped_at": "2026-07-26T06:22:23.760355",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3932,7 +3216,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T15:15:06+00:00",
-      "scraped_at": "2026-07-25T06:02:11.329347",
+      "scraped_at": "2026-07-26T06:22:23.761537",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3960,7 +3244,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-23T10:42:23+00:00",
-      "scraped_at": "2026-07-25T06:02:11.332146",
+      "scraped_at": "2026-07-26T06:22:23.764338",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3988,7 +3272,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T13:55:03+00:00",
-      "scraped_at": "2026-07-25T06:02:11.341974",
+      "scraped_at": "2026-07-26T06:22:23.770804",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4016,7 +3300,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:56:39+00:00",
-      "scraped_at": "2026-07-25T06:02:11.343035",
+      "scraped_at": "2026-07-26T06:22:23.771604",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4044,7 +3328,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:56:18+00:00",
-      "scraped_at": "2026-07-25T06:02:11.346562",
+      "scraped_at": "2026-07-26T06:22:23.773918",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4072,7 +3356,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:56:15+00:00",
-      "scraped_at": "2026-07-25T06:02:11.350720",
+      "scraped_at": "2026-07-26T06:22:23.775654",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4100,7 +3384,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:56:11+00:00",
-      "scraped_at": "2026-07-25T06:02:11.352254",
+      "scraped_at": "2026-07-26T06:22:23.776700",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4128,7 +3412,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-22T04:44:13+00:00",
-      "scraped_at": "2026-07-25T06:02:11.354371",
+      "scraped_at": "2026-07-26T06:22:23.778079",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4146,100 +3430,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "jobicy_145556",
-      "title": "Marketing Specialist",
-      "company": "Mozilla",
-      "location": "USA",
-      "url": "https://jobicy.com/jobs/145556-marketing-specialist-2",
-      "description": "Why Thunderbird? Thunderbird is one of the world’s most trusted open-source email applications, empowering more than 20 million people globally. At MZLA, the team behind Thunderbird, we build privacy-respecting communication tools that help people manage their digital lives while staying in control of their data. We are open source by design. Our products are developed transparently and in collaboration with a global community of contributors, and that same spirit shapes how we work: collaboratively, inclusively, and with a shared commitment to putting users first. Our small but growing distributed team includes 65+ people across seven countries. As Thunderbird evolves beyond a single desktop application, we are expanding across desktop, mobile, and paid services to build independent, privacy-respecting alternatives to big tech ecosystems. Our revenue model combines user donations, which help keep Thunderbird’s apps freely available, with paid services that cover the costs of hosted offerings while supporting long-term sustainability and continued innovation. A note about MZLA and Mozilla: MZLA Technologies Corporation is the nonprofit-owned company behind Thunderbird and part of the Mozilla family. MZLA is separate from Mozilla Corporation and has its own compensation programs, benefits, and employment policies. To learn more, visit www.thunderbird.net The opportunity The Marketing Specialist at MZLA executes digital marketing activities that support Thunderbird's brand awareness, user growth, and product adoption goals. Working closely with the Marketing Manager, you'll implement marketing campaigns and communications across social media, blog content, email marketing, and other digital channels. This is a hands-on role for someone who takes satisfaction in producing and publishing high-quality content, coordinating campaign activities, monitoring engagement metrics, and ensuring consistent messaging across platforms. You're a strong communicator and digital marketer who loves content creation, campaign execution, and audience engagement. You enjoy bringing marketing strategies to life through thoughtful execution, strong writing, attention to detail, and effective cross-functional collaboration. What you’ll do Execute day-to-day social media activities, including content scheduling, publishing, monitoring, engagement, and reporting. Draft and publish blog posts, marketing emails, newsletters, and other digital content aligned with brand voice and campaign objectives. Support integrated marketing campaigns, product launches, and promotional activities across multiple channels. Monitor social media engagement, coordinating with internal teams when additional context or support is needed. Maintain editorial and campaign calendars to ensure timely delivery of marketing activities. Track and report on performance metrics, identifying trends and optimization opportunities. Support email marketing and automation activities, including list management,",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T19:20:06+00:00",
-      "scraped_at": "2026-07-25T06:02:11.360192",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149568",
-      "title": "Cloud Solutions Architect - Alliances",
-      "company": "Canonical Ltd.",
-      "location": "Anywhere",
-      "url": "https://jobicy.com/jobs/149568-cloud-solutions-architect-alliances",
-      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We are hiring an Cloud Solutions Architect in our Alliances team to help our biggest partners (companies like Intel, Nvidia, Google, Dell, HP, Accenture, Tata and the like) understand and embrace our open source platform for themselves and their customers. Our worldwide field engineering team apply expert insights to real-world customer problems, enabling the enterprise adoption of Ubuntu, OpenStack, Kubernetes, AI/MLOps and a wide range of associated technologies. We are experts in the whole open source stack, from kernel to desktop, from cloud to the edge. Our team is also interested in business problems - building things reliably, efficiently and cost-effectively, and we have to learn to speak the language of our customers and their industries. We help global companies embrace public and private cloud infrastructure, cloud native operations, and open source applications. For this team we are looking for several Alliances Engineers to support OEM (hardware manufacturers), GSI (global system integrators), ISV (independent software vendors), Channel partners and Public Cloud alliance partners. You will support various alliances and partners of Canonical to adopt our products and technologies, help business leaders to define joint go-to-market programs with partners from the technical standpoint. We often say that our field engineers have 'the hardest job at Canonical' because customers can ask about any aspect of our solutions and products and expect a thoughtful, well-informed answer. We always want to do the best thing for our partners and customers, regardless of our company interests, and field engineers are the people we trust to ensure that is true. Location : This is a home-based role, we are hiring worldwide. What your day will look like Understand Ubuntu, Linux, networking and services in real-world environments Architect cloud infrastructure solutions like Kubernetes, Kubeflow, OpenStack, Ceph, and Spark either On-Premises or in Public Cloud (AWS, Azure, Google Cloud) Architect and integrate popular open source software such as PostgreSQL, MongoDB, Kafka, Cassandra and NGINX Help partners to offer and architect joint solutions utilizing Canonical’s technologies on top of the public clouds and in the data center Design and publish joint Re",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-07-21T16:20:42+00:00",
-      "scraped_at": "2026-07-25T06:02:11.361233",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-in-test-at-integra-connect-4426516308",
-      "title": "Software Engineer in Test",
-      "company": "Integra Connect",
+      "id": "staff-device-engineer-at-dragos-inc-4416546863",
+      "title": "Staff Device Engineer",
+      "company": "Dragos, Inc.",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-in-test-at-integra-connect-4426516308",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-07-24",
-      "scraped_at": "2026-07-25T06:05:52.946369",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-development-engineer-in-test-at-bright-vision-technologies-4445292086",
-      "title": "Software Development Engineer in Test",
-      "company": "Bright Vision Technologies",
-      "location": "Sunnyvale, CA",
-      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-at-bright-vision-technologies-4445292086",
+      "url": "https://www.linkedin.com/jobs/view/staff-device-engineer-at-dragos-inc-4416546863",
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-07-25",
-      "scraped_at": "2026-07-25T06:06:15.396674",
+      "scraped_at": "2026-07-26T06:26:37.694677",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4307,9 +3506,9 @@
   },
   "stats": {
     "excellent": 0,
-    "good": 56,
-    "india_remote": 16,
-    "sponsorship": 30,
+    "good": 36,
+    "india_remote": 18,
+    "sponsorship": 1,
     "remote_worldwide": 102
   }
 }
