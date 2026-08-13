@@ -77,9 +77,13 @@ jobs:
           EOF
 
       - name: 📄 Create resume profile
+        env:
+          RESUME_PROFILE_JSON: ${{ secrets.RESUME_PROFILE_JSON }}
         run: |
           mkdir -p config
-          echo '${{ secrets.RESUME_PROFILE_JSON }}' > config/resume_profile.json
+          printf '%s' "$RESUME_PROFILE_JSON" > config/resume_profile.json
+          python3 -m json.tool config/resume_profile.json > /dev/null
+          echo "✅ Resume profile created and validated successfully"
 
       - name: 📁 Create folders
         run: mkdir -p logs data docs
