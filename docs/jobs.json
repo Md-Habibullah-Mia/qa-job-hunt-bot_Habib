@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T04:14:47.142859",
-  "total_scraped": 169,
-  "total_matched": 169,
+  "generated_at": "2026-08-21T11:45:44.948106",
+  "total_scraped": 168,
+  "total_matched": 162,
   "jobs": [
     {
-      "id": "shine_252127",
+      "id": "shine_844063",
       "title": "Mobile Automation Test Engineer (Appium) | 5PlusYrs  Pune Bangalore",
       "company": "",
       "location": "India (Remote)",
@@ -14,7 +14,7 @@
       "category": "india_remote",
       "type": "India Remote",
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:58.111654",
+      "scraped_at": "2026-08-21T11:41:06.687011",
       "match_score": 75,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -34,287 +34,168 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-ui-automation-engineer-playwright-selenium-at-cognizant-4456024869",
-      "title": "Senior UI Automation Engineer (Playwright/Selenium)",
-      "company": "Cognizant",
-      "location": "Tampa, FL",
-      "url": "https://www.linkedin.com/jobs/view/senior-ui-automation-engineer-playwright-selenium-at-cognizant-4456024869",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.696154",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-quality-assurance-automation-engineer-at-sr2-consulting-certified-b-corporation%E2%84%A2-4453873534",
-      "title": "Senior Quality Assurance Automation Engineer",
-      "company": "SR2 Consulting | Certified B Corporation™",
-      "location": "London Area, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/senior-quality-assurance-automation-engineer-at-sr2-consulting-certified-b-corporation%E2%84%A2-4453873534",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.571219",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-mobile-qa-automation-engineer-at-e-solutions-4456731133",
-      "title": "Senior Mobile QA Automation Engineer",
-      "company": "E-Solutions",
-      "location": "Burgess Hill, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/senior-mobile-qa-automation-engineer-at-e-solutions-4456731133",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.627929",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-test-engineer-at-kainos-4447051192",
-      "title": "Senior Test Engineer",
-      "company": "Kainos",
-      "location": "The Home, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/senior-test-engineer-at-kainos-4447051192",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.700239",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-automation-test-engineer-at-ve3-4456000184",
-      "title": "Senior Automation Test Engineer",
-      "company": "VE3",
-      "location": "Maidenhead, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/senior-automation-test-engineer-at-ve3-4456000184",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.862143",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-test-engineer-at-kainos-4447056174",
-      "title": "Senior Test Engineer",
-      "company": "Kainos",
-      "location": "Birmingham, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/senior-test-engineer-at-kainos-4447056174",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.916909",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-test-automation-engineer-m-w-d-jobbird-com-at-jobster-4455654167",
-      "title": "Senior Test Automation Engineer (m/w/d) - Jobbird.com",
-      "company": "Jobster",
-      "location": "Heidelberg, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-test-automation-engineer-m-w-d-jobbird-com-at-jobster-4455654167",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.142925",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-software-quality-engineer-all-genders-vollzeit-teilzeit-at-expleo-group-4410048666",
-      "title": "Senior Software Quality Engineer (all genders) | Vollzeit & Teilzeit",
-      "company": "Expleo Group",
-      "location": "Cologne, North Rhine-Westphalia, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-software-quality-engineer-all-genders-vollzeit-teilzeit-at-expleo-group-4410048666",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.309925",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-software-quality-engineer-all-genders-vollzeit-teilzeit-at-expleo-group-4410046731",
-      "title": "Senior Software Quality Engineer (all genders) | Vollzeit & Teilzeit",
-      "company": "Expleo Group",
-      "location": "Stuttgart, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-software-quality-engineer-all-genders-vollzeit-teilzeit-at-expleo-group-4410046731",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.364236",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-engineer-test-automation-at-jobgether-4455648944",
-      "title": "Senior Engineer, Test Automation",
-      "company": "Jobgether",
-      "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/senior-engineer-test-automation-at-jobgether-4455648944",
+      "id": "python-qa-playwright-selenium-ai-llm-at-ekloud-inc-4454166996",
+      "title": "Python QA ( Playwright Selenium AI LLM)",
+      "company": "Ekloud, Inc.",
+      "location": "Delhi, Delhi, India",
+      "url": "https://in.linkedin.com/jobs/view/python-qa-playwright-selenium-ai-llm-at-ekloud-inc-4454166996",
       "source": "linkedin",
       "category": "india_remote",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:06.933938",
+      "date_posted": "2026-08-21",
+      "scraped_at": "2026-08-21T11:43:12.322207",
       "description": "",
       "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 75,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile",
+        "Python mentioned in title"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-qa-engineer-at-cloaked-4456781895",
+      "title": "Senior QA Engineer",
+      "company": "Cloaked",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/senior-qa-engineer-at-cloaked-4456781895",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:00.456574",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-qa-automation-engineer-at-lighthouseai-4456473689",
+      "title": "Senior QA Automation Engineer",
+      "company": "LighthouseAI",
+      "location": "Philadelphia, PA",
+      "url": "https://www.linkedin.com/jobs/view/senior-qa-automation-engineer-at-lighthouseai-4456473689",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:00.510625",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-test-engineer-uk-at-cluepoints-4456738573",
+      "title": "Senior Test Engineer (UK)",
+      "company": "CluePoints",
+      "location": "United Kingdom",
+      "url": "https://uk.linkedin.com/jobs/view/senior-test-engineer-uk-at-cluepoints-4456738573",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:15.240910",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-quality-engineer-m-w-d-in-frankfurt-main-at-deloitte-4410280665",
+      "title": "(Senior) Quality Engineer (m/w/d) in Frankfurt (Main)",
+      "company": "Deloitte",
+      "location": "Frankfurt, Hesse, Germany",
+      "url": "https://de.linkedin.com/jobs/view/senior-quality-engineer-m-w-d-in-frankfurt-main-at-deloitte-4410280665",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.680745",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-quality-engineer-m-w-d-in-k%C3%B6ln-at-deloitte-4410293379",
+      "title": "(Senior) Quality Engineer (m/w/d) in Köln",
+      "company": "Deloitte",
+      "location": "Cologne, North Rhine-Westphalia, Germany",
+      "url": "https://de.linkedin.com/jobs/view/senior-quality-engineer-m-w-d-in-k%C3%B6ln-at-deloitte-4410293379",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.733599",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
       "easy_apply": false,
       "match_score": 70,
       "match_reasons": [
@@ -342,7 +223,37 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:06.988401",
+      "scraped_at": "2026-08-21T11:43:12.264421",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-engineer-test-automation-at-jobgether-4455648944",
+      "title": "Senior Engineer, Test Automation",
+      "company": "Jobgether",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/senior-engineer-test-automation-at-jobgether-4455648944",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:43:12.545133",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -372,7 +283,37 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:07.218885",
+      "scraped_at": "2026-08-21T11:43:12.715912",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "lead-performance-tester-sdet-at-vonage-4447027390",
+      "title": "Lead Performance Tester (SDET)",
+      "company": "Vonage",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/lead-performance-tester-sdet-at-vonage-4447027390",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:43:25.743683",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -404,7 +345,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T04:20:11+00:00",
-      "scraped_at": "2026-08-21T04:09:20.265228",
+      "scraped_at": "2026-08-21T11:40:32.808636",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -433,7 +374,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-13T08:20:02+00:00",
-      "scraped_at": "2026-08-21T04:09:20.266597",
+      "scraped_at": "2026-08-21T11:40:32.810044",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -462,7 +403,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-10T04:25:08+00:00",
-      "scraped_at": "2026-08-21T04:09:20.269972",
+      "scraped_at": "2026-08-21T11:40:32.813401",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -491,37 +432,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:00:06+00:00",
-      "scraped_at": "2026-08-21T04:09:21.985716",
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-qa-engineer-at-tandem-ventures-4456452757",
-      "title": "Senior QA Engineer",
-      "company": "Tandem Ventures",
-      "location": "Austin, TX",
-      "url": "https://www.linkedin.com/jobs/view/senior-qa-engineer-at-tandem-ventures-4456452757",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.133433",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
+      "scraped_at": "2026-08-21T11:40:34.275055",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -548,37 +459,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:13:31.194579",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-qa-automation-engineer-at-lighthouseai-4456473689",
-      "title": "Senior QA Automation Engineer",
-      "company": "LighthouseAI",
-      "location": "Philadelphia, PA",
-      "url": "https://www.linkedin.com/jobs/view/senior-qa-automation-engineer-at-lighthouseai-4456473689",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:45.111362",
+      "scraped_at": "2026-08-21T11:44:33.477608",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -608,7 +489,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.182026",
+      "scraped_at": "2026-08-21T11:42:00.226939",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -630,75 +511,105 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "sdet-return-to-work-program-at-precision-technologies-4456056093",
-      "title": "SDET - Return-to-Work Program",
-      "company": "Precision Technologies",
+      "id": "qa-test-automation-engineer-at-capgemini-4445728236",
+      "title": "QA Test Automation Engineer",
+      "company": "Capgemini",
+      "location": "New York, United States",
+      "url": "https://www.linkedin.com/jobs/view/qa-test-automation-engineer-at-capgemini-4445728236",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:00.285097",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "quality-assurance-engineer-ii-at-cargurus-4416868283",
+      "title": "Quality Assurance Engineer II",
+      "company": "CarGurus",
+      "location": "Boston, MA",
+      "url": "https://www.linkedin.com/jobs/view/quality-assurance-engineer-ii-at-cargurus-4416868283",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:00.622569",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "test-automation-engineer-hybrid-at-swift-4429735071",
+      "title": "Test Automation Engineer (Hybrid)",
+      "company": "Swift",
+      "location": "Manassas, VA",
+      "url": "https://www.linkedin.com/jobs/view/test-automation-engineer-hybrid-at-swift-4429735071",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:00.678889",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "qa-automation-engineer-at-leasecake-4456749629",
+      "title": "QA Automation Engineer",
+      "company": "Leasecake",
       "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/sdet-return-to-work-program-at-precision-technologies-4456056093",
+      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-at-leasecake-4456749629",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.301261",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-developer-in-test-sdet-%E2%80%93-mobile-web-api-automation-remote-at-cognizant-4424457634",
-      "title": "Software Developer in Test (SDET) – Mobile, Web & API Automation-REMOTE",
-      "company": "Cognizant",
-      "location": "Mangum, NC",
-      "url": "https://www.linkedin.com/jobs/view/software-developer-in-test-sdet-%E2%80%93-mobile-web-api-automation-remote-at-cognizant-4424457634",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.361736",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qe-automation-engineer-spanish-proficiency-at-pineq-lab-technology-4454118399",
-      "title": "QE Automation Engineer (Spanish Proficiency)",
-      "company": "PineQ Lab Technology",
-      "location": "Austin, TX",
-      "url": "https://www.linkedin.com/jobs/view/qe-automation-engineer-spanish-proficiency-at-pineq-lab-technology-4454118399",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.417076",
+      "scraped_at": "2026-08-21T11:42:00.735409",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -728,7 +639,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.754384",
+      "scraped_at": "2026-08-21T11:42:14.858766",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -758,7 +669,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.807872",
+      "scraped_at": "2026-08-21T11:42:14.914366",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -780,15 +691,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "quality-assurance-engineer-german-speaking-alexa-global-quality-at-amazon-4456769619",
-      "title": "Quality Assurance Engineer (German Speaking), Alexa Global Quality",
-      "company": "Amazon",
+      "id": "test-engineer-at-swift-4429733093",
+      "title": "Test Engineer",
+      "company": "Swift",
       "location": "London, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/quality-assurance-engineer-german-speaking-alexa-global-quality-at-amazon-4456769619",
+      "url": "https://uk.linkedin.com/jobs/view/test-engineer-at-swift-4429733093",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:07.025062",
+      "scraped_at": "2026-08-21T11:42:15.022937",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -810,15 +721,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "ingenieur-m-w-d-testautomatisierung-cypress-gherkin-at-ferchau-4438584295",
-      "title": "Ingenieur (m/w/d) Testautomatisierung Cypress / Gherkin",
-      "company": "FERCHAU",
-      "location": "Mannheim, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/ingenieur-m-w-d-testautomatisierung-cypress-gherkin-at-ferchau-4438584295",
+      "id": "software-test-engineer-2-at-illumina-4456736276",
+      "title": "Software Test Engineer 2",
+      "company": "Illumina",
+      "location": "Cambridge, England, United Kingdom",
+      "url": "https://uk.linkedin.com/jobs/view/software-test-engineer-2-at-illumina-4456736276",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.470538",
+      "scraped_at": "2026-08-21T11:42:15.077254",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -840,15 +751,75 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "test-automation-engineer-m-w-d-defence-at-bertrandt-group-4454705380",
-      "title": "Test Automation Engineer (m/w/d) - Defence",
-      "company": "Bertrandt Group",
-      "location": "Stuttgart, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-defence-at-bertrandt-group-4454705380",
+      "id": "software-automation-engineer-at-eden-scott-4453871611",
+      "title": "Software Automation Engineer",
+      "company": "Eden Scott",
+      "location": "Glasgow, Scotland, United Kingdom",
+      "url": "https://uk.linkedin.com/jobs/view/software-automation-engineer-at-eden-scott-4453871611",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.524142",
+      "scraped_at": "2026-08-21T11:42:15.132241",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "test-engineer-at-sage-4437170352",
+      "title": "Test Engineer",
+      "company": "Sage",
+      "location": "Newcastle Upon Tyne, England, United Kingdom",
+      "url": "https://uk.linkedin.com/jobs/view/test-engineer-at-sage-4437170352",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:15.186464",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "software-test-engineer-m-w-d-at-guldberg-gmbh-4444347891",
+      "title": "Software Test Engineer (m/w/d)",
+      "company": "Guldberg GmbH",
+      "location": "Greater Munich Metropolitan Area",
+      "url": "https://de.linkedin.com/jobs/view/software-test-engineer-m-w-d-at-guldberg-gmbh-4444347891",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.243578",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -878,7 +849,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.582252",
+      "scraped_at": "2026-08-21T11:42:26.298818",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -900,15 +871,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "software-test-engineer-m-w-d-sichere-kommunikation-at-citema-systems-gmbh-4453867516",
-      "title": "Software Test Engineer (m/w/d) - Sichere Kommunikation",
+      "id": "test-engineer-m-w-d-at-citema-systems-gmbh-4454101130",
+      "title": "Test Engineer (m/w/d)",
       "company": "citema systems GmbH",
-      "location": "Stuttgart, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/software-test-engineer-m-w-d-sichere-kommunikation-at-citema-systems-gmbh-4453867516",
+      "location": "Berlin, Berlin, Germany",
+      "url": "https://de.linkedin.com/jobs/view/test-engineer-m-w-d-at-citema-systems-gmbh-4454101130",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.637964",
+      "scraped_at": "2026-08-21T11:42:26.408251",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -930,7 +901,97 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "shine_957222",
+      "id": "test-automation-engineer-m-w-d-defence-at-bertrandt-group-4454705380",
+      "title": "Test Automation Engineer (m/w/d) - Defence",
+      "company": "Bertrandt Group",
+      "location": "Stuttgart, Baden-Württemberg, Germany",
+      "url": "https://de.linkedin.com/jobs/view/test-automation-engineer-m-w-d-defence-at-bertrandt-group-4454705380",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.463658",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "software-engineer-quality-engineering-at-reprisk-4455688889",
+      "title": "Software Engineer - Quality Engineering",
+      "company": "RepRisk",
+      "location": "Berlin, Germany",
+      "url": "https://de.linkedin.com/jobs/view/software-engineer-quality-engineering-at-reprisk-4455688889",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.518315",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "test-engineer-w-m-x-at-k-tronik-gmbh-4453873842",
+      "title": "Test Engineer (w/m/x)",
+      "company": "K-tronik GmbH",
+      "location": "Berlin, Berlin, Germany",
+      "url": "https://de.linkedin.com/jobs/view/test-engineer-w-m-x-at-k-tronik-gmbh-4453873842",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.625712",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "shine_962783",
       "title": "QA Automation Engineer",
       "company": "",
       "location": "India (Remote)",
@@ -940,7 +1001,7 @@
       "category": "india_remote",
       "type": "India Remote",
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:54.147767",
+      "scraped_at": "2026-08-21T11:41:03.950821",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -967,7 +1028,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:06.705798",
+      "scraped_at": "2026-08-21T11:43:12.206625",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -997,37 +1058,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:06.764729",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "quality-assurance-engineer-at-flexiple-4456702111",
-      "title": "Quality Assurance Engineer",
-      "company": "Flexiple",
-      "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-flexiple-4456702111",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:06.822135",
+      "scraped_at": "2026-08-21T11:43:12.381184",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -1057,7 +1088,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:07.045092",
+      "scraped_at": "2026-08-21T11:43:12.490051",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -1079,15 +1110,45 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "quality-assurance-automation-engineer-at-ditto-insurance-4455675226",
-      "title": "Quality Assurance Automation Engineer",
-      "company": "Ditto Insurance",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/quality-assurance-automation-engineer-at-ditto-insurance-4455675226",
+      "id": "quality-assurance-engineer-at-flexiple-4456702111",
+      "title": "Quality Assurance Engineer",
+      "company": "Flexiple",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/quality-assurance-engineer-at-flexiple-4456702111",
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:35.216459",
+      "scraped_at": "2026-08-21T11:43:12.602238",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "qa-engineer-pega-at-jigya-software-services-4457300055",
+      "title": "QA Engineer (Pega)",
+      "company": "Jigya Software Services",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/qa-engineer-pega-at-jigya-software-services-4457300055",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-08-21",
+      "scraped_at": "2026-08-21T11:43:12.659528",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -1120,7 +1181,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:09.346042",
+      "scraped_at": "2026-08-21T11:40:23.224046",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1150,7 +1211,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:09.376691",
+      "scraped_at": "2026-08-21T11:40:23.255345",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1180,37 +1241,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:10.763282",
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-automation-engineer-hybrid-at-swift-4429735071",
-      "title": "Test Automation Engineer (Hybrid)",
-      "company": "Swift",
-      "location": "Manassas, VA",
-      "url": "https://www.linkedin.com/jobs/view/test-automation-engineer-hybrid-at-swift-4429735071",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.358881",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
+      "scraped_at": "2026-08-21T11:40:24.569556",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -1237,7 +1268,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.414357",
+      "scraped_at": "2026-08-21T11:44:21.567821",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1267,7 +1298,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.524910",
+      "scraped_at": "2026-08-21T11:44:21.678582",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1289,15 +1320,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "qa-test-automation-engineer-at-capgemini-4445728236",
-      "title": "QA Test Automation Engineer",
-      "company": "Capgemini",
-      "location": "New York, United States",
-      "url": "https://www.linkedin.com/jobs/view/qa-test-automation-engineer-at-capgemini-4445728236",
+      "id": "software-development-engineer-in-test-sdet-at-swift-4429967659",
+      "title": "Software Development Engineer in Test (SDET)",
+      "company": "Swift",
+      "location": "Manassas, VA",
+      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-at-swift-4429967659",
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.579793",
+      "scraped_at": "2026-08-21T11:44:21.851120",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1327,37 +1358,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.083393",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qa-automation-engineer-at-leasecake-4456749629",
-      "title": "QA Automation Engineer",
-      "company": "Leasecake",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/qa-automation-engineer-at-leasecake-4456749629",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.139922",
+      "scraped_at": "2026-08-21T11:44:33.365571",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1387,7 +1388,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.251530",
+      "scraped_at": "2026-08-21T11:44:33.531673",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1417,7 +1418,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.474951",
+      "scraped_at": "2026-08-21T11:44:33.751289",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1447,7 +1448,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.584197",
+      "scraped_at": "2026-08-21T11:44:33.858451",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1477,7 +1478,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:45.165846",
+      "scraped_at": "2026-08-21T11:44:47.133656",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1507,7 +1508,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:45.273612",
+      "scraped_at": "2026-08-21T11:44:47.239251",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1540,7 +1541,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:10.812199",
+      "scraped_at": "2026-08-21T11:40:24.619715",
       "match_score": 50,
       "match_reasons": [
         "Job title matches QA/Testing domain"
@@ -1566,7 +1567,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:07.079206",
+      "scraped_at": "2026-08-21T11:42:14.802272",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -1598,7 +1599,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:11:26+00:00",
-      "scraped_at": "2026-08-21T04:09:15.085945",
+      "scraped_at": "2026-08-21T11:40:28.194470",
       "match_score": 25,
       "match_reasons": [
         "Mid-level position matches your profile",
@@ -1617,15 +1618,73 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-software-engineer-av-platform-integration-and-test-at-general-motors-4457028305",
-      "title": "Senior Software Engineer, AV Platform Integration and Test",
-      "company": "General Motors",
-      "location": "Warren, MI",
-      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-av-platform-integration-and-test-at-general-motors-4457028305",
+      "id": "jobicy_151086",
+      "title": "Digital Customer Success Campaign Manager",
+      "company": "1Password",
+      "location": "Canada,  USA",
+      "url": "https://jobicy.com/jobs/151086-digital-customer-success-campaign-manager",
+      "description": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing. About 1Password At 1Password, we’re building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security by ensuring every identity is authentic, every application sign-in is secure, and every device is trusted. We innovated the market-leading enterprise password manager and pioneered Unified Access Management, a new cybersecurity category built for the way people and AI agents work today. As one of the most loved brands in cybersecurity, we take a human-centric approach in everything from product strategy to user experience. Over 180,000 businesses, from Fortune 100 leaders to the world’s most innovative AI companies, trust 1Password to help their teams securely adopt the SaaS and AI tools they need to do their best work. If you're excited about the opportunity to contribute to the digital safety of millions, to work alongside a team of curious, driven individuals, and to solve hard problems in a fast-paced, dynamic environment, then we want to hear from you. Come join us and help shape a safer, simpler digital future. We’re looking for a Digital Customer Success Campaign Manager to design, launch, and improve digital customer journeys at scale. You’ll turn customer and product signals into timely, useful programs that help customers move from trial through activation, adoption, and ongoing value. This is a hands-on, program-focused role for someone who enjoys combining thoughtful communication, data, experimentation, and emerging technology. Reporting into the Senior Manager, Digital Customer Success, this role is based remotely in North America, with hiring locations in the United States or Canada. How we’re using AI today Across GTM, we’re transforming the way we work with AI. We expect every seller, CSM, and team member to become a power user, using it daily to work smarter and move faster. AI is already embedded in how we operate – from real-time coaching that sharpens how we sell and interact with customers, to surfacing insights that help us anticipate needs – creating more time for meaningful customer engagement. If you’re excited to reshape how you think, make decisions, and drive growth with AI, you’ll feel right at home here. What we're looking for: • Bring experience in Digital Customer Success, Customer Marketing, Lifecycle Marketing, Growth Operations, Customer Success Operations, or Product-led Growth within a Software as a Service (SaaS) environment. • Have owned or significantly contributed to lifecycle or digital customer programs with measurable impact. • Write clear, engaging customer-facing communications and adapt messaging for different audiences and customer needs. • Interpret customer and product usage data, identify patterns, and turn ins",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-08-19T07:01:01+00:00",
+      "scraped_at": "2026-08-21T11:40:28.233009",
+      "match_score": 25,
+      "match_reasons": [
+        "Mid-level position matches your profile",
+        "Git mentioned in title"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_149241",
+      "title": "Canada- Sr Application Engineer (Salesforce-Agentforce Ai)",
+      "company": "PointClickCare",
+      "location": "Canada",
+      "url": "https://jobicy.com/jobs/149241-canada-sr-application-engineer-salesforce-agentforce-ai",
+      "description": "At PointClickCare our mission is simple: to help providers deliver exceptional care. And that starts with our people. As a leading health tech company that’s founder-led and privately held, we empower our employees to push boundaries, innovate, and shape the future of healthcare. With the largest long-term and post-acute care dataset and a Marketplace of 400+ integrated partners, our platform serves over 30,000 provider organizations, making a real difference in millions of lives. We also reinvest a significant percentage of our revenue back into research and development, ensuring our employees have the resources to innovate and make a lasting impact. Recognized by Forbes as a top private cloud company and honored as one of Canada’s Most Admired Corporate Cultures, we offer flexibility, growth opportunities, and meaningful work.   At PointClickCare, we empower our people to be the architects of a smarter healthcare future; one that is human-first and accelerated by AI to create meaningful and lasting change. Employees harness AI as a catalyst for creativity, productivity, and thoughtful decision-making. By integrating AI tools into our daily workflows, collaboration is enhanced, outcomes are improved, and every team member has the proficiency to maximize their impact. It all starts with our hiring practices where we uncover AI expertise that complements our mission, and we continue to invest in training and development to nurture innovation throughout the employee journey.Join us in redefining healthcare — so it doesn’t just survive, it thrives. To learn more about PointClickCare, check out Life at PointClickCare and connect with us on Glassdoor and LinkedIn.**Travel to Office expectations**For Remote Roles: If this role is remote, there will be in-office events that will require travel to and from the Mississauga and/or Salt Lake City office. These will include, but not limited to, onboarding, team events, semi-annual and annual team meetings.For Hybrid Roles: If this role is Hybrid, there will be an expectation to reside within commutable distance to the office/location specified in the job listing. This will include, but not limited to, weekly/bi-weekly/monthly events in the office with your specific team. This is a requirement for this role.Job Summary We’re looking for creative thinkers with hands-on experience in Agentforce, AI agent development, and intelligent process automation, who thrive in a collaborative, fast-paced environment. As a Senior Application Engineer specializing in Salesforce Agentforce AI at PointClickCare, you’ll architect and deliver state-of-the-art AI agents and automations that transform system workflows. You’ll be empowered to experiment, prototype, and deliver solutions that directly shape the future of our technology landscape, gain exposure to the latest AI technologies and dedicated time for professional development and certifications as you create AI Agents using Agentforce and other AI tools. To succeed in th",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-08-14T04:45:02+00:00",
+      "scraped_at": "2026-08-21T11:40:34.272615",
+      "match_score": 25,
+      "match_reasons": [
+        "Mid-level position matches your profile",
+        "Salesforce mentioned in title"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "lead-software-engineer-in-test-at-golden-pet-brands-4433367472",
+      "title": "Lead Software Engineer in Test",
+      "company": "Golden Pet Brands",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/lead-software-engineer-in-test-at-golden-pet-brands-4433367472",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.471409",
+      "scraped_at": "2026-08-21T11:42:00.565726",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -1646,94 +1705,7 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-software-engineer-av-platform-integration-and-test-at-general-motors-4457026294",
-      "title": "Senior Software Engineer, AV Platform Integration and Test",
-      "company": "General Motors",
-      "location": "Milford, MI",
-      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-av-platform-integration-and-test-at-general-motors-4457026294",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.526453",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 20,
-      "match_reasons": [
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-software-test-developer-%E2%80%93-driveos-at-nvidia-4456067409",
-      "title": "Senior Software Test Developer – DriveOS",
-      "company": "NVIDIA",
-      "location": "Santa Clara, CA",
-      "url": "https://www.linkedin.com/jobs/view/senior-software-test-developer-%E2%80%93-driveos-at-nvidia-4456067409",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:10:54.584611",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 20,
-      "match_reasons": [
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-software-entwickler-tester-m-w-d-at-biotronik-4456496514",
-      "title": "Senior Software Entwickler / Tester (m/w/d)",
-      "company": "BIOTRONIK",
-      "location": "Berlin, Berlin, Germany",
-      "url": "https://de.linkedin.com/jobs/view/senior-software-entwickler-tester-m-w-d-at-biotronik-4456496514",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.254907",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 20,
-      "match_reasons": [
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "shine_51433",
+      "id": "shine_526431",
       "title": "Lead Engineer  DevOps",
       "company": "",
       "location": "India (Remote)",
@@ -1743,7 +1715,7 @@
       "category": "india_remote",
       "type": "India Remote",
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:10:05.240949",
+      "scraped_at": "2026-08-21T11:41:12.304627",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1771,7 +1743,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:49:30+00:00",
-      "scraped_at": "2026-08-21T04:09:15.092721",
+      "scraped_at": "2026-08-21T11:40:28.202759",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1799,7 +1771,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:49:13+00:00",
-      "scraped_at": "2026-08-21T04:09:15.094689",
+      "scraped_at": "2026-08-21T11:40:28.204772",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1827,7 +1799,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:48:37+00:00",
-      "scraped_at": "2026-08-21T04:09:15.097177",
+      "scraped_at": "2026-08-21T11:40:28.207310",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1855,7 +1827,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T03:50:03+00:00",
-      "scraped_at": "2026-08-21T04:09:15.101581",
+      "scraped_at": "2026-08-21T11:40:28.211784",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1883,7 +1855,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:11:06+00:00",
-      "scraped_at": "2026-08-21T04:09:15.108465",
+      "scraped_at": "2026-08-21T11:40:28.216965",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1911,7 +1883,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:49:05+00:00",
-      "scraped_at": "2026-08-21T04:09:15.110524",
+      "scraped_at": "2026-08-21T11:40:28.219028",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1939,7 +1911,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:48:40+00:00",
-      "scraped_at": "2026-08-21T04:09:15.119694",
+      "scraped_at": "2026-08-21T11:40:28.228143",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1967,7 +1939,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:37+00:00",
-      "scraped_at": "2026-08-21T04:09:15.140222",
+      "scraped_at": "2026-08-21T11:40:28.248544",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1995,7 +1967,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T10:55:13+00:00",
-      "scraped_at": "2026-08-21T04:09:15.146223",
+      "scraped_at": "2026-08-21T11:40:28.254481",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2023,7 +1995,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T10:53:15+00:00",
-      "scraped_at": "2026-08-21T04:09:15.147769",
+      "scraped_at": "2026-08-21T11:40:28.255908",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2051,7 +2023,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T16:20:13+00:00",
-      "scraped_at": "2026-08-21T04:09:20.268347",
+      "scraped_at": "2026-08-21T11:40:32.811811",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2079,7 +2051,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-09T03:32:22+00:00",
-      "scraped_at": "2026-08-21T04:09:21.985084",
+      "scraped_at": "2026-08-21T11:40:34.274456",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2107,7 +2079,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-17T13:03:42+00:00",
-      "scraped_at": "2026-08-21T04:09:25.808811",
+      "scraped_at": "2026-08-21T11:40:37.506616",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2135,7 +2107,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T04:15:05+00:00",
-      "scraped_at": "2026-08-21T04:09:25.810126",
+      "scraped_at": "2026-08-21T11:40:37.507874",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2163,7 +2135,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-13T09:26:49+00:00",
-      "scraped_at": "2026-08-21T04:09:25.812683",
+      "scraped_at": "2026-08-21T11:40:37.512035",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2191,7 +2163,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-13T09:20:04+00:00",
-      "scraped_at": "2026-08-21T04:09:25.813480",
+      "scraped_at": "2026-08-21T11:40:37.512852",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2219,7 +2191,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-10T04:25:04+00:00",
-      "scraped_at": "2026-08-21T04:09:25.814454",
+      "scraped_at": "2026-08-21T11:40:37.513850",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2247,7 +2219,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:50:04+00:00",
-      "scraped_at": "2026-08-21T04:09:25.816267",
+      "scraped_at": "2026-08-21T11:40:37.515548",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2275,7 +2247,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T14:26:29+00:00",
-      "scraped_at": "2026-08-21T04:09:25.822929",
+      "scraped_at": "2026-08-21T11:40:37.522292",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2303,7 +2275,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T14:25:43+00:00",
-      "scraped_at": "2026-08-21T04:09:25.828979",
+      "scraped_at": "2026-08-21T11:40:37.526824",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2331,7 +2303,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:30:56+00:00",
-      "scraped_at": "2026-08-21T04:09:25.841701",
+      "scraped_at": "2026-08-21T11:40:37.539308",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2359,7 +2331,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T06:56:49+00:00",
-      "scraped_at": "2026-08-21T04:09:25.860196",
+      "scraped_at": "2026-08-21T11:40:37.556297",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2387,7 +2359,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:09:49+00:00",
-      "scraped_at": "2026-08-21T04:09:25.868486",
+      "scraped_at": "2026-08-21T11:40:37.564483",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2415,7 +2387,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T18:06:26+00:00",
-      "scraped_at": "2026-08-21T04:09:25.869863",
+      "scraped_at": "2026-08-21T11:40:37.565735",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2443,7 +2415,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T17:13:18+00:00",
-      "scraped_at": "2026-08-21T04:09:25.872174",
+      "scraped_at": "2026-08-21T11:40:37.567968",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -2469,7 +2441,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.307903",
+      "scraped_at": "2026-08-21T11:44:33.586513",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -2490,15 +2462,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "staff-software-development-engineer-in-test-at-sony-interactive-entertainment-4453860945",
-      "title": "Staff Software Development Engineer in Test",
-      "company": "Sony Interactive Entertainment",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/staff-software-development-engineer-in-test-at-sony-interactive-entertainment-4453860945",
+      "id": "software-engineer-%E2%80%94-test-at-snorkel-ai-4454135616",
+      "title": "Software Engineer — Test",
+      "company": "Snorkel AI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%94-test-at-snorkel-ai-4454135616",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.243400",
+      "scraped_at": "2026-08-21T11:42:00.342437",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2519,15 +2491,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "hil-system-engineer-at-ford-motor-company-4456735603",
-      "title": "HIL System Engineer",
-      "company": "Ford Motor Company",
-      "location": "Dearborn, MI",
-      "url": "https://www.linkedin.com/jobs/view/hil-system-engineer-at-ford-motor-company-4456735603",
+      "id": "software-engineer-%E2%80%94-test-at-snorkel-ai-4454137554",
+      "title": "Software Engineer — Test",
+      "company": "Snorkel AI",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%94-test-at-snorkel-ai-4454137554",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:10:54.640974",
+      "scraped_at": "2026-08-21T11:42:00.401689",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2556,7 +2528,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:06.972108",
+      "scraped_at": "2026-08-21T11:42:14.968837",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2577,15 +2549,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "testautomatisierungsspezialist-sap-prozesse-finanz-rechnungswesen-m-w-d-at-rewe-group-4378858286",
-      "title": "Testautomatisierungsspezialist SAP-Prozesse Finanz- & Rechnungswesen (m/w/d)",
-      "company": "REWE Group",
-      "location": "Cologne, North Rhine-Westphalia, Germany",
-      "url": "https://de.linkedin.com/jobs/view/testautomatisierungsspezialist-sap-prozesse-finanz-rechnungswesen-m-w-d-at-rewe-group-4378858286",
+      "id": "systems-tooling-member-of-technical-staff-at-callosum-4443577365",
+      "title": "Systems Tooling - Member of Technical Staff",
+      "company": "Callosum",
+      "location": "London, England, United Kingdom",
+      "url": "https://uk.linkedin.com/jobs/view/systems-tooling-member-of-technical-staff-at-callosum-4443577365",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.198030",
+      "scraped_at": "2026-08-21T11:42:15.294851",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2606,15 +2578,44 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "testingenieur-embedded-systems-%09%09%09%09%09%09%09wasser-m-w-d-at-kisters-group-4456779091",
-      "title": "Testingenieur Embedded Systems Wasser (m/w/d)",
-      "company": "KISTERS Group",
-      "location": "Aachen, North Rhine-Westphalia, Germany",
-      "url": "https://de.linkedin.com/jobs/view/testingenieur-embedded-systems-%09%09%09%09%09%09%09wasser-m-w-d-at-kisters-group-4456779091",
+      "id": "test-craftsperson-automation-at-jobgether-4455627540",
+      "title": "Test Craftsperson/Automation",
+      "company": "Jobgether",
+      "location": "Germany",
+      "url": "https://de.linkedin.com/jobs/view/test-craftsperson-automation-at-jobgether-4455627540",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:11:21.417602",
+      "scraped_at": "2026-08-21T11:42:26.353642",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress",
+        "Playwright",
+        "K6 performance testing"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "spezialist-f%C3%BCr-testautomatisierung-m-w-d-at-cgi-4319097406",
+      "title": "Spezialist für Testautomatisierung (m/w/d)",
+      "company": "CGI",
+      "location": "Erfurt, Thuringia, Germany",
+      "url": "https://de.linkedin.com/jobs/view/spezialist-f%C3%BCr-testautomatisierung-m-w-d-at-cgi-4319097406",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-20",
+      "scraped_at": "2026-08-21T11:42:26.571426",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2643,94 +2644,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:06.879760",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "full-stack-engineer-at-lumijobs-ai-4454143285",
-      "title": "Full Stack Engineer",
-      "company": "LumiJobs.ai",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-lumijobs-ai-4454143285",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:07.103707",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-test-at-huntingcube-4455259939",
-      "title": "Software Engineer, Test",
-      "company": "HuntingCube",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-test-at-huntingcube-4455259939",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:07.161230",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-at-eaton-4454100913",
-      "title": "Software Engineer",
-      "company": "Eaton",
-      "location": "Chennai, Tamil Nadu, India",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-at-eaton-4454100913",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:12:21.328044",
+      "scraped_at": "2026-08-21T11:43:12.435666",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -2756,13 +2670,13 @@
       "company": "SQA Services",
       "location": "Worchester",
       "url": "https://www.arbeitnow.co.uk/jobs/companies/sqa-services/electromechanical-quality-inspector-level-ii-welding-hvac-systems-go-worchester-464663",
-      "description": "For more than 30 years, SQA Services has provided managed supplier quality services, including inspections, audits, corrective actions, remediation, and engineering support. We deploy experienced quality professionals globally to support client and supplier sites on demand. SQA Services is seeking an Electromechanical Quality Inspector (Level 2) to support a major data center infrastructure program at a supplier facility in Worcestershire, UK. This role focuses on inspection activities related to chillers, air handling units, structural fabrication, and electromechanical assemblies . The ideal candidate will have strong mechanical inspection and welding inspection experience , along with the ability to support production quality activities in a fast-paced manufacturing environment. This is a full-time, on-site contract role with immediate need and potential for extension. Location: Worcestershire, UK Schedule: Monday – Friday (Flexible days) (20 hours/week) Shift: 8:00 AM – 4:00 PM (flexible) Duration: 2 years Key Responsibilities Perform in-process and final inspections on chillers, air handling units, and electromechanical assemblies Conduct visual, dimensional, and welding inspections per drawings and specifications Inspect structural fabrication, rivets, and mechanical assemblies Support Factory Acceptance Testing (FAT) and witness inspections Verify supplier execution to inspection plans and quality requirements Review and compile inspection documentation and sign-off packages Identify and document nonconformances and support corrective action closure Provide weekly updates on production and quality performance Utilize Google Sheets, Gmail, and Google Drive for reporting and communication Read and interpret basic wiring diagrams and engineering drawings Required Qualifications Experience performing electromechanical inspections in manufacturing environments Strong background in welding inspection and structural fabrication Minimum of: 5+ years of professional welding inspection experience , OR 3+ years of experience with ASME or CWI certification Ability to read and interpret engineering drawings and basic wiring diagrams Experience with visual, dimensional, and witness inspections Comfortable using Google Sheets, Gmail, and Google Drive Ability to work independently on-site in a production environment Preferred Qualifications Experience with HVAC systems, chillers, or air handling units Experience supporting data center or industrial equipment projects Familiarity with Factory Acceptance Testing (FAT) Experience supporting supplier quality or third-party inspections Note: SQA is an Equal Opportunity Employer. Employment is based on merit and qualifications, and is not influenced by race, color, religion, gender, national origin, veteran status, disability, age, sexual orientation, gender identity, marital status, or any other legally protected status.​ Find Jobs in United Kingdom on Arbeitnow",
+      "description": "For more than 30 years, SQA Services has provided managed supplier quality services, including inspections, audits, corrective actions, remediation, and engineering support. We deploy experienced quality professionals globally to support client and supplier sites on demand. SQA Services is seeking an Electromechanical Quality Inspector (Level 2) to support a major data center infrastructure program at a supplier facility in Worcestershire, UK. This role focuses on inspection activities related to chillers, air handling units, structural fabrication, and electromechanical assemblies . The ideal candidate will have strong mechanical inspection and welding inspection experience , along with the ability to support production quality activities in a fast-paced manufacturing environment. This is a full-time, on-site contract role with immediate need and potential for extension. Location: Worcestershire, UK Schedule: Monday – Friday (Flexible days) (20 hours/week) Shift: 8:00 AM – 4:00 PM (flexible) Duration: 2 years Key Responsibilities Perform in-process and final inspections on chillers, air handling units, and electromechanical assemblies Conduct visual, dimensional, and welding inspections per drawings and specifications Inspect structural fabrication, rivets, and mechanical assemblies Support Factory Acceptance Testing (FAT) and witness inspections Verify supplier execution to inspection plans and quality requirements Review and compile inspection documentation and sign-off packages Identify and document nonconformances and support corrective action closure Provide weekly updates on production and quality performance Utilize Google Sheets, Gmail, and Google Drive for reporting and communication Read and interpret basic wiring diagrams and engineering drawings Required Qualifications Experience performing electromechanical inspections in manufacturing environments Strong background in welding inspection and structural fabrication Minimum of: 5+ years of professional welding inspection experience , OR 3+ years of experience with ASME or CWI certification Ability to read and interpret engineering drawings and basic wiring diagrams Experience with visual, dimensional, and witness inspections Comfortable using Google Sheets, Gmail, and Google Drive Ability to work independently on-site in a production environment Preferred Qualifications Experience with HVAC systems, chillers, or air handling units Experience supporting data center or industrial equipment projects Familiarity with Factory Acceptance Testing (FAT) Experience supporting supplier quality or third-party inspections Note: SQA is an Equal Opportunity Employer. Employment is based on merit and qualifications, and is not influenced by race, color, religion, gender, national origin, veteran status, disability, age, sexual orientation, gender identity, marital status, or any other legally protected status.​ Find more English Speaking Jobs in United Kingdom on Arbeitnow",
       "source": "arbeitnow",
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:09:10.874134",
+      "scraped_at": "2026-08-21T11:40:24.693697",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2790,7 +2704,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:01:06+00:00",
-      "scraped_at": "2026-08-21T04:09:15.086884",
+      "scraped_at": "2026-08-21T11:40:28.195354",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2818,7 +2732,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:58+00:00",
-      "scraped_at": "2026-08-21T04:09:15.087580",
+      "scraped_at": "2026-08-21T11:40:28.196069",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2846,7 +2760,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:56+00:00",
-      "scraped_at": "2026-08-21T04:09:15.088275",
+      "scraped_at": "2026-08-21T11:40:28.196806",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2874,7 +2788,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:55+00:00",
-      "scraped_at": "2026-08-21T04:09:15.089114",
+      "scraped_at": "2026-08-21T11:40:28.197540",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2902,7 +2816,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:49:49+00:00",
-      "scraped_at": "2026-08-21T04:09:15.090214",
+      "scraped_at": "2026-08-21T11:40:28.198790",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2930,7 +2844,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T14:25:09+00:00",
-      "scraped_at": "2026-08-21T04:09:15.098932",
+      "scraped_at": "2026-08-21T11:40:28.209089",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2958,7 +2872,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T12:01:29+00:00",
-      "scraped_at": "2026-08-21T04:09:15.100059",
+      "scraped_at": "2026-08-21T11:40:28.210172",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2986,7 +2900,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T03:00:11+00:00",
-      "scraped_at": "2026-08-21T04:09:15.104347",
+      "scraped_at": "2026-08-21T11:40:28.212914",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3014,7 +2928,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T20:09:52+00:00",
-      "scraped_at": "2026-08-21T04:09:15.105285",
+      "scraped_at": "2026-08-21T11:40:28.213825",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3042,7 +2956,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:11:17+00:00",
-      "scraped_at": "2026-08-21T04:09:15.106586",
+      "scraped_at": "2026-08-21T11:40:28.215110",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3070,7 +2984,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:11:10+00:00",
-      "scraped_at": "2026-08-21T04:09:15.108043",
+      "scraped_at": "2026-08-21T11:40:28.216549",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3098,7 +3012,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:11:04+00:00",
-      "scraped_at": "2026-08-21T04:09:15.110015",
+      "scraped_at": "2026-08-21T11:40:28.218530",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3126,7 +3040,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:48:56+00:00",
-      "scraped_at": "2026-08-21T04:09:15.113974",
+      "scraped_at": "2026-08-21T11:40:28.222484",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3154,7 +3068,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:48:47+00:00",
-      "scraped_at": "2026-08-21T04:09:15.115469",
+      "scraped_at": "2026-08-21T11:40:28.223981",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3182,7 +3096,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:48:45+00:00",
-      "scraped_at": "2026-08-21T04:09:15.117878",
+      "scraped_at": "2026-08-21T11:40:28.226363",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3210,35 +3124,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:48:32+00:00",
-      "scraped_at": "2026-08-21T04:09:15.121410",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_151086",
-      "title": "Digital Customer Success Campaign Manager",
-      "company": "1Password",
-      "location": "Canada,  USA",
-      "url": "https://jobicy.com/jobs/151086-digital-customer-success-campaign-manager",
-      "description": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing. About 1Password At 1Password, we’re building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security by ensuring every identity is authentic, every application sign-in is secure, and every device is trusted. We innovated the market-leading enterprise password manager and pioneered Unified Access Management, a new cybersecurity category built for the way people and AI agents work today. As one of the most loved brands in cybersecurity, we take a human-centric approach in everything from product strategy to user experience. Over 180,000 businesses, from Fortune 100 leaders to the world’s most innovative AI companies, trust 1Password to help their teams securely adopt the SaaS and AI tools they need to do their best work. If you're excited about the opportunity to contribute to the digital safety of millions, to work alongside a team of curious, driven individuals, and to solve hard problems in a fast-paced, dynamic environment, then we want to hear from you. Come join us and help shape a safer, simpler digital future. We’re looking for a Digital Customer Success Campaign Manager to design, launch, and improve digital customer journeys at scale. You’ll turn customer and product signals into timely, useful programs that help customers move from trial through activation, adoption, and ongoing value. This is a hands-on, program-focused role for someone who enjoys combining thoughtful communication, data, experimentation, and emerging technology. Reporting into the Senior Manager, Digital Customer Success, this role is based remotely in North America, with hiring locations in the United States or Canada. How we’re using AI today Across GTM, we’re transforming the way we work with AI. We expect every seller, CSM, and team member to become a power user, using it daily to work smarter and move faster. AI is already embedded in how we operate – from real-time coaching that sharpens how we sell and interact with customers, to surfacing insights that help us anticipate needs – creating more time for meaningful customer engagement. If you’re excited to reshape how you think, make decisions, and drive growth with AI, you’ll feel right at home here. What we're looking for: • Bring experience in Digital Customer Success, Customer Marketing, Lifecycle Marketing, Growth Operations, Customer Success Operations, or Product-led Growth within a Software as a Service (SaaS) environment. • Have owned or significantly contributed to lifecycle or digital customer programs with measurable impact. • Write clear, engaging customer-facing communications and adapt messaging for different audiences and customer needs. • Interpret customer and product usage data, identify patterns, and turn ins",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-08-19T07:01:01+00:00",
-      "scraped_at": "2026-08-21T04:09:15.123327",
+      "scraped_at": "2026-08-21T11:40:28.231139",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3266,7 +3152,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T06:56:55+00:00",
-      "scraped_at": "2026-08-21T04:09:15.125106",
+      "scraped_at": "2026-08-21T11:40:28.234665",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3294,7 +3180,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T06:56:51+00:00",
-      "scraped_at": "2026-08-21T04:09:15.126433",
+      "scraped_at": "2026-08-21T11:40:28.236101",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3322,7 +3208,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T06:56:47+00:00",
-      "scraped_at": "2026-08-21T04:09:15.127925",
+      "scraped_at": "2026-08-21T11:40:28.237537",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3350,7 +3236,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:30:06+00:00",
-      "scraped_at": "2026-08-21T04:09:15.129203",
+      "scraped_at": "2026-08-21T11:40:28.238768",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3378,7 +3264,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:20:05+00:00",
-      "scraped_at": "2026-08-21T04:09:15.130743",
+      "scraped_at": "2026-08-21T11:40:28.240246",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3406,7 +3292,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:00:05+00:00",
-      "scraped_at": "2026-08-21T04:09:15.131868",
+      "scraped_at": "2026-08-21T11:40:28.241359",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3434,7 +3320,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:00:04+00:00",
-      "scraped_at": "2026-08-21T04:09:15.134404",
+      "scraped_at": "2026-08-21T11:40:28.242643",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3462,7 +3348,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T17:59:33+00:00",
-      "scraped_at": "2026-08-21T04:09:15.135287",
+      "scraped_at": "2026-08-21T11:40:28.243520",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3490,7 +3376,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T17:13:22+00:00",
-      "scraped_at": "2026-08-21T04:09:15.137066",
+      "scraped_at": "2026-08-21T11:40:28.245252",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3518,7 +3404,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T15:41:34+00:00",
-      "scraped_at": "2026-08-21T04:09:15.138655",
+      "scraped_at": "2026-08-21T11:40:28.246841",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3546,7 +3432,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T10:55:19+00:00",
-      "scraped_at": "2026-08-21T04:09:15.141958",
+      "scraped_at": "2026-08-21T11:40:28.250237",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3574,7 +3460,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T10:55:16+00:00",
-      "scraped_at": "2026-08-21T04:09:15.144553",
+      "scraped_at": "2026-08-21T11:40:28.252835",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3602,7 +3488,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T03:10:07+00:00",
-      "scraped_at": "2026-08-21T04:09:15.148969",
+      "scraped_at": "2026-08-21T11:40:28.257197",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3630,7 +3516,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T03:05:05+00:00",
-      "scraped_at": "2026-08-21T04:09:15.150770",
+      "scraped_at": "2026-08-21T11:40:28.260094",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3658,7 +3544,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T03:00:09+00:00",
-      "scraped_at": "2026-08-21T04:09:15.152181",
+      "scraped_at": "2026-08-21T11:40:28.261482",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3686,7 +3572,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T03:00:05+00:00",
-      "scraped_at": "2026-08-21T04:09:15.153392",
+      "scraped_at": "2026-08-21T11:40:28.262665",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3714,7 +3600,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T02:55:04+00:00",
-      "scraped_at": "2026-08-21T04:09:15.155009",
+      "scraped_at": "2026-08-21T11:40:28.264173",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3742,7 +3628,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T02:55:03+00:00",
-      "scraped_at": "2026-08-21T04:09:15.156811",
+      "scraped_at": "2026-08-21T11:40:28.266047",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3770,7 +3656,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-17T14:30:22+00:00",
-      "scraped_at": "2026-08-21T04:09:15.158165",
+      "scraped_at": "2026-08-21T11:40:28.267322",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3798,7 +3684,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-17T14:14:18+00:00",
-      "scraped_at": "2026-08-21T04:09:15.159235",
+      "scraped_at": "2026-08-21T11:40:28.268353",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3826,7 +3712,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-17T13:37:31+00:00",
-      "scraped_at": "2026-08-21T04:09:15.160836",
+      "scraped_at": "2026-08-21T11:40:28.269909",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3854,7 +3740,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-17T13:04:11+00:00",
-      "scraped_at": "2026-08-21T04:09:15.163635",
+      "scraped_at": "2026-08-21T11:40:28.271341",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3882,35 +3768,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T15:08:03+00:00",
-      "scraped_at": "2026-08-21T04:09:16.880009",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_149241",
-      "title": "Canada- Sr Application Engineer (Salesforce-Agentforce Ai)",
-      "company": "PointClickCare",
-      "location": "Canada",
-      "url": "https://jobicy.com/jobs/149241-canada-sr-application-engineer-salesforce-agentforce-ai",
-      "description": "At PointClickCare our mission is simple: to help providers deliver exceptional care. And that starts with our people. As a leading health tech company that’s founder-led and privately held, we empower our employees to push boundaries, innovate, and shape the future of healthcare. With the largest long-term and post-acute care dataset and a Marketplace of 400+ integrated partners, our platform serves over 30,000 provider organizations, making a real difference in millions of lives. We also reinvest a significant percentage of our revenue back into research and development, ensuring our employees have the resources to innovate and make a lasting impact. Recognized by Forbes as a top private cloud company and honored as one of Canada’s Most Admired Corporate Cultures, we offer flexibility, growth opportunities, and meaningful work.   At PointClickCare, we empower our people to be the architects of a smarter healthcare future; one that is human-first and accelerated by AI to create meaningful and lasting change. Employees harness AI as a catalyst for creativity, productivity, and thoughtful decision-making. By integrating AI tools into our daily workflows, collaboration is enhanced, outcomes are improved, and every team member has the proficiency to maximize their impact. It all starts with our hiring practices where we uncover AI expertise that complements our mission, and we continue to invest in training and development to nurture innovation throughout the employee journey.Join us in redefining healthcare — so it doesn’t just survive, it thrives. To learn more about PointClickCare, check out Life at PointClickCare and connect with us on Glassdoor and LinkedIn.**Travel to Office expectations**For Remote Roles: If this role is remote, there will be in-office events that will require travel to and from the Mississauga and/or Salt Lake City office. These will include, but not limited to, onboarding, team events, semi-annual and annual team meetings.For Hybrid Roles: If this role is Hybrid, there will be an expectation to reside within commutable distance to the office/location specified in the job listing. This will include, but not limited to, weekly/bi-weekly/monthly events in the office with your specific team. This is a requirement for this role.Job Summary We’re looking for creative thinkers with hands-on experience in Agentforce, AI agent development, and intelligent process automation, who thrive in a collaborative, fast-paced environment. As a Senior Application Engineer specializing in Salesforce Agentforce AI at PointClickCare, you’ll architect and deliver state-of-the-art AI agents and automations that transform system workflows. You’ll be empowered to experiment, prototype, and deliver solutions that directly shape the future of our technology landscape, gain exposure to the latest AI technologies and dedicated time for professional development and certifications as you create AI Agents using Agentforce and other AI tools. To succeed in th",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-08-14T04:45:02+00:00",
-      "scraped_at": "2026-08-21T04:09:21.983207",
+      "scraped_at": "2026-08-21T11:40:29.763841",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3938,7 +3796,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:48:55+00:00",
-      "scraped_at": "2026-08-21T04:09:25.817155",
+      "scraped_at": "2026-08-21T11:40:37.516536",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3966,7 +3824,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:48:18+00:00",
-      "scraped_at": "2026-08-21T04:09:25.818757",
+      "scraped_at": "2026-08-21T11:40:37.518057",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3994,7 +3852,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T19:47:29+00:00",
-      "scraped_at": "2026-08-21T04:09:25.819822",
+      "scraped_at": "2026-08-21T11:40:37.519195",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4022,7 +3880,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T14:31:26+00:00",
-      "scraped_at": "2026-08-21T04:09:25.821259",
+      "scraped_at": "2026-08-21T11:40:37.520537",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4050,7 +3908,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T14:26:05+00:00",
-      "scraped_at": "2026-08-21T04:09:25.827761",
+      "scraped_at": "2026-08-21T11:40:37.525514",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4078,7 +3936,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T14:24:30+00:00",
-      "scraped_at": "2026-08-21T04:09:25.830380",
+      "scraped_at": "2026-08-21T11:40:37.528087",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4106,7 +3964,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T12:03:58+00:00",
-      "scraped_at": "2026-08-21T04:09:25.833781",
+      "scraped_at": "2026-08-21T11:40:37.531554",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4134,7 +3992,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-20T11:57:27+00:00",
-      "scraped_at": "2026-08-21T04:09:25.835949",
+      "scraped_at": "2026-08-21T11:40:37.533663",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4162,7 +4020,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T20:08:18+00:00",
-      "scraped_at": "2026-08-21T04:09:25.837142",
+      "scraped_at": "2026-08-21T11:40:37.534776",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4190,7 +4048,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:30:58+00:00",
-      "scraped_at": "2026-08-21T04:09:25.838956",
+      "scraped_at": "2026-08-21T11:40:37.536714",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4218,7 +4076,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:30:52+00:00",
-      "scraped_at": "2026-08-21T04:09:25.844183",
+      "scraped_at": "2026-08-21T11:40:37.542834",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4246,7 +4104,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:06:19+00:00",
-      "scraped_at": "2026-08-21T04:09:25.846675",
+      "scraped_at": "2026-08-21T11:40:37.545072",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4274,7 +4132,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:06:14+00:00",
-      "scraped_at": "2026-08-21T04:09:25.847860",
+      "scraped_at": "2026-08-21T11:40:37.546243",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4302,7 +4160,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T19:06:06+00:00",
-      "scraped_at": "2026-08-21T04:09:25.850282",
+      "scraped_at": "2026-08-21T11:40:37.548572",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4330,7 +4188,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T18:29:36+00:00",
-      "scraped_at": "2026-08-21T04:09:25.851553",
+      "scraped_at": "2026-08-21T11:40:37.549709",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4358,7 +4216,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T14:48:52+00:00",
-      "scraped_at": "2026-08-21T04:09:25.852916",
+      "scraped_at": "2026-08-21T11:40:37.551077",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4386,7 +4244,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T07:00:58+00:00",
-      "scraped_at": "2026-08-21T04:09:25.857216",
+      "scraped_at": "2026-08-21T11:40:37.553547",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4414,7 +4272,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T07:00:56+00:00",
-      "scraped_at": "2026-08-21T04:09:25.858779",
+      "scraped_at": "2026-08-21T11:40:37.555010",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4442,7 +4300,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T06:51:54+00:00",
-      "scraped_at": "2026-08-21T04:09:25.862080",
+      "scraped_at": "2026-08-21T11:40:37.558166",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4470,7 +4328,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:20:03+00:00",
-      "scraped_at": "2026-08-21T04:09:25.863457",
+      "scraped_at": "2026-08-21T11:40:37.559592",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4498,7 +4356,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:11:48+00:00",
-      "scraped_at": "2026-08-21T04:09:25.864696",
+      "scraped_at": "2026-08-21T11:40:37.560720",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4526,7 +4384,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-19T02:11:46+00:00",
-      "scraped_at": "2026-08-21T04:09:25.866076",
+      "scraped_at": "2026-08-21T11:40:37.562174",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4554,7 +4412,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T17:13:20+00:00",
-      "scraped_at": "2026-08-21T04:09:25.871072",
+      "scraped_at": "2026-08-21T11:40:37.566984",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4582,7 +4440,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T17:13:09+00:00",
-      "scraped_at": "2026-08-21T04:09:25.873428",
+      "scraped_at": "2026-08-21T11:40:37.570562",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4610,7 +4468,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T15:41:31+00:00",
-      "scraped_at": "2026-08-21T04:09:25.874815",
+      "scraped_at": "2026-08-21T11:40:37.571841",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -4636,65 +4494,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.191875",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-%E2%80%94-test-at-snorkel-ai-4454135616",
-      "title": "Software Engineer — Test",
-      "company": "Snorkel AI",
-      "location": "San Francisco, CA",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%94-test-at-snorkel-ai-4454135616",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.247456",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress",
-        "Playwright",
-        "K6 performance testing"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-%E2%80%94-test-at-snorkel-ai-4454137554",
-      "title": "Software Engineer — Test",
-      "company": "Snorkel AI",
-      "location": "New York, NY",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%94-test-at-snorkel-ai-4454137554",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.304881",
+      "scraped_at": "2026-08-21T11:44:21.336695",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4723,7 +4523,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:18.470003",
+      "scraped_at": "2026-08-21T11:44:21.622956",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4752,7 +4552,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-21",
-      "scraped_at": "2026-08-21T04:13:18.635662",
+      "scraped_at": "2026-08-21T11:44:21.794154",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4781,7 +4581,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.363814",
+      "scraped_at": "2026-08-21T11:44:33.640374",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4810,7 +4610,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:31.419491",
+      "scraped_at": "2026-08-21T11:44:33.696054",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4839,7 +4639,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-20",
-      "scraped_at": "2026-08-21T04:13:45.056114",
+      "scraped_at": "2026-08-21T11:44:47.026526",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4908,8 +4708,8 @@
   "stats": {
     "excellent": 0,
     "good": 51,
-    "india_remote": 15,
+    "india_remote": 14,
     "sponsorship": 30,
-    "remote_worldwide": 124
+    "remote_worldwide": 118
   }
 }
