@@ -61,20 +61,48 @@ def title_based_score(job: dict, profile: dict) -> dict:
         score += 15
         reasons.append("Mid-level position matches your profile")
 
-    profile_skills = (
-        profile.get("tech_skills", {}).get("test_frameworks", []) +
-        profile.get("tech_skills", {}).get("programming_languages", [])
-    )
+    profile_skills = []
+    tech_skills = profile.get("tech_skills", {})
+
+    for skill_group in tech_skills.values():
+        if isinstance(skill_group, list):
+            profile_skills.extend(skill_group)
+
     for skill in profile_skills:
-        if skill.lower() in title:
+        if str(skill).lower() in title:
             score += 10
             reasons.append(f"{skill} mentioned in title")
             break
 
-    skill_names = [s.lower() for s in profile_skills]
-    if "cypress" not in skill_names: missing.append("Cypress")
-    if "playwright" not in skill_names: missing.append("Playwright")
-    if "k6" not in skill_names: missing.append("K6 performance testing")
+    skill_names = [
+        str(skill).strip().lower()
+        for skill in profile_skills
+    ]
+
+    def has_skill(skill_keywords):
+        """Return whether any skill keyword or alias is in the profile."""
+        return any(
+            keyword.lower() in skill_names
+            or any(keyword.lower() in skill for skill in skill_names)
+            for keyword in skill_keywords
+        )
+
+    if not has_skill(["cypress"]):
+        missing.append("Cypress")
+
+    if not has_skill([
+        "playwright",
+        "playwright test",
+        "microsoft playwright",
+    ]):
+        missing.append("Playwright")
+
+    if not has_skill([
+        "k6",
+        "grafana k6",
+        "k6 performance testing",
+    ]):
+        missing.append("K6 performance testing")
 
     return {
         "match_score": min(score, 85),
@@ -187,8 +215,22 @@ def batch_match_jobs(jobs: list, min_score: int = 0) -> list:
 
 
 def generate_skill_gap_analysis(all_jobs: list, profile: dict, api_key: str) -> dict:
+    if not api_key or api_key == "YOUR_GEMINI_API_KEY_HERE":
+        return {
+            "critical_skills_to_learn": [
+                {"skill": "Cypress", "reason": "High demand in QA automation", "learning_time": "2-4 weeks", "resources": ["https://www.cypress.io/"]},
+                {"skill": "Playwright", "reason": "Modern fast web automation framework", "learning_time": "1-2 weeks", "resources": ["https://playwright.dev/"]}
+            ],
+            "trending_in_qa": ["AI Testing", "Playwright", "CI/CD Pipelines"],
+            "certifications_recommended": [
+                {"cert": "ISTQB Advanced Test Automation Engineer", "reason": "Boosts career prospects for senior roles", "url": "https://www.istqb.org/"}
+            ],
+            "quick_wins": ["Learn K6 performance testing", "Add Docker to test pipelines"],
+            "career_advice": "Focus on modern web automation frameworks (Playwright/Cypress) to maximize remote opportunities."
+        }
+
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(GEMINI_MODEL)  # Use same model, not pro
+    model = genai.GenerativeModel(GEMINI_MODEL)
 
     all_missing = []
     for job in all_jobs[:20]:
