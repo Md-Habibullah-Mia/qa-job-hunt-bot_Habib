@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T10:04:06.370957",
-  "total_scraped": 161,
-  "total_matched": 153,
+  "generated_at": "2026-08-24T11:37:38.507566",
+  "total_scraped": 162,
+  "total_matched": 155,
   "jobs": [
     {
-      "id": "shine_291784",
+      "id": "shine_857813",
       "title": "Mobile Automation Test Engineer (Appium) | 5PlusYrs  Pune Bangalore",
       "company": "",
       "location": "India (Remote)",
@@ -14,7 +14,7 @@
       "category": "india_remote",
       "type": "India Remote",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:59:25.846886",
+      "scraped_at": "2026-08-24T11:32:59.228812",
       "match_score": 75,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -43,7 +43,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:58:43.735482",
+      "scraped_at": "2026-08-24T11:32:17.142951",
       "match_score": 75,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -69,7 +69,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:16.955145",
+      "scraped_at": "2026-08-24T11:33:48.783562",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -97,7 +97,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:17.006635",
+      "scraped_at": "2026-08-24T11:33:48.840913",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -125,7 +125,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.456419",
+      "scraped_at": "2026-08-24T11:34:01.434559",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -153,7 +153,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.558289",
+      "scraped_at": "2026-08-24T11:34:01.565429",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -181,7 +181,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.657326",
+      "scraped_at": "2026-08-24T11:34:01.679538",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -209,7 +209,63 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T10:00:28.706973",
+      "scraped_at": "2026-08-24T11:34:01.735139",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-qa-automation-engineer-at-jobgether-4456856539",
+      "title": "Senior QA Automation Engineer",
+      "company": "Jobgether",
+      "location": "United Kingdom",
+      "url": "https://uk.linkedin.com/jobs/view/senior-qa-automation-engineer-at-jobgether-4456856539",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-24",
+      "scraped_at": "2026-08-24T11:34:01.793214",
+      "description": "",
+      "type": "Outside India (Sponsorship)",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-qa-automation-engineer-at-jobgether-4456851533",
+      "title": "Senior QA Automation Engineer",
+      "company": "Jobgether",
+      "location": "Germany",
+      "url": "https://de.linkedin.com/jobs/view/senior-qa-automation-engineer-at-jobgether-4456851533",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "date_posted": "2026-08-24",
+      "scraped_at": "2026-08-24T11:34:14.425676",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -237,7 +293,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.116871",
+      "scraped_at": "2026-08-24T11:34:14.540462",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -257,43 +313,15 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-software-engineer-test-automation-at-veeva-systems-4377601615",
-      "title": "Senior Software Engineer - Test Automation",
-      "company": "Veeva Systems",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-software-engineer-test-automation-at-veeva-systems-4377601615",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:30.381849",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title matches QA/Testing domain",
-        "Seniority level matches your experience"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-qa-automation-engineer-remote-at-quik-hire-staffing-4458153651",
-      "title": "Senior QA Automation Engineer (Remote)",
-      "company": "Quik Hire Staffing",
+      "id": "senior-qa-automation-engineer-at-jobgether-4456844468",
+      "title": "Senior QA Automation Engineer",
+      "company": "Jobgether",
       "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/senior-qa-automation-engineer-remote-at-quik-hire-staffing-4458153651",
+      "url": "https://in.linkedin.com/jobs/view/senior-qa-automation-engineer-at-jobgether-4456844468",
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T10:01:57.156369",
+      "scraped_at": "2026-08-24T11:34:59.239659",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -323,7 +351,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T04:20:11+00:00",
-      "scraped_at": "2026-08-24T09:58:50.511956",
+      "scraped_at": "2026-08-24T11:32:25.174921",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -350,7 +378,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-13T08:20:02+00:00",
-      "scraped_at": "2026-08-24T09:58:50.513380",
+      "scraped_at": "2026-08-24T11:32:25.176494",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -377,7 +405,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-10T04:25:08+00:00",
-      "scraped_at": "2026-08-24T09:58:50.516360",
+      "scraped_at": "2026-08-24T11:32:25.179975",
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -404,7 +432,35 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-07-24T10:00:06+00:00",
-      "scraped_at": "2026-08-24T09:58:52.000188",
+      "scraped_at": "2026-08-24T11:32:26.913828",
+      "match_score": 70,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Seniority level matches your experience"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "senior-qa-automation-engineer-at-jobgether-4456860600",
+      "title": "Senior QA Automation Engineer",
+      "company": "Jobgether",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/senior-qa-automation-engineer-at-jobgether-4456860600",
+      "source": "linkedin",
+      "category": "remote_worldwide",
+      "date_posted": "2026-08-24",
+      "scraped_at": "2026-08-24T11:36:24.181814",
+      "description": "",
+      "type": "Remote Worldwide",
+      "easy_apply": false,
       "match_score": 70,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -429,7 +485,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:55.958627",
+      "scraped_at": "2026-08-24T11:36:24.292710",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -457,7 +513,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:56.108471",
+      "scraped_at": "2026-08-24T11:36:24.460809",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -485,7 +541,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:16.692754",
+      "scraped_at": "2026-08-24T11:33:48.497296",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -513,7 +569,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:16.747634",
+      "scraped_at": "2026-08-24T11:33:48.556775",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -541,7 +597,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:17.059929",
+      "scraped_at": "2026-08-24T11:33:48.896809",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -569,7 +625,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:17.112432",
+      "scraped_at": "2026-08-24T11:33:48.951919",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -597,7 +653,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T10:00:28.607587",
+      "scraped_at": "2026-08-24T11:34:01.623488",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -625,7 +681,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.757993",
+      "scraped_at": "2026-08-24T11:34:01.849520",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -653,7 +709,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.809318",
+      "scraped_at": "2026-08-24T11:34:01.904936",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -681,7 +737,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.165828",
+      "scraped_at": "2026-08-24T11:34:14.612134",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -709,7 +765,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.215913",
+      "scraped_at": "2026-08-24T11:34:14.667063",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -729,7 +785,7 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "shine_414136",
+      "id": "shine_523548",
       "title": "QA Automation Engineer",
       "company": "",
       "location": "India (Remote)",
@@ -739,7 +795,7 @@
       "category": "india_remote",
       "type": "India Remote",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:59:21.769727",
+      "scraped_at": "2026-08-24T11:32:57.082096",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -764,7 +820,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:29.912978",
+      "scraped_at": "2026-08-24T11:34:59.121305",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -792,7 +848,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:29.967386",
+      "scraped_at": "2026-08-24T11:34:59.181087",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -820,7 +876,35 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:30.020014",
+      "scraped_at": "2026-08-24T11:34:59.298496",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "qa-engineer-remote-at-quik-hire-staffing-4458149979",
+      "title": "QA Engineer (Remote)",
+      "company": "Quik Hire Staffing",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/qa-engineer-remote-at-quik-hire-staffing-4458149979",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-08-24",
+      "scraped_at": "2026-08-24T11:34:59.353937",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -848,7 +932,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:30.073905",
+      "scraped_at": "2026-08-24T11:34:59.409627",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -876,7 +960,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T10:01:30.123805",
+      "scraped_at": "2026-08-24T11:34:59.466161",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -904,7 +988,63 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T10:01:30.173615",
+      "scraped_at": "2026-08-24T11:34:59.524420",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "software-test-automation-engineer-at-peoplefy-4458167100",
+      "title": "Software Test Automation Engineer",
+      "company": "Peoplefy",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/software-test-automation-engineer-at-peoplefy-4458167100",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-08-24",
+      "scraped_at": "2026-08-24T11:34:59.582613",
+      "description": "",
+      "type": "India Remote",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title matches QA/Testing domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "software-test-engineer-part-time-rs101-15k-per-month-at-itester-inc-4455833677",
+      "title": "Software Test Engineer Part-time - Rs101-15K per month",
+      "company": "iTester Inc",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://in.linkedin.com/jobs/view/software-test-engineer-part-time-rs101-15k-per-month-at-itester-inc-4455833677",
+      "source": "linkedin",
+      "category": "india_remote",
+      "date_posted": "2026-08-24",
+      "scraped_at": "2026-08-24T11:34:59.665734",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -935,7 +1075,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:58:41.349325",
+      "scraped_at": "2026-08-24T11:32:14.648645",
       "match_score": 65,
       "match_reasons": [
         "Job title matches QA/Testing domain",
@@ -960,7 +1100,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:41.551506",
+      "scraped_at": "2026-08-24T11:36:11.031186",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -988,7 +1128,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:41.655583",
+      "scraped_at": "2026-08-24T11:36:11.146196",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1016,7 +1156,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:55.859561",
+      "scraped_at": "2026-08-24T11:36:24.126803",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1044,7 +1184,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:56.058727",
+      "scraped_at": "2026-08-24T11:36:24.406216",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1072,7 +1212,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:03:08.276667",
+      "scraped_at": "2026-08-24T11:36:37.517462",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -1102,7 +1242,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T04:15:05+00:00",
-      "scraped_at": "2026-08-24T09:58:55.283971",
+      "scraped_at": "2026-08-24T11:32:30.871216",
       "match_score": 30,
       "match_reasons": [
         "Seniority level matches your experience",
@@ -1129,7 +1269,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:15:07+00:00",
-      "scraped_at": "2026-08-24T09:58:55.309729",
+      "scraped_at": "2026-08-24T11:32:30.903506",
       "match_score": 30,
       "match_reasons": [
         "Seniority level matches your experience",
@@ -1156,7 +1296,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:10:02+00:00",
-      "scraped_at": "2026-08-24T09:58:46.022309",
+      "scraped_at": "2026-08-24T11:32:19.952603",
       "match_score": 25,
       "match_reasons": [
         "Mid-level position matches your profile",
@@ -1183,7 +1323,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T18:41:47+00:00",
-      "scraped_at": "2026-08-24T09:58:55.295108",
+      "scraped_at": "2026-08-24T11:32:30.886288",
       "match_score": 25,
       "match_reasons": [
         "Mid-level position matches your profile",
@@ -1208,7 +1348,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:16.800393",
+      "scraped_at": "2026-08-24T11:33:48.613971",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -1235,7 +1375,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.417066",
+      "scraped_at": "2026-08-24T11:34:14.890613",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -1265,7 +1405,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:58:41.327900",
+      "scraped_at": "2026-08-24T11:32:14.622215",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1291,7 +1431,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:05:08+00:00",
-      "scraped_at": "2026-08-24T09:58:45.991849",
+      "scraped_at": "2026-08-24T11:32:19.915436",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1317,7 +1457,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:00:06+00:00",
-      "scraped_at": "2026-08-24T09:58:45.995828",
+      "scraped_at": "2026-08-24T11:32:19.920218",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1343,7 +1483,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T03:55:53+00:00",
-      "scraped_at": "2026-08-24T09:58:45.999175",
+      "scraped_at": "2026-08-24T11:32:19.924216",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1369,7 +1509,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:47:09+00:00",
-      "scraped_at": "2026-08-24T09:58:46.012051",
+      "scraped_at": "2026-08-24T11:32:19.938558",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1395,7 +1535,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:47:07+00:00",
-      "scraped_at": "2026-08-24T09:58:46.013240",
+      "scraped_at": "2026-08-24T11:32:19.939993",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1421,7 +1561,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:05:03+00:00",
-      "scraped_at": "2026-08-24T09:58:46.023354",
+      "scraped_at": "2026-08-24T11:32:19.953847",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1447,7 +1587,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T10:01:59+00:00",
-      "scraped_at": "2026-08-24T09:58:46.033458",
+      "scraped_at": "2026-08-24T11:32:19.966335",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1473,7 +1613,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:51:19+00:00",
-      "scraped_at": "2026-08-24T09:58:46.038434",
+      "scraped_at": "2026-08-24T11:32:19.971222",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1499,7 +1639,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:44:33+00:00",
-      "scraped_at": "2026-08-24T09:58:46.042224",
+      "scraped_at": "2026-08-24T11:32:19.977144",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1525,7 +1665,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:27:30+00:00",
-      "scraped_at": "2026-08-24T09:58:46.045887",
+      "scraped_at": "2026-08-24T11:32:19.981714",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1551,7 +1691,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T03:40:03+00:00",
-      "scraped_at": "2026-08-24T09:58:46.049062",
+      "scraped_at": "2026-08-24T11:32:19.985618",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1577,7 +1717,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-15T16:20:13+00:00",
-      "scraped_at": "2026-08-24T09:58:50.514908",
+      "scraped_at": "2026-08-24T11:32:25.178220",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1603,7 +1743,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-09T03:32:22+00:00",
-      "scraped_at": "2026-08-24T09:58:51.999632",
+      "scraped_at": "2026-08-24T11:32:26.913079",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1629,7 +1769,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-17T13:03:42+00:00",
-      "scraped_at": "2026-08-24T09:58:55.281028",
+      "scraped_at": "2026-08-24T11:32:30.869840",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1655,7 +1795,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-13T09:26:49+00:00",
-      "scraped_at": "2026-08-24T09:58:55.286182",
+      "scraped_at": "2026-08-24T11:32:30.873873",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1681,7 +1821,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-13T09:20:04+00:00",
-      "scraped_at": "2026-08-24T09:58:55.286876",
+      "scraped_at": "2026-08-24T11:32:30.874714",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1707,7 +1847,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-10T04:25:04+00:00",
-      "scraped_at": "2026-08-24T09:58:55.287709",
+      "scraped_at": "2026-08-24T11:32:30.877252",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1733,7 +1873,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T17:14:36+00:00",
-      "scraped_at": "2026-08-24T09:58:55.289539",
+      "scraped_at": "2026-08-24T11:32:30.879528",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1759,7 +1899,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:10:08+00:00",
-      "scraped_at": "2026-08-24T09:58:55.296000",
+      "scraped_at": "2026-08-24T11:32:30.887304",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1785,7 +1925,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:51:36+00:00",
-      "scraped_at": "2026-08-24T09:58:55.300698",
+      "scraped_at": "2026-08-24T11:32:30.893836",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1811,7 +1951,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:51:32+00:00",
-      "scraped_at": "2026-08-24T09:58:55.303118",
+      "scraped_at": "2026-08-24T11:32:30.896825",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1837,7 +1977,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:40:07+00:00",
-      "scraped_at": "2026-08-24T09:58:55.305756",
+      "scraped_at": "2026-08-24T11:32:30.900077",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1863,7 +2003,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T12:18:30+00:00",
-      "scraped_at": "2026-08-24T09:58:55.317123",
+      "scraped_at": "2026-08-24T11:32:30.913071",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1889,7 +2029,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:34:17+00:00",
-      "scraped_at": "2026-08-24T09:58:55.318154",
+      "scraped_at": "2026-08-24T11:32:30.914216",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1915,7 +2055,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:02:40+00:00",
-      "scraped_at": "2026-08-24T09:58:55.331230",
+      "scraped_at": "2026-08-24T11:32:30.929985",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1941,7 +2081,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:02:24+00:00",
-      "scraped_at": "2026-08-24T09:58:55.333857",
+      "scraped_at": "2026-08-24T11:32:30.931783",
       "match_score": 20,
       "match_reasons": [
         "Seniority level matches your experience"
@@ -1965,7 +2105,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:16.854653",
+      "scraped_at": "2026-08-24T11:33:48.669970",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -1992,7 +2132,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:16.905266",
+      "scraped_at": "2026-08-24T11:33:48.727208",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2019,7 +2159,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:17.164324",
+      "scraped_at": "2026-08-24T11:33:49.006969",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2046,7 +2186,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.508149",
+      "scraped_at": "2026-08-24T11:34:01.509738",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2073,34 +2213,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.859121",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "member-of-technical-staff-pre-training-infra-at-reflection-4389847435",
-      "title": "Member of Technical Staff - Pre-Training Infra",
-      "company": "Reflection",
-      "location": "London, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/member-of-technical-staff-pre-training-infra-at-reflection-4389847435",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:28.909195",
+      "scraped_at": "2026-08-24T11:34:01.960049",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2127,7 +2240,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T10:00:43.016837",
+      "scraped_at": "2026-08-24T11:34:14.365342",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2154,7 +2267,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.265524",
+      "scraped_at": "2026-08-24T11:34:14.725579",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2181,7 +2294,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.317590",
+      "scraped_at": "2026-08-24T11:34:14.780869",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2208,7 +2321,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.367282",
+      "scraped_at": "2026-08-24T11:34:14.836317",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -2227,34 +2340,7 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "softwarevalidierer-baumaschinen-m-w-d-at-liebherr-group-4456815882",
-      "title": "Softwarevalidierer Baumaschinen (m/w/d)",
-      "company": "Liebherr Group",
-      "location": "Kirchdorf an der Iller, Baden-Württemberg, Germany",
-      "url": "https://de.linkedin.com/jobs/view/softwarevalidierer-baumaschinen-m-w-d-at-liebherr-group-4456815882",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.465337",
-      "description": "",
-      "type": "Outside India (Sponsorship)",
-      "easy_apply": false,
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "shine_386029",
+      "id": "shine_364886",
       "title": "Container DevOps SRE Engineer | 58 Years | Hyderabad",
       "company": "",
       "location": "India (Remote)",
@@ -2264,34 +2350,7 @@
       "category": "india_remote",
       "type": "India Remote",
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:59:31.437308",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-at-netapp-4453483169",
-      "title": "Software Engineer",
-      "company": "NetApp",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-at-netapp-4453483169",
-      "source": "linkedin",
-      "category": "india_remote",
-      "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:30.224795",
-      "description": "",
-      "type": "India Remote",
-      "easy_apply": false,
+      "scraped_at": "2026-08-24T11:33:03.478874",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2315,7 +2374,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:30.278086",
+      "scraped_at": "2026-08-24T11:35:12.423073",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -2342,7 +2401,7 @@
       "source": "linkedin",
       "category": "india_remote",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:01:30.329811",
+      "scraped_at": "2026-08-24T11:35:12.477865",
       "description": "",
       "type": "India Remote",
       "easy_apply": false,
@@ -2372,7 +2431,7 @@
       "type": "Remote Worldwide",
       "sponsorship": false,
       "date_posted": "2026-08-24",
-      "scraped_at": "2026-08-24T09:58:42.615062",
+      "scraped_at": "2026-08-24T11:32:15.988532",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2398,7 +2457,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:11:26+00:00",
-      "scraped_at": "2026-08-24T09:58:45.983441",
+      "scraped_at": "2026-08-24T11:32:19.905680",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2424,7 +2483,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:01:06+00:00",
-      "scraped_at": "2026-08-24T09:58:45.985760",
+      "scraped_at": "2026-08-24T11:32:19.906630",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2450,7 +2509,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:58+00:00",
-      "scraped_at": "2026-08-24T09:58:45.986367",
+      "scraped_at": "2026-08-24T11:32:19.907379",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2476,7 +2535,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:56+00:00",
-      "scraped_at": "2026-08-24T09:58:45.986968",
+      "scraped_at": "2026-08-24T11:32:19.908186",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2502,7 +2561,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-18T11:00:55+00:00",
-      "scraped_at": "2026-08-24T09:58:45.987702",
+      "scraped_at": "2026-08-24T11:32:19.909073",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2528,7 +2587,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:10:07+00:00",
-      "scraped_at": "2026-08-24T09:58:45.988918",
+      "scraped_at": "2026-08-24T11:32:19.910548",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2554,7 +2613,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:10:05+00:00",
-      "scraped_at": "2026-08-24T09:58:45.990094",
+      "scraped_at": "2026-08-24T11:32:19.913295",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2580,7 +2639,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:05:07+00:00",
-      "scraped_at": "2026-08-24T09:58:45.992841",
+      "scraped_at": "2026-08-24T11:32:19.916659",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2606,7 +2665,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:05:06+00:00",
-      "scraped_at": "2026-08-24T09:58:45.993985",
+      "scraped_at": "2026-08-24T11:32:19.917997",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2632,7 +2691,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T03:56:06+00:00",
-      "scraped_at": "2026-08-24T09:58:45.997935",
+      "scraped_at": "2026-08-24T11:32:19.922745",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2658,7 +2717,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T18:41:00+00:00",
-      "scraped_at": "2026-08-24T09:58:46.000609",
+      "scraped_at": "2026-08-24T11:32:19.925925",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2684,7 +2743,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:05:04+00:00",
-      "scraped_at": "2026-08-24T09:58:46.001453",
+      "scraped_at": "2026-08-24T11:32:19.926965",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2710,7 +2769,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:00:05+00:00",
-      "scraped_at": "2026-08-24T09:58:46.002334",
+      "scraped_at": "2026-08-24T11:32:19.928022",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2736,7 +2795,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:00:04+00:00",
-      "scraped_at": "2026-08-24T09:58:46.003424",
+      "scraped_at": "2026-08-24T11:32:19.929385",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2762,7 +2821,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:00:02+00:00",
-      "scraped_at": "2026-08-24T09:58:46.004396",
+      "scraped_at": "2026-08-24T11:32:19.930550",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2788,7 +2847,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:55:07+00:00",
-      "scraped_at": "2026-08-24T09:58:46.005409",
+      "scraped_at": "2026-08-24T11:32:19.931803",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2814,7 +2873,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:55:04+00:00",
-      "scraped_at": "2026-08-24T09:58:46.006412",
+      "scraped_at": "2026-08-24T11:32:19.933074",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2840,7 +2899,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:55:03+00:00",
-      "scraped_at": "2026-08-24T09:58:46.007849",
+      "scraped_at": "2026-08-24T11:32:19.934809",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2866,7 +2925,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:51:27+00:00",
-      "scraped_at": "2026-08-24T09:58:46.011046",
+      "scraped_at": "2026-08-24T11:32:19.937339",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2892,7 +2951,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:47:06+00:00",
-      "scraped_at": "2026-08-24T09:58:46.014167",
+      "scraped_at": "2026-08-24T11:32:19.941172",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2918,7 +2977,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:40:05+00:00",
-      "scraped_at": "2026-08-24T09:58:46.016260",
+      "scraped_at": "2026-08-24T11:32:19.944964",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2944,7 +3003,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:40:02+00:00",
-      "scraped_at": "2026-08-24T09:58:46.017424",
+      "scraped_at": "2026-08-24T11:32:19.946436",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2970,7 +3029,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:35:04+00:00",
-      "scraped_at": "2026-08-24T09:58:46.018329",
+      "scraped_at": "2026-08-24T11:32:19.947590",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -2996,7 +3055,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:30:08+00:00",
-      "scraped_at": "2026-08-24T09:58:46.019464",
+      "scraped_at": "2026-08-24T11:32:19.948993",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3022,7 +3081,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:30:06+00:00",
-      "scraped_at": "2026-08-24T09:58:46.020368",
+      "scraped_at": "2026-08-24T11:32:19.950133",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3048,7 +3107,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:15:02+00:00",
-      "scraped_at": "2026-08-24T09:58:46.021492",
+      "scraped_at": "2026-08-24T11:32:19.951545",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3074,7 +3133,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T12:24:17+00:00",
-      "scraped_at": "2026-08-24T09:58:46.024090",
+      "scraped_at": "2026-08-24T11:32:19.954755",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3100,7 +3159,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:32:35+00:00",
-      "scraped_at": "2026-08-24T09:58:46.027766",
+      "scraped_at": "2026-08-24T11:32:19.959347",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3126,7 +3185,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:08:35+00:00",
-      "scraped_at": "2026-08-24T09:58:46.029365",
+      "scraped_at": "2026-08-24T11:32:19.961343",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3152,7 +3211,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T15:33:48+00:00",
-      "scraped_at": "2026-08-24T09:58:46.030241",
+      "scraped_at": "2026-08-24T11:32:19.962427",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3178,7 +3237,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T15:31:05+00:00",
-      "scraped_at": "2026-08-24T09:58:46.031413",
+      "scraped_at": "2026-08-24T11:32:19.963849",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3204,7 +3263,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T10:01:11+00:00",
-      "scraped_at": "2026-08-24T09:58:46.034251",
+      "scraped_at": "2026-08-24T11:32:19.967291",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3230,7 +3289,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:52:06+00:00",
-      "scraped_at": "2026-08-24T09:58:46.036782",
+      "scraped_at": "2026-08-24T11:32:19.969157",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3256,7 +3315,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:50:45+00:00",
-      "scraped_at": "2026-08-24T09:58:46.039911",
+      "scraped_at": "2026-08-24T11:32:19.974252",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3282,7 +3341,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:49:56+00:00",
-      "scraped_at": "2026-08-24T09:58:46.041225",
+      "scraped_at": "2026-08-24T11:32:19.975869",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3308,7 +3367,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T09:28:03+00:00",
-      "scraped_at": "2026-08-24T09:58:46.044066",
+      "scraped_at": "2026-08-24T11:32:19.979419",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3334,7 +3393,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-21T03:40:04+00:00",
-      "scraped_at": "2026-08-24T09:58:46.047000",
+      "scraped_at": "2026-08-24T11:32:19.983088",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3360,7 +3419,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-14T04:45:02+00:00",
-      "scraped_at": "2026-08-24T09:58:51.997859",
+      "scraped_at": "2026-08-24T11:32:26.911298",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3386,7 +3445,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:00:05+00:00",
-      "scraped_at": "2026-08-24T09:58:55.291292",
+      "scraped_at": "2026-08-24T11:32:30.881653",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3412,7 +3471,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-23T05:00:02+00:00",
-      "scraped_at": "2026-08-24T09:58:55.293448",
+      "scraped_at": "2026-08-24T11:32:30.884267",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3438,7 +3497,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:10:07+00:00",
-      "scraped_at": "2026-08-24T09:58:55.297847",
+      "scraped_at": "2026-08-24T11:32:30.890300",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3464,7 +3523,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T17:10:04+00:00",
-      "scraped_at": "2026-08-24T09:58:55.298868",
+      "scraped_at": "2026-08-24T11:32:30.891569",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3490,7 +3549,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:55:02+00:00",
-      "scraped_at": "2026-08-24T09:58:55.299713",
+      "scraped_at": "2026-08-24T11:32:30.892637",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3516,7 +3575,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:51:33+00:00",
-      "scraped_at": "2026-08-24T09:58:55.301664",
+      "scraped_at": "2026-08-24T11:32:30.895049",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3542,7 +3601,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:51:29+00:00",
-      "scraped_at": "2026-08-24T09:58:55.304614",
+      "scraped_at": "2026-08-24T11:32:30.898743",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3568,7 +3627,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:25:05+00:00",
-      "scraped_at": "2026-08-24T09:58:55.306600",
+      "scraped_at": "2026-08-24T11:32:30.901251",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3594,7 +3653,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:15:08+00:00",
-      "scraped_at": "2026-08-24T09:58:55.308723",
+      "scraped_at": "2026-08-24T11:32:30.902245",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3620,7 +3679,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:10:07+00:00",
-      "scraped_at": "2026-08-24T09:58:55.310965",
+      "scraped_at": "2026-08-24T11:32:30.905069",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3646,33 +3705,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:05:08+00:00",
-      "scraped_at": "2026-08-24T09:58:55.312200",
-      "match_score": 15,
-      "match_reasons": [
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "MAYBE",
-      "recommendation_reason": "Title-based match",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "jobicy_144246",
-      "title": "AI Engineer (Latam, Remote)",
-      "company": "Kubikware",
-      "location": "LATAM",
-      "url": "https://jobicy.com/jobs/144246-ai-engineer-latam-remote",
-      "description": "We are Kubikware™ , a digital agency with 20+ years of experience designing and developing web and mobile platforms, as well as video games, AR/VR apps, and AI/ML. We are headquartered in Miami, FL with a strong South American team, and have clients and partners in the US market of all sizes and verticals. Among other accolades, we are a 5-time Inc. 5000 Fastest Growing Companies in America honoree. We are looking to expand our amazing roster with a AI Engineer , located in Latin America. As we are currently working with multiple companies on many different products, we have quite a few projects where someone like you could make a difference. We are looking for: 4+ years of experience in Software Engineering, AI Integrations, Automation, or Backend Development Strong hands-on experience with: Open AI Whisper API for transcription and speech processing Claude AI and LLM integrations n8n for workflow automation and orchestration Replit for rapid app/web development and prototyping Supabase for database management, authentication, and backend services Experience building AI-driven workflows and integrating third-party APIs Strong understanding of prompt engineering and AI tool orchestration Experience developing lightweight web applications and internal tools Ability to work independently and move quickly in a fast-paced environment Strong communication skills and experience collaborating with distributed teams We offer: Fully remote position (LATAM) Part-time engagement with flexibility Opportunity to work on cutting-edge AI initiatives and real-world implementations Collaboration with U.S.-based teams High level of ownership and autonomy Compensation in U.S. Dollars If you are as excited to learn more as we are to work with you, please submit your resume and let’s be in touch!Please, no agencies or C2C.",
-      "source": "jobicy",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "date_posted": "2026-08-22T16:05:06+00:00",
-      "scraped_at": "2026-08-24T09:58:55.312717",
+      "scraped_at": "2026-08-24T11:32:30.907830",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3698,7 +3731,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T15:44:18+00:00",
-      "scraped_at": "2026-08-24T09:58:55.314427",
+      "scraped_at": "2026-08-24T11:32:30.909730",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3724,7 +3757,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T12:24:32+00:00",
-      "scraped_at": "2026-08-24T09:58:55.315815",
+      "scraped_at": "2026-08-24T11:32:30.911529",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3750,7 +3783,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:33:47+00:00",
-      "scraped_at": "2026-08-24T09:58:55.320657",
+      "scraped_at": "2026-08-24T11:32:30.917320",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3776,7 +3809,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:33:04+00:00",
-      "scraped_at": "2026-08-24T09:58:55.321791",
+      "scraped_at": "2026-08-24T11:32:30.918609",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3802,7 +3835,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:30:04+00:00",
-      "scraped_at": "2026-08-24T09:58:55.323207",
+      "scraped_at": "2026-08-24T11:32:30.920428",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3828,7 +3861,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:29:37+00:00",
-      "scraped_at": "2026-08-24T09:58:55.325822",
+      "scraped_at": "2026-08-24T11:32:30.923499",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3854,7 +3887,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:29:24+00:00",
-      "scraped_at": "2026-08-24T09:58:55.326654",
+      "scraped_at": "2026-08-24T11:32:30.924514",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3880,7 +3913,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:08:08+00:00",
-      "scraped_at": "2026-08-24T09:58:55.328268",
+      "scraped_at": "2026-08-24T11:32:30.926420",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3906,7 +3939,33 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T04:03:11+00:00",
-      "scraped_at": "2026-08-24T09:58:55.329326",
+      "scraped_at": "2026-08-24T11:32:30.927685",
+      "match_score": 15,
+      "match_reasons": [
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "MAYBE",
+      "recommendation_reason": "Title-based match",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "jobicy_151332",
+      "title": "Knowledge Systems Manager",
+      "company": "Boulevard",
+      "location": "USA",
+      "url": "https://jobicy.com/jobs/151332-knowledge-systems-manager",
+      "description": "Who is Boulevard? Boulevard provides the first and only client experience platform for appointment-based, self-care businesses. We empower our customers to give their clients more of the magical moments that matter most. Before launching in 2016, our founders spent months interviewing salon managers and working behind front desks to understand their pain points so we could design a modern, user-friendly platform that meets the unique needs of their business. Our roots may be in hair salons, but we are built for the broader self-care industry, including many types of salons, spas, medspa, barbershops, and more. Our technology not only helps our customers survive but thrive. Take a look at how we (and YOU) can make that happen . We have an insatiable curiosity and embrace experimentation. We believe that simple solutions require the most sophistication, and we design each and every detail to maximize potential, power, and impact. Do our values match? Read through our story and what we value the most . Our team values and celebrates our diverse backgrounds. Being open about who we are and what we do allows us to do the best work of our lives. We believe in equal opportunity for all, and you should too. Come do the best work of your life at Boulevard. Boulevard's Education team operates at the intersection of Sales, Customer Success, and Marketing, empowering both our customers and internal teams with industry education and strategic methods to drive revenue growth. We are seeking a Knowledge Systems Manager to own and scale our knowledge ecosystem across both customer-facing and internal resources, reporting to the Manager of Education. This role drives the strategy, governance, and organization of our Support Center and all customer-facing content, while also owning the creation and management of internal documentation used cross-functionally by GTM, Marketing, Product, and Support teams. In addition, this role leads AI knowledge optimization — ensuring our AI agent and chatbot surface accurate, high-quality information and continuously improve self-service resolution. You'll use product changes, support trends, and performance data to improve how customers get help, making support more efficient and easier to scale over time. What you'll do here: Knowledge Base Ownership & Strategy Own all customer-facing Support Center content, including creation, governance, updates, and archival Define and maintain Support Center taxonomy, structure, tone of voice, and discoverability standards Create and curate engaging and informative content, including articles, guides, tutorials, and videos, to facilitate education and skill development among customers and team members Establish content quality guidelines to ensure clarity, consistency, and alignment with product functionality Support the upkeep of internal and external knowledge systems (Education Confluence, internal GPTs, LMS training content, Academy, and documentation), helping ensure content stays acc",
+      "source": "jobicy",
+      "category": "remote_worldwide",
+      "type": "Remote Worldwide",
+      "date_posted": "2026-08-21T15:34:09+00:00",
+      "scraped_at": "2026-08-24T11:32:30.934086",
       "match_score": 15,
       "match_reasons": [
         "Mid-level position matches your profile"
@@ -3930,7 +3989,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:41.237384",
+      "scraped_at": "2026-08-24T11:36:10.688319",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -3957,7 +4016,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:41.396400",
+      "scraped_at": "2026-08-24T11:36:10.861195",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -3984,7 +4043,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:41.498196",
+      "scraped_at": "2026-08-24T11:36:10.973135",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4011,7 +4070,7 @@
       "source": "linkedin",
       "category": "remote_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:02:55.759181",
+      "scraped_at": "2026-08-24T11:36:24.015708",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
@@ -4038,7 +4097,7 @@
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "date_posted": "2026-08-23",
-      "scraped_at": "2026-08-24T10:00:43.067080",
+      "scraped_at": "2026-08-24T11:34:14.483183",
       "description": "",
       "type": "Outside India (Sponsorship)",
       "easy_apply": false,
@@ -4067,7 +4126,7 @@
       "category": "remote_worldwide",
       "type": "Remote Worldwide",
       "date_posted": "2026-08-22T16:40:08+00:00",
-      "scraped_at": "2026-08-24T09:58:46.015287",
+      "scraped_at": "2026-08-24T11:32:19.943733",
       "match_score": 0,
       "match_reasons": [
         "QA role matching your profile"
@@ -4130,9 +4189,9 @@
   },
   "stats": {
     "excellent": 0,
-    "good": 39,
-    "india_remote": 14,
+    "good": 44,
+    "india_remote": 15,
     "sponsorship": 30,
-    "remote_worldwide": 109
+    "remote_worldwide": 110
   }
 }
