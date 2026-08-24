@@ -128,11 +128,28 @@ jobs:
         run: |
           git config user.name "QA Job Bot"
           git config user.email "qa-bot@users.noreply.github.com"
+
+          echo "💾 Saving generated dashboard..."
+          cp docs/jobs.json /tmp/jobs.json
+
+          echo "🔄 Fetching latest main..."
+          git fetch origin main
+
+          echo "📌 Checking out latest main..."
+          git checkout -B main origin/main
+
+          echo "📊 Restoring generated dashboard..."
+          cp /tmp/jobs.json docs/jobs.json
+
           git add -f docs/jobs.json
-          if git status --porcelain | grep -q "docs/jobs.json"; then
-            git commit -m "📊 Daily jobs $(date '+%Y-%m-%d') [skip ci]"
-            git push origin HEAD:main
-            echo "✅ Dashboard updated!"
-          else
+
+          if git diff --cached --quiet; then
             echo "ℹ️ No changes"
+          else
+            git commit -m "📊 Daily jobs $(date '+%Y-%m-%d') [skip ci]"
+
+            echo "🚀 Pushing dashboard to main..."
+            git push origin main
+
+            echo "✅ Dashboard updated!"
           fi
