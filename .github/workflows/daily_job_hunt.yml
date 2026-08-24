@@ -132,6 +132,9 @@ jobs:
           echo "💾 Saving generated dashboard..."
           cp docs/jobs.json /tmp/jobs.json
 
+          echo "🧹 Removing generated working-tree file..."
+          git restore docs/jobs.json
+
           echo "🔄 Fetching latest main..."
           git fetch origin main
 
