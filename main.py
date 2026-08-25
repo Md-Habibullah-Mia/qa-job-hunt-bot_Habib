@@ -57,7 +57,7 @@ def run_full_pipeline(resume_path: str = None):
 
     # ── STEP 1: SCRAPE ──────────────────────────────────────────
     print("📡 STEP 1: Scraping job boards...")
-    all_raw_jobs = {"sponsorship_worldwide": [], "india_remote": [], "remote_worldwide": []}
+    all_raw_jobs = {"sponsorship_worldwide": [], "bangladesh_remote": [], "remote_worldwide": []}
 
     try:
         from scrapers.remote_scraper import scrape_all_remote_boards
@@ -152,7 +152,7 @@ def run_full_pipeline(resume_path: str = None):
 
     os.makedirs("logs", exist_ok=True)
     report_path = f"logs/report_{datetime.now().strftime('%Y%m%d')}.html"
-    with open(report_path, "w") as f:
+    with open(report_path, "w", encoding="utf-8") as f:
         f.write(html_report)
 
     # ── STEP 8: SEND EMAIL ───────────────────────────────────────

@@ -110,7 +110,7 @@ jobs:
             mkdir -p docs
             python3 -c "
           import json, datetime
-          json.dump({'generated_at': datetime.datetime.now().isoformat(),'total_scraped':0,'total_matched':0,'jobs':[],'stats':{'excellent':0,'good':0,'india_remote':0,'sponsorship':0,'remote_worldwide':0}}, open('docs/jobs.json','w'))
+          json.dump({'generated_at': datetime.datetime.now().isoformat(),'total_scraped':0,'total_matched':0,'jobs':[],'stats':{'excellent':0,'good':0,'bangladesh_remote':0,'sponsorship':0,'remote_worldwide':0}}, open('docs/jobs.json','w'))
           print('placeholder created')
           "
           fi

@@ -28,12 +28,32 @@ def get_score_label(score):
 
 def get_category_style(category):
     styles = {
-        "sponsorship_worldwide": {"icon": "✈️", "title": "Outside India — Visa Sponsorship", "color": "#16a34a", "bg": "#f0fdf4", "border": "#86efac"},
-        "india_remote": {"icon": "🇮🇳", "title": "India — Remote Only", "color": "#2563eb", "bg": "#eff6ff", "border": "#93c5fd"},
-        "remote_worldwide": {"icon": "🌍", "title": "Remote — Worldwide", "color": "#7c3aed", "bg": "#f5f3ff", "border": "#c4b5fd"},
+        "sponsorship_worldwide": {
+            "icon": "✈️",
+            "title": "Outside Bangladesh — Visa Sponsorship",
+            "color": "#16a34a",
+            "bg": "#f0fdf4",
+            "border": "#86efac"
+        },
+        "remote_worldwide": {
+            "icon": "🌎",
+            "title": "Remote — Worldwide",
+            "color": "#7c3aed",
+            "bg": "#f5f3ff",
+            "border": "#c4b5fd"
+        },
     }
-    return styles.get(category, {"icon": "💼", "title": category, "color": "#374151", "bg": "#f9fafb", "border": "#e5e7eb"})
 
+    return styles.get(
+        category,
+        {
+            "icon": "💼",
+            "title": category,
+            "color": "#374151",
+            "bg": "#f9fafb",
+            "border": "#e5e7eb"
+        }
+    )
 
 def build_job_card(job):
     score = job.get("match_score", 0)
