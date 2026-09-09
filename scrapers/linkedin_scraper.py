@@ -16,6 +16,8 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from scrapers.remote_scraper import classify_remote_scope
+
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "config.json")
 
 
@@ -188,6 +190,19 @@ async def extract_job_card(card, category: str) -> dict:
         if "?" in url:
             url = url.split("?")[0]
 
+        final_category = category
+
+        if category == "remote_worldwide":
+            # A "remote worldwide" search can still return a listing
+            # hard-restricted to one country (e.g. "Remote - USA") —
+            # trust the card's own scraped location over the search
+            # bucket. sponsorship_worldwide/india_remote searches are
+            # intentionally geo-targeted, so leave those as-is.
+            scope = classify_remote_scope(location)
+            if scope == "country_restricted":
+                return None
+            final_category = scope
+
         return {
             "id": url.split("/")[-1] if url else "",
             "title": title.strip(),
@@ -195,11 +210,11 @@ async def extract_job_card(card, category: str) -> dict:
             "location": location.strip(),
             "url": url.strip(),
             "source": "linkedin",
-            "category": category,
+            "category": final_category,
             "date_posted": date_posted,
             "scraped_at": datetime.now().isoformat(),
             "description": "",  # Will be fetched during matching if needed
-            "type": _get_type_label(category),
+            "type": _get_type_label(final_category),
             "easy_apply": False,  # Will check during apply step
         }
     except Exception:
@@ -210,7 +225,8 @@ def _get_type_label(category: str) -> str:
     labels = {
         "sponsorship_worldwide": "Outside India (Sponsorship)",
         "india_remote": "India Remote",
-        "remote_worldwide": "Remote Worldwide"
+        "remote_worldwide": "Remote Worldwide",
+        "bangladesh_remote": "Bangladesh Remote",
     }
     return labels.get(category, category)
 

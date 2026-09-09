@@ -13,6 +13,8 @@ Sources:
     - Arbeitnow
     - Jobicy
     - Indeed worldwide RSS
+    - RemoteOK
+    - We Work Remotely
     - LinkedIn public search
     - Bdjobs
 
@@ -605,7 +607,7 @@ def scrape_linkedin_public() -> list:
                 or soup.select("[data-entity-urn]")
             )
 
-            for card in cards[:25]:
+            for card in cards[:40]:
 
                 title_el = (
                     card.select_one(
@@ -1145,7 +1147,7 @@ def scrape_arbeitnow() -> list:
 
     try:
 
-        for page_number in range(1, 4):
+        for page_number in range(1, 8):
 
             url = (
                 "https://www.arbeitnow.com/"
@@ -1504,7 +1506,7 @@ def scrape_indeed_worldwide_rss() -> list:
 
             items = root.findall(".//item")
 
-            for item in items[:15]:
+            for item in items[:25]:
 
                 title = (
                     item.findtext(
@@ -1612,6 +1614,213 @@ def scrape_indeed_worldwide_rss() -> list:
     print(
         f"   ✅ Indeed Worldwide: "
         f"{len(jobs)} jobs"
+    )
+
+    return jobs
+
+
+# ─────────────────────────────────────────────────────────────
+# RemoteOK
+# ─────────────────────────────────────────────────────────────
+
+def scrape_remoteok() -> list:
+    """
+    Scrape RemoteOK's public API for QA/SDET jobs.
+
+    Single global endpoint covering many companies at once —
+    no per-company board tokens to maintain.
+    """
+
+    jobs = []
+    seen = set()
+
+    try:
+        response = safe_get("https://remoteok.com/api")
+
+        if not response or response.status_code != 200:
+            print("   ⚠️ RemoteOK: request failed")
+            return jobs
+
+        data = response.json()
+
+        for entry in data:
+
+            # The first array entry is API terms-of-service
+            # metadata, not a job listing.
+            if "id" not in entry or "position" not in entry:
+                continue
+
+            job_id = str(entry.get("id", ""))
+
+            if job_id in seen:
+                continue
+
+            title = entry.get("position", "")
+
+            description = clean_html(
+                entry.get("description", "")
+            )
+
+            tags_text = " ".join(
+                str(tag) for tag in entry.get("tags", [])
+            )
+
+            if not is_qa_job(
+                title,
+                f"{description[:1000]} {tags_text}",
+            ):
+                continue
+
+            job_url = normalize_url(
+                entry.get("url", "")
+                or entry.get("apply_url", "")
+            )
+
+            if not job_url:
+                continue
+
+            location = entry.get("location", "") or "Worldwide"
+
+            scope = classify_remote_scope(location)
+
+            if scope == "country_restricted":
+                continue
+
+            seen.add(job_id)
+
+            salary = ""
+
+            if entry.get("salary_min"):
+                salary = (
+                    f"{entry.get('salary_min')}-"
+                    f"{entry.get('salary_max', '')}"
+                )
+
+            jobs.append(
+                build_job(
+                    source="remoteok",
+                    title=title,
+                    company=entry.get("company", ""),
+                    location=location,
+                    url=job_url,
+                    description=description,
+                    category=scope,
+                    job_type=(
+                        "Bangladesh Remote"
+                        if scope == "bangladesh_remote"
+                        else "Remote Worldwide"
+                    ),
+                    date_posted=entry.get("date", ""),
+                    salary=salary,
+                )
+            )
+
+    except Exception as error:
+        print(f"   ⚠️ RemoteOK: {error}")
+
+    print(
+        f"   ✅ RemoteOK: {len(jobs)} QA jobs"
+    )
+
+    return jobs
+
+
+# ─────────────────────────────────────────────────────────────
+# We Work Remotely
+# ─────────────────────────────────────────────────────────────
+
+def scrape_weworkremotely() -> list:
+    """
+    Scrape We Work Remotely's public RSS feed for QA/SDET jobs.
+    """
+
+    jobs = []
+    seen = set()
+
+    try:
+        response = safe_get(
+            "https://weworkremotely.com/remote-jobs.rss"
+        )
+
+        if not response or response.status_code != 200:
+            print("   ⚠️ We Work Remotely: request failed")
+            return jobs
+
+        root = ET.fromstring(response.content)
+
+        for item in root.findall(".//item"):
+
+            raw_title = item.findtext("title", "").strip()
+            raw_description = item.findtext("description", "")
+
+            # WWR titles are formatted "Company: Job Title".
+            if ":" in raw_title:
+                company, _, title = raw_title.partition(":")
+                company = company.strip()
+                title = title.strip()
+            else:
+                company = ""
+                title = raw_title
+
+            description = clean_html(raw_description)
+
+            if not title or not is_qa_job(
+                title,
+                description[:1000],
+            ):
+                continue
+
+            link = normalize_url(
+                item.findtext("link", "").strip()
+            )
+
+            if not link or link in seen:
+                continue
+
+            # WWR descriptions typically open with
+            # "Headquarters: <location>" — the closest available
+            # eligibility signal.
+            location_match = re.search(
+                r"Headquarters:\s*([^\n<]+)",
+                raw_description,
+            )
+
+            location = (
+                location_match.group(1).strip()
+                if location_match
+                else "Worldwide"
+            )
+
+            scope = classify_remote_scope(location)
+
+            if scope == "country_restricted":
+                continue
+
+            seen.add(link)
+
+            jobs.append(
+                build_job(
+                    source="weworkremotely",
+                    title=title,
+                    company=company,
+                    location=location,
+                    url=link,
+                    description=description,
+                    category=scope,
+                    job_type=(
+                        "Bangladesh Remote"
+                        if scope == "bangladesh_remote"
+                        else "Remote Worldwide"
+                    ),
+                    date_posted=item.findtext("pubDate", ""),
+                )
+            )
+
+    except Exception as error:
+        print(f"   ⚠️ We Work Remotely: {error}")
+
+    print(
+        f"   ✅ We Work Remotely: {len(jobs)} QA jobs"
     )
 
     return jobs
@@ -1734,6 +1943,36 @@ def scrape_all_remote_boards() -> dict:
 
     for job in scrape_indeed_worldwide_rss():
 
+        category = job.get(
+            "category",
+            "remote_worldwide",
+        )
+
+        if category not in results:
+            category = "remote_worldwide"
+
+        results[category].append(job)
+
+    print(
+        "  📍 RemoteOK..."
+    )
+
+    for job in scrape_remoteok():
+        category = job.get(
+            "category",
+            "remote_worldwide",
+        )
+
+        if category not in results:
+            category = "remote_worldwide"
+
+        results[category].append(job)
+
+    print(
+        "  📍 We Work Remotely..."
+    )
+
+    for job in scrape_weworkremotely():
         category = job.get(
             "category",
             "remote_worldwide",
