@@ -1718,9 +1718,15 @@ def scrape_all_remote_boards() -> dict:
     )
 
     for job in scrape_jobicy():
-        results["remote_worldwide"].append(
-            job
+        category = job.get(
+            "category",
+            "remote_worldwide",
         )
+
+        if category not in results:
+            category = "remote_worldwide"
+
+        results[category].append(job)
 
     print(
         "  📍 Indeed Worldwide..."
