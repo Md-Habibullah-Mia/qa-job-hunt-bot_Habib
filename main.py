@@ -9,6 +9,11 @@ import os
 import sys
 from datetime import datetime
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config", "config.json")
@@ -16,7 +21,7 @@ PROFILE_PATH = os.path.join(os.path.dirname(__file__), "config", "resume_profile
 
 
 def load_config():
-    with open(CONFIG_PATH) as f:
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -24,21 +29,33 @@ def load_profile():
     if not os.path.exists(PROFILE_PATH):
         print("❌ Resume profile not found.")
         sys.exit(1)
-    with open(PROFILE_PATH) as f:
+    with open(PROFILE_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def check_api_key(config):
-    key = config["api_keys"].get("gemini_api_key", "")
+    key = config.get("api_keys", {}).get("gemini_api_key", "") or os.environ.get("GEMINI_API_KEY", "")
     if not key or key == "YOUR_GEMINI_API_KEY_HERE":
-        print("❌ Gemini API key not set!")
-        sys.exit(1)
+        print("⚠️ Note: Gemini API key is not set in config/config.json.")
+        print("   Running in Local Fallback Mode (title-based matching).")
+        print("   To enable Gemini AI, get a free key at https://aistudio.google.com and add it to config/config.json\n")
+        return False
+    return True
 
 
 def run_full_pipeline(resume_path: str = None):
     config = load_config()
     check_api_key(config)
     profile = load_profile()
+
+    # Fall back to config's resume_path when no --resume-path was passed —
+    # needed so auto-apply can actually attach a resume in the scheduled
+    # (GitHub Actions) run, which never passes the CLI flag.
+    if not resume_path:
+        resume_path = config.get("resume_path", "")
+        if resume_path and not os.path.exists(resume_path):
+            print(f"⚠️ resume_path in config.json does not exist: {resume_path}")
+            resume_path = ""
 
     is_github = os.environ.get("GITHUB_ACTIONS") == "true"
     github_repo = os.environ.get("GITHUB_REPOSITORY", "")
@@ -48,8 +65,16 @@ def run_full_pipeline(resume_path: str = None):
     # Dashboard URL on GitHub Pages
     dashboard_url = f"https://{github_username}.github.io/{github_reponame}/" if github_username else ""
 
+    try:
+        import pytz
+        bd_tz = pytz.timezone("Asia/Dhaka")
+        now_bd = datetime.now(bd_tz)
+    except Exception:
+        from datetime import timezone, timedelta
+        now_bd = datetime.now(timezone(timedelta(hours=6)))
+
     print(f"\n{'='*60}")
-    print(f"🚀 QA JOB HUNT BOT - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"🚀 QA JOB HUNT BOT - {now_bd.strftime('%Y-%m-%d %H:%M BST')}")
     print(f"🤖 Gemini AI (FREE) | {'☁️ GitHub Actions' if is_github else '💻 Local'}")
     print(f"{'='*60}")
     print(f"👤 {profile['personal'].get('name', 'QA Engineer')}")
@@ -57,19 +82,20 @@ def run_full_pipeline(resume_path: str = None):
 
     # ── STEP 1: SCRAPE ──────────────────────────────────────────
     print("📡 STEP 1: Scraping job boards...")
-    all_raw_jobs = {"sponsorship_worldwide": [], "bangladesh_remote": [], "remote_worldwide": []}
+    # Order: 1. Remote Worldwide, 2. bangladesh_remote, 3. Outside Bangladesh Visa Sponsorship
+    all_raw_jobs = {"remote_worldwide": [], "bangladesh_remote": [], "sponsorship_worldwide": []}
 
     try:
         from scrapers.remote_scraper import scrape_all_remote_boards
         for cat, jobs in scrape_all_remote_boards().items():
-            all_raw_jobs[cat].extend(jobs)
+            all_raw_jobs.setdefault(cat, []).extend(jobs)
     except Exception as e:
         print(f"⚠️ Remote scraper error: {e}")
 
     try:
         from scrapers.linkedin_scraper import scrape_all_categories
         for cat, jobs in scrape_all_categories(max_jobs=config["search_settings"]["max_jobs_per_source"]).items():
-            all_raw_jobs[cat].extend(jobs)
+            all_raw_jobs.setdefault(cat, []).extend(jobs)
     except Exception as e:
         print(f"⚠️ LinkedIn scraper error: {e}")
 
@@ -89,10 +115,17 @@ def run_full_pipeline(resume_path: str = None):
     print("\n🤖 STEP 3: AI Matching with Gemini...")
     from matcher.job_matcher import batch_match_jobs, generate_skill_gap_analysis
     min_score = config["job_preferences"]["min_match_score"]
-    matched_jobs = {}
+    
+    # Process categories in exact requested order:
+    # 1. Remote Worldwide
+    # 2. bangladesh_remote
+    # 3. Outside Bangladesh Visa Sponsorship
+    ORDERED_CATEGORIES = ["remote_worldwide", "bangladesh_remote", "sponsorship_worldwide"]
+    matched_jobs = {cat: [] for cat in ORDERED_CATEGORIES}
     all_scored_jobs = []
 
-    for cat, jobs in deduped_jobs.items():
+    for cat in ORDERED_CATEGORIES:
+        jobs = deduped_jobs.get(cat, [])
         if not jobs:
             matched_jobs[cat] = []
             continue
@@ -101,12 +134,28 @@ def run_full_pipeline(resume_path: str = None):
         matched_jobs[cat] = matched
         all_scored_jobs.extend(matched)
 
+    for cat, jobs in deduped_jobs.items():
+        if cat not in matched_jobs:
+            print(f"\n  📂 {cat} ({len(jobs)} jobs)")
+            matched = batch_match_jobs(jobs, min_score=min_score)
+            matched_jobs[cat] = matched
+            all_scored_jobs.extend(matched)
+
     total_matched = sum(len(j) for j in matched_jobs.values())
     print(f"\n✅ Matched: {total_matched} jobs")
 
+    all_flat = [j for jobs in matched_jobs.values() for j in jobs]
+
+    # ── STEP 3b: COVER NOTES for the top matches ────────────────
+    print("\n📝 STEP 3b: Writing cover notes...")
+    try:
+        from matcher.cover_note import generate_cover_notes
+        generate_cover_notes(all_flat, profile, config["api_keys"]["gemini_api_key"])
+    except Exception as e:
+        print(f"   ⚠️ Cover note error: {e}")
+
     # ── STEP 4a: LINKEDIN AUTO-APPLY (local only) ───────────────
     applied_results = []
-    all_flat = [j for jobs in matched_jobs.values() for j in jobs]
 
     if not is_github and config["linkedin"].get("auto_apply", False):
         from apply.auto_apply import run_auto_apply
@@ -122,6 +171,11 @@ def run_full_pipeline(resume_path: str = None):
             applied_results.extend(direct_results)
         except Exception as e:
             print(f"   ⚠️ Direct apply error: {e}")
+
+    # Results hold the same job dicts, so the dashboard sees what the bot did
+    for r in applied_results:
+        if isinstance(r.get("job"), dict) and r.get("status"):
+            r["job"]["bot_apply_status"] = r["status"]
 
     # ── STEP 5: SKILL GAP ANALYSIS ──────────────────────────────
     print("\n🧠 STEP 5: Skill gap analysis...")
@@ -151,7 +205,7 @@ def run_full_pipeline(resume_path: str = None):
     )
 
     os.makedirs("logs", exist_ok=True)
-    report_path = f"logs/report_{datetime.now().strftime('%Y%m%d')}.html"
+    report_path = f"logs/report_{now_bd.strftime('%Y%m%d')}.html"
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(html_report)
 

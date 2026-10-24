@@ -13,6 +13,8 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from apply.question_answerer import answer_question
+
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "config.json")
 PROFILE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "resume_profile.json")
 APPLIED_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "applied_jobs.json")
@@ -39,6 +41,92 @@ def save_applied_job(job_id: str, job: dict, status: str, method: str = "linkedi
     os.makedirs(os.path.dirname(APPLIED_PATH), exist_ok=True)
     with open(APPLIED_PATH, "w") as f:
         json.dump(applied, f, indent=2)
+
+
+async def _answer_radio_groups(page, profile: dict):
+    """
+    Answer Yes/No (and similar) radio-button question groups based on the
+    actual question text, using the same pattern-matching as the ATS forms.
+    A group is left unanswered — not guessed — when the question text can't
+    be read or matched, so it blocks Next/Submit and surfaces as
+    "skipped_manual_needed" instead of submitting a wrong answer.
+    """
+    groups = await page.query_selector_all("fieldset:has(input[type='radio'])")
+    for group in groups:
+        try:
+            radios = await group.query_selector_all("input[type='radio']")
+            if not radios:
+                continue
+
+            already_answered = False
+            for r in radios:
+                if await r.is_checked():
+                    already_answered = True
+                    break
+            if already_answered:
+                continue
+
+            legend_el = await group.query_selector(
+                "legend, .fb-dash-form-element__label, label"
+            )
+            question_text = (await legend_el.inner_text()).strip() if legend_el else ""
+            if not question_text:
+                continue
+
+            answer = answer_question(question_text, profile)
+            if not answer:  # None (sensitive/EEO) or "" (unknown) — don't guess
+                continue
+
+            wants_yes = str(answer).strip().lower().startswith("y")
+            for r in radios:
+                val = ((await r.get_attribute("value")) or "").strip().lower()
+                if (wants_yes and val == "yes") or (not wants_yes and val == "no"):
+                    await r.check()
+                    break
+        except Exception:
+            continue
+
+
+async def _answer_select_dropdowns(page, profile: dict):
+    """
+    Answer <select> dropdowns from their label text, same rule as radios:
+    an unmatched dropdown is left on its placeholder rather than defaulting
+    to "first option", which previously could silently submit a wrong value.
+    """
+    selects = await page.query_selector_all("select")
+    for select in selects:
+        try:
+            current = await select.input_value()
+            if current:
+                continue
+
+            options = await select.query_selector_all("option")
+            if len(options) <= 1:
+                continue
+
+            select_id = await select.get_attribute("id")
+            label_text = ""
+            if select_id:
+                label_el = await page.query_selector(f"label[for='{select_id}']")
+                if label_el:
+                    label_text = (await label_el.inner_text()).strip()
+
+            if not label_text:
+                continue  # no way to know what this field is asking — skip
+
+            answer = answer_question(label_text, profile)
+            if not answer:
+                continue
+
+            for opt in options[1:]:
+                opt_text = (await opt.inner_text()).strip().lower()
+                if answer.lower() in opt_text or opt_text in answer.lower():
+                    val = await opt.get_attribute("value")
+                    if val:
+                        await select.select_option(value=val)
+                    break
+        except Exception:
+            continue
 
 
 async def apply_to_linkedin_job(page, job: dict, profile: dict, resume_path: str) -> str:
@@ -95,22 +183,17 @@ async def apply_to_linkedin_job(page, job: dict, profile: dict, resume_path: str
                 await resume_upload.set_input_files(resume_path)
                 await page.wait_for_timeout(1000)
 
-            # Handle Yes/No radio buttons (default to Yes for "Are you authorized to work?")
-            radio_yes = await page.query_selector("input[type='radio'][value='Yes'], label:has-text('Yes') input")
-            if radio_yes:
-                await radio_yes.check()
+            # Handle Yes/No radio button groups — answered from the actual
+            # question text (same pattern-matching as ATS forms), never a
+            # blind "Yes". A wrong auto-answer here can disqualify a real
+            # candidate, so an unclear question is left unanswered instead
+            # of guessed; that surfaces as "skipped_manual_needed" below
+            # rather than a submitted wrong answer.
+            await _answer_radio_groups(page, profile)
 
-            # Handle select dropdowns
-            selects = await page.query_selector_all("select")
-            for select in selects:
-                options = await select.query_selector_all("option")
-                if len(options) > 1:
-                    # Select first non-empty option
-                    for opt in options[1:]:
-                        val = await opt.get_attribute("value")
-                        if val:
-                            await select.select_option(value=val)
-                            break
+            # Handle select dropdowns — answered from label text, unmatched
+            # ones left alone (see _answer_select_dropdowns docstring).
+            await _answer_select_dropdowns(page, profile)
 
             # Handle experience/year input fields (numeric)
             number_inputs = await page.query_selector_all("input[type='text'][id*='year'], input[type='number']")

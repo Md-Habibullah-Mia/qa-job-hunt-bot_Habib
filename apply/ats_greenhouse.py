@@ -11,6 +11,7 @@ from playwright.async_api import Page, TimeoutError as PlaywrightTimeout
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from apply.question_answerer import answer_question
+from apply.submit_guard import pre_submit_check
 
 
 async def apply_greenhouse(page: Page, url: str, profile: dict,
@@ -139,6 +140,10 @@ async def apply_greenhouse(page: Page, url: str, profile: dict,
 
         print(f"      ✅ Filled {len(filled_fields)} fields: {', '.join(filled_fields)}")
 
+        blocked = await pre_submit_check(page)
+        if blocked:
+            return blocked
+
         # --- Submit or Dry Run ---
         if dry_run:
             print(f"      🏃 DRY RUN — form filled but NOT submitted")
@@ -174,8 +179,8 @@ async def apply_greenhouse(page: Page, url: str, profile: dict,
                 print(f"      ❌ Form error: {error_text[:100]}")
                 return f"failed_form_error"
 
-            # No clear success/error — assume submitted
-            return "applied"
+            # No clear success/error — don't claim it was submitted
+            return "unconfirmed"
         else:
             return "skipped_no_submit_button"
 
@@ -274,20 +279,12 @@ async def _fill_dropdowns(page: Page, profile: dict, api_key: str,
                                 filled_fields.append(f"select:{label_text[:20]}")
                                 break
                     else:
-                        # No match — select first non-empty option
-                        for opt in options[1:]:
-                            val = await opt.get_attribute("value")
-                            if val:
-                                await select.select_option(value=val)
-                                filled_fields.append(f"select:default")
-                                break
-            else:
-                # No label — select first non-empty option
-                for opt in options[1:]:
-                    val = await opt.get_attribute("value")
-                    if val:
-                        await select.select_option(value=val)
-                        break
+                        # No answer matched a real option — leave it on the
+                        # placeholder rather than guessing (a wrong dropdown
+                        # value can misrepresent a real applicant).
+                        filled_fields.append(f"select:{label_text[:20]}=UNANSWERED")
+            # else: no label found — can't know what this field is asking,
+            # so it's left unanswered rather than guessed.
 
         except Exception:
             continue

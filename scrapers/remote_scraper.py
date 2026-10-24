@@ -24,6 +24,7 @@ Features:
     - Polite request delays
 """
 
+import hashlib
 import json
 import os
 import sys
@@ -105,6 +106,75 @@ def is_qa_job(title: str, description: str = "") -> bool:
 
 
 # ─────────────────────────────────────────────────────────────
+# Remote-scope classification
+#
+# A source can be "worldwide" by name while individual listings are
+# restricted to one country (Remotive's candidate_required_location
+# = "USA Only", an Indeed US/GB/CA/AU/DE RSS feed, a LinkedIn card
+# whose own location says "United States"). Without checking each
+# job's own location text, every one of these got mislabeled
+# remote_worldwide.
+# ─────────────────────────────────────────────────────────────
+
+GLOBAL_REMOTE_SIGNALS = [
+    "worldwide", "anywhere", "global", "any location", "any country",
+    "location independent", "remote global", "open to all locations",
+]
+
+# A bare mention of these in a location field is treated as a hard
+# eligibility restriction — these fields state candidate location,
+# not office location.
+RESTRICTED_COUNTRIES = [
+    "usa", "u.s.a", "united states", "america",
+    "canada",
+    "united kingdom", "britain",
+    "australia",
+    "germany", "france", "netherlands", "ireland", "new zealand",
+    "european union",
+]
+
+# Two-letter country abbreviations need word-boundary matching, not plain
+# substring — "uk" as a substring would also match inside "Ukraine".
+ABBREVIATED_RESTRICTED_COUNTRIES = ["uk", "us"]
+
+# Broader/ambiguous regions only count as restricted when explicitly
+# qualified — Bangladesh is in Asia/APAC, so a bare "India"/"Singapore"
+# mention is more likely relevant, not a hard block.
+QUALIFIED_RESTRICTION_TERMS = ["singapore", "india", "philippines", "malaysia", "europe", "asia pacific", "eu"]
+RESTRICTION_QUALIFIERS = ["only", "citizens", "residents", "must be based", "must reside", "authorized to work in", "based in the"]
+
+
+def classify_remote_scope(location_text: str) -> str:
+    """
+    Classify a job's remote eligibility from its location text.
+    Returns "bangladesh_remote", "remote_worldwide", or "country_restricted".
+    """
+    text = (location_text or "").lower()
+
+    if "bangladesh" in text:
+        return "bangladesh_remote"
+
+    if any(sig in text for sig in GLOBAL_REMOTE_SIGNALS):
+        return "remote_worldwide"
+
+    if any(country in text for country in RESTRICTED_COUNTRIES):
+        return "country_restricted"
+
+    if any(
+        re.search(r'\b' + re.escape(abbr) + r'\b', text)
+        for abbr in ABBREVIATED_RESTRICTED_COUNTRIES
+    ):
+        return "country_restricted"
+
+    if any(term in text for term in QUALIFIED_RESTRICTION_TERMS) and any(q in text for q in RESTRICTION_QUALIFIERS):
+        return "country_restricted"
+
+    # No location info, or a broad/ambiguous region without a hard
+    # qualifier — give the benefit of the doubt.
+    return "remote_worldwide"
+
+
+# ─────────────────────────────────────────────────────────────
 # Helpers
 # ─────────────────────────────────────────────────────────────
 
@@ -147,9 +217,11 @@ def safe_get(url: str, **kwargs):
 
 def make_job_id(source: str, url: str) -> str:
     """
-    Generate stable-ish job ID from source and URL.
+    Generate a stable job ID from source and URL.
+    Python's built-in hash() is randomized per process, so it gave the same
+    job a new ID every run and broke dedup — use a real digest instead.
     """
-    return f"{source}_{abs(hash(url)) % 1000000}"
+    return f"{source}_{hashlib.md5(url.encode('utf-8')).hexdigest()[:12]}"
 
 
 def normalize_url(url: str) -> str:
@@ -617,6 +689,19 @@ def scrape_linkedin_public() -> list:
                 if not is_qa_job(title):
                     continue
 
+                if category in ("bangladesh_remote", "sponsorship_worldwide"):
+                    # These searches are explicitly targeted (Bangladesh
+                    # location filter, or an explicit sponsorship/visa
+                    # keyword) — trust the bucket.
+                    final_category = category
+                else:
+                    # A "remote worldwide" search can still return a
+                    # listing hard-restricted to one country — trust the
+                    # card's own scraped location over the search bucket.
+                    final_category = classify_remote_scope(job_location)
+                    if final_category == "country_restricted":
+                        continue
+
                 seen.add(job_url)
 
                 job_type = {
@@ -628,7 +713,7 @@ def scrape_linkedin_public() -> list:
                         "Remote Worldwide"
                     ),
                 }.get(
-                    category,
+                    final_category,
                     "Remote Worldwide",
                 )
 
@@ -643,7 +728,7 @@ def scrape_linkedin_public() -> list:
                             f"{title} at {company}. "
                             f"Location: {job_location}."
                         ),
-                        category=category,
+                        category=final_category,
                         job_type=job_type,
                     )
                 )
@@ -1002,6 +1087,16 @@ def scrape_remotive() -> list:
                 if not job_url:
                     continue
 
+                location = job.get(
+                    "candidate_required_location",
+                    "Worldwide",
+                )
+
+                scope = classify_remote_scope(location)
+
+                if scope == "country_restricted":
+                    continue
+
                 seen.add(job_id)
 
                 jobs.append(
@@ -1012,14 +1107,15 @@ def scrape_remotive() -> list:
                             "company_name",
                             "",
                         ),
-                        location=job.get(
-                            "candidate_required_location",
-                            "Worldwide",
-                        ),
+                        location=location,
                         url=job_url,
                         description=description,
-                        category="remote_worldwide",
-                        job_type="Remote Worldwide",
+                        category=scope,
+                        job_type=(
+                            "Bangladesh Remote"
+                            if scope == "bangladesh_remote"
+                            else "Remote Worldwide"
+                        ),
                         date_posted=job.get(
                             "publication_date",
                             "",
@@ -1113,8 +1209,6 @@ def scrape_arbeitnow() -> list:
                 ):
                     continue
 
-                seen.add(job_url)
-
                 sponsorship = bool(
                     job.get(
                         "visa_sponsorship",
@@ -1122,22 +1216,27 @@ def scrape_arbeitnow() -> list:
                     )
                 )
 
-                if sponsorship:
-                    category = (
-                        "sponsorship_worldwide"
-                    )
+                location = job.get(
+                    "location",
+                    "Worldwide",
+                )
 
-                    job_type = (
-                        "Sponsorship Worldwide"
-                    )
+                scope = classify_remote_scope(location)
+
+                if scope == "country_restricted" and not sponsorship:
+                    continue
+
+                if sponsorship and scope != "bangladesh_remote":
+                    category = "sponsorship_worldwide"
+                    job_type = "Sponsorship Worldwide"
+                elif scope == "bangladesh_remote":
+                    category = "bangladesh_remote"
+                    job_type = "Bangladesh Remote"
                 else:
-                    category = (
-                        "remote_worldwide"
-                    )
+                    category = "remote_worldwide"
+                    job_type = "Remote Worldwide"
 
-                    job_type = (
-                        "Remote Worldwide"
-                    )
+                seen.add(job_url)
 
                 jobs.append(
                     build_job(
@@ -1147,10 +1246,7 @@ def scrape_arbeitnow() -> list:
                             "company_name",
                             "",
                         ),
-                        location=job.get(
-                            "location",
-                            "Worldwide",
-                        ),
+                        location=location,
                         url=job_url,
                         description=description,
                         category=category,
@@ -1252,6 +1348,16 @@ def scrape_jobicy() -> list:
                 if not job_url:
                     continue
 
+                location = job.get(
+                    "jobGeo",
+                    "Worldwide",
+                )
+
+                scope = classify_remote_scope(location)
+
+                if scope == "country_restricted":
+                    continue
+
                 seen.add(job_id)
 
                 jobs.append(
@@ -1262,14 +1368,15 @@ def scrape_jobicy() -> list:
                             "companyName",
                             "",
                         ),
-                        location=job.get(
-                            "jobGeo",
-                            "Worldwide",
-                        ),
+                        location=location,
                         url=job_url,
                         description=description,
-                        category="remote_worldwide",
-                        job_type="Remote Worldwide",
+                        category=scope,
+                        job_type=(
+                            "Bangladesh Remote"
+                            if scope == "bangladesh_remote"
+                            else "Remote Worldwide"
+                        ),
                         date_posted=job.get(
                             "pubDate",
                             "",
@@ -1446,8 +1553,6 @@ def scrape_indeed_worldwide_rss() -> list:
                 ):
                     continue
 
-                seen.add(link)
-
                 company_element = item.find(
                     "{http://www.indeed.com/about/feed}"
                     "company"
@@ -1465,37 +1570,47 @@ def scrape_indeed_worldwide_rss() -> list:
                     country,
                 )
 
-                if category == (
-                    "sponsorship_worldwide"
-                ):
-                    job_type = (
-                        "Sponsorship Worldwide"
+                location = f"{country_name} (Remote)"
+
+                is_sponsor = category == "sponsorship_worldwide"
+
+                # Pulled from a country-specific Indeed domain —
+                # inherently eligibility-restricted to that country
+                # unless sponsorship is explicitly on offer.
+                scope = classify_remote_scope(location)
+
+                if scope == "country_restricted" and not is_sponsor:
+                    continue
+
+                seen.add(link)
+
+                final_category = "sponsorship_worldwide" if is_sponsor else scope
+
+                job_type = (
+                    "Sponsorship Worldwide"
+                    if is_sponsor
+                    else (
+                        "Bangladesh Remote"
+                        if final_category == "bangladesh_remote"
+                        else "Remote Worldwide"
                     )
-                else:
-                    job_type = (
-                        "Remote Worldwide"
-                    )
+                )
 
                 jobs.append(
                     build_job(
                         source="indeed",
                         title=title,
                         company=company,
-                        location=(
-                            f"{country_name} (Remote)"
-                        ),
+                        location=location,
                         url=link,
                         description=description,
-                        category=category,
+                        category=final_category,
                         job_type=job_type,
                         date_posted=item.findtext(
                             "pubDate",
                             str(datetime.now().date()),
                         ),
-                        sponsorship=(
-                            category
-                            == "sponsorship_worldwide"
-                        ),
+                        sponsorship=is_sponsor,
                     )
                 )
 
@@ -1616,9 +1731,15 @@ def scrape_all_remote_boards() -> dict:
     )
 
     for job in scrape_jobicy():
-        results["remote_worldwide"].append(
-            job
+        category = job.get(
+            "category",
+            "remote_worldwide",
         )
+
+        if category not in results:
+            category = "remote_worldwide"
+
+        results[category].append(job)
 
     print(
         "  📍 Indeed Worldwide..."

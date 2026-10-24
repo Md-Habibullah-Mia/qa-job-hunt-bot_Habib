@@ -74,8 +74,15 @@ jobs:
             "search_settings": {
               "max_jobs_per_source": 50,
               "days_old_max": 3,
-              "dedup_window_days": 1
-            }
+              "dedup_window_days": 14
+            },
+            "direct_apply": {
+              "enabled": true,
+              "dry_run": true,
+              "min_match_score": 70,
+              "max_per_day": 10
+            },
+            "resume_path": "config/resume.pdf"
           }
           EOF
 
@@ -88,20 +95,46 @@ jobs:
           python3 -m json.tool config/resume_profile.json > /dev/null
           echo "✅ Resume profile created and validated successfully"
 
+      - name: 📄 Create resume PDF (for auto-apply attachments)
+        env:
+          RESUME_PDF_BASE64: ${{ secrets.RESUME_PDF_BASE64 }}
+        run: |
+          mkdir -p config
+          if [ -n "$RESUME_PDF_BASE64" ]; then
+            echo "$RESUME_PDF_BASE64" | base64 -d > config/resume.pdf
+            echo "✅ Resume PDF decoded ($(wc -c < config/resume.pdf) bytes)"
+          else
+            echo "⚠️ RESUME_PDF_BASE64 secret not set — applications will be submitted without an attached resume."
+          fi
+
       - name: 📁 Create folders
         run: mkdir -p logs data docs
 
+      # jobs_db.json / applied_jobs.json are gitignored, so without this every
+      # run starts empty: dedup never kicks in and jobs get re-applied.
+      - name: 🗄️ Restore job history
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/jobs_db.json
+            data/applied_jobs.json
+          key: job-history-${{ github.run_id }}
+          restore-keys: job-history-
+
       - name: 🚀 Run Job Hunt Pipeline
-        run: python main.py
+        run: python main.py --resume-path config/resume.pdf
         env:
           PYTHONUNBUFFERED: 1
+          DASHBOARD_PASSWORD: ${{ secrets.DASHBOARD_PASSWORD }}
 
       - name: 💾 Verify dashboard data
         if: always()
         run: |
           echo "=== Checking docs folder ==="
           ls -la docs/ || echo "docs folder empty"
-          if [ -f docs/jobs.json ]; then
+          if [ -f docs/jobs.enc.json ]; then
+            echo "🔐 jobs.enc.json: $(wc -c < docs/jobs.enc.json) bytes (encrypted)"
+          elif [ -f docs/jobs.json ]; then
             SIZE=$(wc -c < docs/jobs.json)
             JOBS=$(python3 -c "import json; d=json.load(open('docs/jobs.json')); print(d.get('total_matched',0))")
             echo "✅ jobs.json: $SIZE bytes, $JOBS jobs"
@@ -129,11 +162,16 @@ jobs:
           git config user.name "QA Job Bot"
           git config user.email "qa-bot@users.noreply.github.com"
 
-          echo "💾 Saving generated dashboard..."
-          cp docs/jobs.json /tmp/jobs.json
+          # Encrypted (jobs.enc.json) when DASHBOARD_PASSWORD is set, else plain jobs.json
+          DATA=jobs.json
+          [ -f docs/jobs.enc.json ] && DATA=jobs.enc.json
 
-          echo "🧹 Removing generated working-tree file..."
-          git restore docs/jobs.json
+          echo "💾 Saving generated dashboard ($DATA)..."
+          cp docs/$DATA /tmp/$DATA
+
+          echo "🧹 Removing generated working-tree files..."
+          git checkout -- docs/ 2>/dev/null || true
+          rm -f docs/jobs.enc.json
 
           echo "🔄 Fetching latest main..."
           git fetch origin main
@@ -142,9 +180,13 @@ jobs:
           git checkout -B main origin/main
 
           echo "📊 Restoring generated dashboard..."
-          cp /tmp/jobs.json docs/jobs.json
+          cp /tmp/$DATA docs/$DATA
+          if [ "$DATA" = "jobs.enc.json" ] && git ls-files --error-unmatch docs/jobs.json >/dev/null 2>&1; then
+            echo "🔐 Removing public plain jobs.json"
+            git rm -q docs/jobs.json
+          fi
 
-          git add -f docs/jobs.json
+          git add -f docs/$DATA
 
           if git diff --cached --quiet; then
             echo "ℹ️ No changes"

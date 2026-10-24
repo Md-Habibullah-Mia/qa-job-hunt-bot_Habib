@@ -15,7 +15,7 @@ CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config",
 
 def send_report_email(html_content: str, job_count: int = 0, match_count: int = 0):
     """Send the daily report email via Gmail SMTP."""
-    with open(CONFIG_PATH) as f:
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         config = json.load(f)
 
     email_cfg = config["email"]
@@ -23,7 +23,15 @@ def send_report_email(html_content: str, job_count: int = 0, match_count: int = 
     password = email_cfg["sender_app_password"]
     recipient = email_cfg["recipient_email"]
 
-    date_str = datetime.now().strftime("%B %d, %Y")
+    try:
+        import pytz
+        bd_tz = pytz.timezone("Asia/Dhaka")
+        now_bd = datetime.now(bd_tz)
+    except Exception:
+        from datetime import timezone, timedelta
+        now_bd = datetime.now(timezone(timedelta(hours=6)))
+
+    date_str = now_bd.strftime("%B %d, %Y")
     subject = f"🤖 Job Report {date_str} — {match_count} New Matches Found | {job_count} Jobs Scanned"
 
     msg = MIMEMultipart("alternative")
@@ -32,7 +40,7 @@ def send_report_email(html_content: str, job_count: int = 0, match_count: int = 
     msg["To"] = recipient
 
     # Attach HTML
-    msg.attach(MIMEText(html_content, "html"))
+    msg.attach(MIMEText(html_content, "html", "utf-8"))
 
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:

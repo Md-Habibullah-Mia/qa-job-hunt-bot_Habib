@@ -12,6 +12,7 @@ from playwright.async_api import Page, TimeoutError as PlaywrightTimeout
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from apply.question_answerer import answer_question
+from apply.submit_guard import pre_submit_check
 
 
 async def apply_lever(page: Page, url: str, profile: dict,
@@ -158,6 +159,10 @@ async def apply_lever(page: Page, url: str, profile: dict,
 
         print(f"      ✅ Filled {len(filled_fields)} fields: {', '.join(filled_fields)}")
 
+        blocked = await pre_submit_check(page)
+        if blocked:
+            return blocked
+
         # --- Submit or Dry Run ---
         if dry_run:
             print(f"      🏃 DRY RUN — form filled but NOT submitted")
@@ -188,7 +193,8 @@ async def apply_lever(page: Page, url: str, profile: dict,
                 print(f"      ❌ Form error: {error_text[:100]}")
                 return "failed_form_error"
 
-            return "applied"
+            # No clear success/error — don't claim it was submitted
+            return "unconfirmed"
         else:
             return "skipped_no_submit_button"
 
@@ -258,9 +264,9 @@ async def _fill_lever_custom_questions(page: Page, profile: dict, api_key: str,
                                         filled_fields.append(f"select:{question_text[:20]}")
                                         break
                             else:
-                                val = await options[1].get_attribute("value")
-                                if val:
-                                    await select.select_option(value=val)
+                                # No answer matched a real option — leave it
+                                # unanswered rather than guessing.
+                                filled_fields.append(f"select:{question_text[:20]}=UNANSWERED")
 
         except Exception:
             continue

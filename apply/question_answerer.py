@@ -11,12 +11,16 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-flash-latest"
 
-# Common questions with pattern-based answers
+# Common questions with pattern-based answers.
+# Work-authorization and sponsorship answers depend on the country the job is
+# in, and a wrong one is a false statement on the application — so they are
+# left unanswered (None). The form then can't be submitted and the job is
+# marked for manual apply instead.
 COMMON_PATTERNS = {
-    r"(authorized|legally|eligible).*(work|employ)": "yes",
-    r"(require|need).*(sponsor|visa)": "no",
+    r"(authorized|authorised|legally|eligible|right to work).*(work|employ)": None,
+    r"(require|need).*(sponsor|visa)": None,
     r"(willing|open).*(relocat|move)": "yes",
     r"(willing|open).*(travel)": "yes",
     r"(18|legal age|older)": "yes",
