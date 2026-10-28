@@ -42,7 +42,7 @@ def clean_json_response(raw: str) -> str:
 
 def parse_resume_with_gemini(resume_text: str, api_key: str) -> dict:
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-3.6-flash")
 
     prompt = f"""You are a resume parser specialized in QA/Test Automation Engineering roles.
 

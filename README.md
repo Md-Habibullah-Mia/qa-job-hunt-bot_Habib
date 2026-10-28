@@ -38,7 +38,7 @@ job-automation/
 │   └── resume_profile.json      # Auto-generated from your resume
 ├── scrapers/
 │   ├── linkedin_scraper.py      # LinkedIn jobs (Playwright)
-│   └── remote_scraper.py        # Remotive, WWR, Himalayas, Naukri, Relocate.me
+│   └── remote_scraper.py        # Remotive, Arbeitnow, Jobicy, Indeed, LinkedIn
 ├── matcher/
 │   ├── resume_parser.py         # Parse resume → profile (Gemini)
 │   └── job_matcher.py           # Score jobs vs profile (Gemini)
@@ -48,7 +48,7 @@ job-automation/
 ├── apply/
 │   └── auto_apply.py            # LinkedIn Easy Apply automation
 ├── scheduler/
-│   └── scheduler.py             # Daily 9AM IST scheduler
+│   └── scheduler.py             # Daily 9AM BST scheduler
 ├── data/
 │   └── jobs_db.py               # Deduplication database
 └── main.py                      # Entry point
@@ -64,22 +64,22 @@ job-automation/
 **Free tier limits:** 15 requests/minute, 1500 requests/day
 Your bot uses ~100-150 requests/day — well within limits.
 
-## ⏰ Schedule Daily at 9AM IST
+## ⏰ Schedule Daily at 9AM BST
 
 ```bash
-# Linux/Mac — add to crontab (3:30 AM UTC = 9:00 AM IST)
+# Linux/Mac — add to crontab (3:00 AM UTC = 9:00 AM BST)
 crontab -e
-30 3 * * * cd /path/to/job-automation && python main.py >> logs/cron.log 2>&1
+0 3 * * * cd /path/to/job-automation && python main.py >> logs/cron.log 2>&1
 
 # OR run background scheduler
 nohup python scheduler/scheduler.py > logs/scheduler.log 2>&1 &
 ```
 
-## 🎯 Job Categories Covered
+## 🎯 Job Categories Covered (In Priority Order)
 
-- ✈️ **Outside India (Visa Sponsorship)** — US, UK, Germany, Canada, Australia, UAE, Singapore, Netherlands
-- 🇮🇳 **India Remote** — Naukri, LinkedIn India Remote
-- 🌍 **Remote Worldwide** — Remotive, We Work Remotely, Himalayas
+1. 🌍 **Remote Worldwide (Work from Anywhere)** — Remotive, Arbeitnow, Jobicy, Indeed Worldwide, LinkedIn
+2. 🇧🇩 **Bangladesh Remote & Local** — LinkedIn Bangladesh & Remote
+3. ✈️ **Outside Bangladesh (Visa Sponsorship)** — Arbeitnow, Indeed & LinkedIn roles offering visa sponsorship & relocation
 
 ## 📧 Daily Report Includes
 

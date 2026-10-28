@@ -11,3 +11,4 @@ aiohttp>=3.9.0
 asyncio
 fake-useragent>=1.4.0
 pytz>=2023.3
+cryptography>=42.0.0

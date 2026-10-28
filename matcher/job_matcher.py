@@ -24,7 +24,9 @@ PROFILE_PATH = os.path.join(
     "resume_profile.json"
 )
 
-GEMINI_MODEL = "gemini-3.6-flash"
+# "gemini-3.6-flash" does not exist, so every call failed and all jobs fell
+# back to title scoring. The -latest alias keeps working across releases.
+GEMINI_MODEL = "gemini-flash-latest"
 
 # --- Domain Classification Signals ---
 

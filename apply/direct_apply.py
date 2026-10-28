@@ -39,6 +39,8 @@ async def direct_apply_batch(jobs: list, resume_path: str,
 
     api_key = config.get("api_keys", {}).get("gemini_api_key", "")
     applied_jobs = load_applied_jobs()
+    # Older records were keyed by unstable IDs, so match on URL as well
+    applied_urls = {rec.get("url") for rec in applied_jobs.values() if rec.get("url")}
     results = []
     apply_count = 0
 
@@ -49,6 +51,7 @@ async def direct_apply_batch(jobs: list, resume_path: str,
         and j.get("recommendation") == "APPLY"
         and j.get("match_score", 0) >= min_score
         and j.get("id", "") not in applied_jobs
+        and j.get("url", "") not in applied_urls
     ]
 
     if not eligible:
@@ -102,17 +105,19 @@ async def direct_apply_batch(jobs: list, resume_path: str,
                 results.append({"job": job, "status": "skipped_unknown_ats", "ats_url": ats_url})
                 continue
 
-            # Step 3: Fill and submit the form
+            # Step 3: Fill and submit the form — the job's own cover note
+            # replaces the generic summary in "additional information" boxes
+            job_profile = {**profile, "summary": job.get("cover_note") or profile.get("summary", "")}
             status = "failed"
             try:
                 if ats_type == "greenhouse":
                     status = await apply_greenhouse(
-                        page, ats_url, profile, resume_path,
+                        page, ats_url, job_profile, resume_path,
                         api_key=api_key, dry_run=dry_run
                     )
                 elif ats_type == "lever":
                     status = await apply_lever(
-                        page, ats_url, profile, resume_path,
+                        page, ats_url, job_profile, resume_path,
                         api_key=api_key, dry_run=dry_run
                     )
             except Exception as e:
@@ -132,9 +137,10 @@ async def direct_apply_batch(jobs: list, resume_path: str,
             }
             results.append(result)
 
-            if status in ("applied", "dry_run_success"):
+            # "unconfirmed" was probably submitted, so it counts toward the cap
+            if status in ("applied", "unconfirmed", "dry_run_success"):
                 apply_count += 1
-                emoji = "✅" if status == "applied" else "🏃"
+                emoji = {"applied": "✅", "unconfirmed": "❔"}.get(status, "🏃")
                 print(f"      {emoji} {status}")
             else:
                 print(f"      ⚠️ Status: {status}")

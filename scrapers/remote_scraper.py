@@ -26,6 +26,7 @@ Features:
     - Polite request delays
 """
 
+import hashlib
 import json
 import os
 import sys
@@ -134,6 +135,10 @@ RESTRICTED_COUNTRIES = [
     "european union",
 ]
 
+# Two-letter country abbreviations need word-boundary matching, not plain
+# substring — "uk" as a substring would also match inside "Ukraine".
+ABBREVIATED_RESTRICTED_COUNTRIES = ["uk", "us"]
+
 # Broader/ambiguous regions only count as restricted when explicitly
 # qualified — Bangladesh is in Asia/APAC, so a bare "India"/"Singapore"
 # mention is more likely relevant, not a hard block.
@@ -155,6 +160,12 @@ def classify_remote_scope(location_text: str) -> str:
         return "remote_worldwide"
 
     if any(country in text for country in RESTRICTED_COUNTRIES):
+        return "country_restricted"
+
+    if any(
+        re.search(r'\b' + re.escape(abbr) + r'\b', text)
+        for abbr in ABBREVIATED_RESTRICTED_COUNTRIES
+    ):
         return "country_restricted"
 
     if any(term in text for term in QUALIFIED_RESTRICTION_TERMS) and any(q in text for q in RESTRICTION_QUALIFIERS):
@@ -208,9 +219,11 @@ def safe_get(url: str, **kwargs):
 
 def make_job_id(source: str, url: str) -> str:
     """
-    Generate stable-ish job ID from source and URL.
+    Generate a stable job ID from source and URL.
+    Python's built-in hash() is randomized per process, so it gave the same
+    job a new ID every run and broke dedup — use a real digest instead.
     """
-    return f"{source}_{abs(hash(url)) % 1000000}"
+    return f"{source}_{hashlib.md5(url.encode('utf-8')).hexdigest()[:12]}"
 
 
 def normalize_url(url: str) -> str:

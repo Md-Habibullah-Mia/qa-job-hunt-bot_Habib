@@ -28,9 +28,10 @@ def get_score_label(score):
 
 def get_category_style(category):
     styles = {
-        "sponsorship_worldwide": {"icon": "✈️", "title": "Outside India — Visa Sponsorship", "color": "#16a34a", "bg": "#f0fdf4", "border": "#86efac"},
-        "india_remote": {"icon": "🇮🇳", "title": "India — Remote Only", "color": "#2563eb", "bg": "#eff6ff", "border": "#93c5fd"},
-        "remote_worldwide": {"icon": "🌍", "title": "Remote — Worldwide", "color": "#7c3aed", "bg": "#f5f3ff", "border": "#c4b5fd"},
+        "remote_worldwide": {"icon": "🌎", "title": "Remote — Worldwide", "color": "#7c3aed", "bg": "#f5f3ff", "border": "#c4b5fd"},
+        "bangladesh_remote": {"icon": "🇧🇩", "title": "Bangladesh — Remote & Local", "color": "#059669", "bg": "#ecfdf5", "border": "#6ee7b7"},
+        "Bangladesh_remote": {"icon": "🇧🇩", "title": "Bangladesh — Remote & Local", "color": "#059669", "bg": "#ecfdf5", "border": "#6ee7b7"},
+        "sponsorship_worldwide": {"icon": "✈️", "title": "Outside Bangladesh — Visa Sponsorship", "color": "#2563eb", "bg": "#eff6ff", "border": "#93c5fd"},
     }
     return styles.get(category, {"icon": "💼", "title": category, "color": "#374151", "bg": "#f9fafb", "border": "#e5e7eb"})
 
@@ -49,13 +50,18 @@ def build_job_card(job):
     source = job.get("source", "").upper()
     salary = job.get("salary", "") or ""
     category = job.get("category", "")
-    sponsorship = job.get("sponsorship", False) or category == "sponsorship_worldwide"
+    sponsorship = job.get("sponsorship", False) or job.get("visa_sponsorship", False)
 
     badges = ""
-    if sponsorship:
-        badges += '<span style="display:inline-block;background:#dcfce7;color:#166534;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;margin:2px;">✈️ VISA/SPONSOR</span>'
-    if "remote" in job.get("type","").lower() or "remote" in location.lower():
-        badges += '<span style="display:inline-block;background:#ede9fe;color:#6d28d9;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;margin:2px;">🏠 REMOTE</span>'
+    if category in ("bangladesh_remote", "Bangladesh_remote"):
+        badges += '<span style="display:inline-block;background:#d1fae5;color:#047857;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;margin:2px;">🇧🇩 BANGLADESH</span>'
+    elif category == "sponsorship_worldwide":
+        badges += '<span style="display:inline-block;background:#dbeafe;color:#1d4ed8;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;margin:2px;">✈️ VISA SPONSORSHIP</span>'
+    else:
+        badges += '<span style="display:inline-block;background:#ede9fe;color:#6d28d9;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;margin:2px;">🌎 REMOTE WORLDWIDE</span>'
+
+    if sponsorship and category != "sponsorship_worldwide":
+        badges += '<span style="display:inline-block;background:#dcfce7;color:#166534;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;margin:2px;">✈️ VISA SPONSORSHIP</span>'
     if source:
         badges += f'<span style="display:inline-block;background:#f3f4f6;color:#6b7280;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin:2px;">{source}</span>'
 
@@ -132,8 +138,16 @@ def build_skill_gap_html(skill_gap):
 
 def generate_report(matched_jobs: dict, applied_results: list, skill_gap: dict, total_scraped: int, dashboard_url: str = "") -> str:
     """Generate HTML email report. dashboard_url is optional."""
-    date_str = datetime.now().strftime("%A, %B %d, %Y")
-    time_str = datetime.now().strftime("%I:%M %p IST")
+    try:
+        import pytz
+        bd_tz = pytz.timezone("Asia/Dhaka")
+        now_bd = datetime.now(bd_tz)
+    except Exception:
+        from datetime import timezone, timedelta
+        now_bd = datetime.now(timezone(timedelta(hours=6)))
+
+    date_str = now_bd.strftime("%A, %B %d, %Y")
+    time_str = now_bd.strftime("%I:%M %p BST")
 
     all_jobs = [j for jobs in matched_jobs.values() for j in jobs]
     total_matched = len(all_jobs)
@@ -151,9 +165,17 @@ def generate_report(matched_jobs: dict, applied_results: list, skill_gap: dict, 
           <p style="color:#9ca3af;font-size:12px;margin-top:8px;">Searchable · Filterable · Saves your favourites</p>
         </div>"""
 
-    # Category sections — show top 10 per category in email
+    # Category sections in exact requested order:
+    # 1. Remote Worldwide
+    # 2. bangladesh_remote
+    # 3. Outside Bangladesh Visa Sponsorship
+    ORDERED_CATEGORIES = ["remote_worldwide", "bangladesh_remote", "sponsorship_worldwide"]
     category_sections = ""
-    for category, jobs in matched_jobs.items():
+    seen_categories = set()
+
+    for category in ORDERED_CATEGORIES:
+        seen_categories.add(category)
+        jobs = matched_jobs.get(category, [])
         if not jobs:
             continue
         style = get_category_style(category)
@@ -162,6 +184,24 @@ def generate_report(matched_jobs: dict, applied_results: list, skill_gap: dict, 
         if len(jobs) > 10:
             more = f'<p style="text-align:center;color:#6b7280;font-size:13px;padding:8px 0;">+{len(jobs)-10} more in this category — <a href="{dashboard_url}" style="color:#2563eb;">view on dashboard</a></p>' if dashboard_url else f'<p style="text-align:center;color:#6b7280;font-size:13px;">+{len(jobs)-10} more jobs</p>'
 
+        category_sections += f"""
+        <div style="margin:24px 0;">
+          <div style="background:{style['bg']};border:1px solid {style['border']};border-radius:12px;padding:12px 18px;margin-bottom:14px;">
+            <span style="font-size:18px;">{style['icon']}</span>
+            <span style="font-size:16px;font-weight:700;color:{style['color']};margin-left:8px;">{style['title']}</span>
+            <span style="font-size:13px;color:#6b7280;margin-left:8px;">— {len(jobs)} jobs</span>
+          </div>
+          {cards}
+          {more}
+        </div>"""
+
+    # Any other custom category if present
+    for category, jobs in matched_jobs.items():
+        if category in seen_categories or not jobs:
+            continue
+        style = get_category_style(category)
+        cards = "".join([build_job_card(j) for j in jobs[:10]])
+        more = f'<p style="text-align:center;color:#6b7280;font-size:13px;">+{len(jobs)-10} more jobs</p>' if len(jobs) > 10 else ""
         category_sections += f"""
         <div style="margin:24px 0;">
           <div style="background:{style['bg']};border:1px solid {style['border']};border-radius:12px;padding:12px 18px;margin-bottom:14px;">
@@ -214,7 +254,7 @@ def generate_report(matched_jobs: dict, applied_results: list, skill_gap: dict, 
 
   <!-- Jobs -->
   <div style="background:#fff;border-radius:20px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,0.06);margin-bottom:14px;">
-    {category_sections if category_sections else '<p style="text-align:center;color:#6b7280;padding:20px;">No jobs matched today. Bot will try again tomorrow at 9AM IST.</p>'}
+    {category_sections if category_sections else '<p style="text-align:center;color:#6b7280;padding:20px;">No jobs matched today. Bot will try again tomorrow at 9AM BST.</p>'}
   </div>
 
   <!-- Skill Gap -->
@@ -225,7 +265,7 @@ def generate_report(matched_jobs: dict, applied_results: list, skill_gap: dict, 
 
   <!-- Footer -->
   <div style="text-align:center;padding:16px;color:#94a3b8;font-size:12px;">
-    🤖 QA Job Hunt Bot · Gemini AI (Free) · Next run: tomorrow 9:00 AM IST
+    🤖 QA Job Hunt Bot · Gemini AI (Free) · Next run: tomorrow 9:00 AM BST
   </div>
 
 </div>

@@ -1,7 +1,7 @@
 """
 linkedin_scraper.py
 Scrapes LinkedIn Jobs for QA/SDET positions.
-Handles 3 categories: sponsorship, India remote, worldwide remote.
+Handles 3 categories: sponsorship, Bangladesh remote, worldwide remote.
 Uses Playwright for browser automation.
 """
 
@@ -29,28 +29,31 @@ def load_config():
 # --- LinkedIn Search Configurations for QA Engineer ---
 
 SEARCH_CONFIGS = {
-    "sponsorship_worldwide": [
-        {"keywords": "QA Automation Engineer visa sponsorship", "location": "United States", "remote": False},
-        {"keywords": "SDET visa sponsorship relocation", "location": "United Kingdom", "remote": False},
-        {"keywords": "Test Automation Engineer sponsorship", "location": "Germany", "remote": False},
-        {"keywords": "QA Engineer sponsorship", "location": "Canada", "remote": False},
-        {"keywords": "QA Automation Engineer relocation", "location": "Australia", "remote": False},
-        {"keywords": "Software Test Engineer visa", "location": "Netherlands", "remote": False},
-        {"keywords": "QA Engineer sponsorship", "location": "Singapore", "remote": False},
-        {"keywords": "Test Automation Engineer visa sponsorship", "location": "Dubai", "remote": False},
-    ],
-    "india_remote": [
-        {"keywords": "QA Automation Engineer remote", "location": "India", "remote": True},
-        {"keywords": "SDET remote work from home", "location": "India", "remote": True},
-        {"keywords": "Test Automation Engineer remote India", "location": "India", "remote": True},
-        {"keywords": "QA Engineer remote", "location": "Bangalore, Karnataka, India", "remote": True},
-    ],
     "remote_worldwide": [
-        {"keywords": "QA Automation Engineer", "location": "", "remote": True},
+        {"keywords": "QA Automation Engineer remote worldwide", "location": "", "remote": True},
         {"keywords": "SDET remote worldwide", "location": "", "remote": True},
-        {"keywords": "Test Automation Engineer remote", "location": "", "remote": True},
-        {"keywords": "Software Test Engineer remote", "location": "", "remote": True},
-        {"keywords": "QA Lead remote", "location": "", "remote": True},
+        {"keywords": "Test Automation Engineer remote worldwide", "location": "", "remote": True},
+        {"keywords": "Software Test Engineer remote worldwide", "location": "", "remote": True},
+        {"keywords": "QA Lead remote worldwide", "location": "", "remote": True},
+        {"keywords": "QA Automation Engineer work from anywhere", "location": "", "remote": True},
+        # Asia/APAC — same bucket, extra keyword coverage for
+        # region-targeted listings that don't say "worldwide".
+        {"keywords": "QA Automation Engineer remote", "location": "Asia Pacific", "remote": True},
+        {"keywords": "SDET remote", "location": "India", "remote": True},
+        {"keywords": "Test Automation Engineer remote", "location": "Singapore", "remote": True},
+        {"keywords": "QA Engineer remote", "location": "Malaysia", "remote": True},
+    ],
+    "bangladesh_remote": [
+        {"keywords": "QA Automation Engineer remote", "location": "Bangladesh", "remote": True},
+        {"keywords": "SDET remote work from home", "location": "Bangladesh", "remote": True},
+        {"keywords": "Test Automation Engineer remote Bangladesh", "location": "Bangladesh", "remote": True},
+        {"keywords": "QA Engineer remote", "location": "Dhaka, Bangladesh", "remote": True},
+    ],
+    "sponsorship_worldwide": [
+        {"keywords": "QA Automation Engineer visa sponsorship", "location": "", "remote": False},
+        {"keywords": "SDET visa sponsorship relocation", "location": "", "remote": False},
+        {"keywords": "Test Automation Engineer visa sponsorship", "location": "Europe", "remote": False},
+        {"keywords": "QA Automation Engineer relocation", "location": "United Kingdom", "remote": False},
     ]
 }
 
@@ -58,7 +61,7 @@ SEARCH_CONFIGS = {
 async def scrape_linkedin_jobs(category: str, max_jobs: int = 50) -> list:
     """
     Scrape LinkedIn jobs for a given category.
-    category: 'sponsorship_worldwide' | 'india_remote' | 'remote_worldwide'
+    category: 'Bangladesh_remote' | 'remote_worldwide' (or deprecated 'sponsorship_worldwide')
     """
     config = load_config()
     jobs = []
@@ -190,13 +193,14 @@ async def extract_job_card(card, category: str) -> dict:
         if "?" in url:
             url = url.split("?")[0]
 
-        final_category = category
+        is_sponsorship = (category == "sponsorship_worldwide") or any(kw in (title + " " + location).lower() for kw in ["sponsor", "sponsorship", "visa", "relocation"])
+        final_category = "bangladesh_remote" if category in ("bangladesh_remote", "Bangladesh_remote") else ("sponsorship_worldwide" if is_sponsorship else "remote_worldwide")
 
-        if category == "remote_worldwide":
+        if final_category == "remote_worldwide":
             # A "remote worldwide" search can still return a listing
             # hard-restricted to one country (e.g. "Remote - USA") —
             # trust the card's own scraped location over the search
-            # bucket. sponsorship_worldwide/india_remote searches are
+            # bucket. sponsorship_worldwide/bangladesh_remote searches are
             # intentionally geo-targeted, so leave those as-is.
             scope = classify_remote_scope(location)
             if scope == "country_restricted":
@@ -211,6 +215,7 @@ async def extract_job_card(card, category: str) -> dict:
             "url": url.strip(),
             "source": "linkedin",
             "category": final_category,
+            "sponsorship": is_sponsorship,
             "date_posted": date_posted,
             "scraped_at": datetime.now().isoformat(),
             "description": "",  # Will be fetched during matching if needed
@@ -223,12 +228,12 @@ async def extract_job_card(card, category: str) -> dict:
 
 def _get_type_label(category: str) -> str:
     labels = {
-        "sponsorship_worldwide": "Outside India (Sponsorship)",
-        "india_remote": "India Remote",
         "remote_worldwide": "Remote Worldwide",
         "bangladesh_remote": "Bangladesh Remote",
+        "Bangladesh_remote": "Bangladesh Remote",
+        "sponsorship_worldwide": "Outside Bangladesh Visa Sponsorship"
     }
-    return labels.get(category, category)
+    return labels.get(category, "Remote Worldwide")
 
 
 async def fetch_job_description(url: str) -> str:
