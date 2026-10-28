@@ -16,6 +16,8 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from scrapers.remote_scraper import classify_remote_scope
+
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "config.json")
 
 
@@ -193,6 +195,17 @@ async def extract_job_card(card, category: str) -> dict:
 
         is_sponsorship = (category == "sponsorship_worldwide") or any(kw in (title + " " + location).lower() for kw in ["sponsor", "sponsorship", "visa", "relocation"])
         final_category = "bangladesh_remote" if category in ("bangladesh_remote", "Bangladesh_remote") else ("sponsorship_worldwide" if is_sponsorship else "remote_worldwide")
+
+        if final_category == "remote_worldwide":
+            # A "remote worldwide" search can still return a listing
+            # hard-restricted to one country (e.g. "Remote - USA") —
+            # trust the card's own scraped location over the search
+            # bucket. sponsorship_worldwide/bangladesh_remote searches are
+            # intentionally geo-targeted, so leave those as-is.
+            scope = classify_remote_scope(location)
+            if scope == "country_restricted":
+                return None
+            final_category = scope
 
         return {
             "id": url.split("/")[-1] if url else "",
