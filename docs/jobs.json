@@ -1,27 +1,58 @@
 {
-  "generated_at": "2026-11-14T16:28:47.511140+06:00",
+  "generated_at": "2026-11-15T16:57:52.255882+06:00",
   "total_scraped": 61,
-  "total_matched": 19,
+  "total_matched": 12,
   "jobs": [
     {
-      "id": "senior-sdet-qa-automation-engineer-playwright-selenium-java-cucumber-at-cognizant-4489855554",
-      "title": "Senior SDET / QA Automation Engineer (Playwright, Selenium, Java & Cucumber)",
-      "company": "Cognizant",
-      "location": "Greater Phoenix Area",
-      "url": "https://www.linkedin.com/jobs/view/senior-sdet-qa-automation-engineer-playwright-selenium-java-cucumber-at-cognizant-4489855554",
+      "id": "staff-engineer-sdet-at-aviatrix-4472848190",
+      "title": "Staff Engineer SDET",
+      "company": "Aviatrix",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/staff-engineer-sdet-at-aviatrix-4472848190",
       "source": "linkedin",
       "category": "remote_worldwide",
       "sponsorship": false,
       "date_posted": "2026-11-14",
-      "scraped_at": "2026-11-14T16:00:21.677824",
+      "scraped_at": "2026-11-15T16:36:35.523822",
       "description": "",
       "type": "Remote Worldwide",
       "easy_apply": false,
-      "match_score": 80,
+      "match_score": 70,
       "match_reasons": [
         "Job title / description matches Software QA & Automation domain",
-        "Seniority level matches your 13+ years experience",
-        "Playwright matches your profile"
+        "Seniority level matches your 13+ years experience"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title and skill matching (deterministic fallback)",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "job_domain": "software_qa",
+      "domain_confidence": 85,
+      "domain_reason": "Title matches Software QA: sdet",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "healthcare-test-automation-lead-at-xforia-tech-4491204212",
+      "title": "Healthcare Test Automation Lead",
+      "company": "Xforia Tech",
+      "location": "Indianapolis, IN",
+      "url": "https://www.linkedin.com/jobs/view/healthcare-test-automation-lead-at-xforia-tech-4491204212",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "sponsorship": true,
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:05.648822",
+      "description": "",
+      "type": "Outside Bangladesh Visa Sponsorship",
+      "easy_apply": false,
+      "match_score": 70,
+      "match_reasons": [
+        "Job title / description matches Software QA & Automation domain",
+        "Seniority level matches your 13+ years experience"
       ],
       "missing_skills": [
         "Cypress"
@@ -33,181 +64,20 @@
       "remote_type": "not_specified",
       "job_domain": "software_qa",
       "domain_confidence": 95,
-      "domain_reason": "Title matches Software QA: qa automation engineer · Software tech stack: selenium, playwright, cucumber",
-      "scored_by": "title_fallback",
-      "cover_note": "I am applying for the Senior SDET / QA Automation Engineer role at Cognizant.\n\nWith over 13 years of quality assurance and test automation experience, my background directly aligns with your core toolset. I have extensive hands-on experience building maintainable test automation frameworks using Selenium WebDriver, Java, and Cucumber BDD, alongside strong expertise in Playwright. Throughout my career, including my current work at MetaDesign Solutions Pvt. Ltd., I have designed scalable automation architectures using the Page Object Model, validated REST APIs, and integrated automated regression suites directly into CI/CD pipelines via GitHub Actions.\n\nI look forward to discussing how my technical background in Java, BDD, and web automation can support Cognizant's testing initiatives."
-    },
-    {
-      "id": "qa-automation-lead-at-cognizant-4489861351",
-      "title": "QA Automation Lead",
-      "company": "Cognizant",
-      "location": "Mangum, NC",
-      "url": "https://www.linkedin.com/jobs/view/qa-automation-lead-at-cognizant-4489861351",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "sponsorship": false,
-      "date_posted": "2026-11-14",
-      "scraped_at": "2026-11-14T16:00:21.989026",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Seniority level matches your 13+ years experience"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: qa automation lead",
+      "domain_reason": "Title matches Software QA: automation lead · Software tech stack: test automation",
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-test-engineer-cameras-at-verkada-4491021449",
-      "title": "Senior Test Engineer, Cameras",
-      "company": "Verkada",
-      "location": "San Mateo, CA",
-      "url": "https://www.linkedin.com/jobs/view/senior-test-engineer-cameras-at-verkada-4491021449",
+      "id": "staff-test-automation-engineer-python-cork-ireland-at-qualcomm-4463875744",
+      "title": "Staff Test Automation Engineer (Python) - Cork, Ireland",
+      "company": "Qualcomm",
+      "location": "Cork, County Cork, Ireland",
+      "url": "https://ie.linkedin.com/jobs/view/staff-test-automation-engineer-python-cork-ireland-at-qualcomm-4463875744",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "sponsorship": true,
       "date_posted": "2026-11-14",
-      "scraped_at": "2026-11-14T16:02:33.256297",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Seniority level matches your 13+ years experience"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: test engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "lead-automation-tester-in-person-interview-at-sligo-software-solutions-inc-4490798003",
-      "title": "Lead Automation Tester (In-Person Interview)",
-      "company": "Sligo Software Solutions Inc.",
-      "location": "Albany, NY",
-      "url": "https://www.linkedin.com/jobs/view/lead-automation-tester-in-person-interview-at-sligo-software-solutions-inc-4490798003",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:33.665961",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Seniority level matches your 13+ years experience"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: automation tester",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-performance-qa-engineer-world-of-warships-pc-at-wargaming-4478286586",
-      "title": "Senior Performance QA Engineer (World of Warships, PC)",
-      "company": "Wargaming",
-      "location": "Belgrade, Serbia",
-      "url": "https://rs.linkedin.com/jobs/view/senior-performance-qa-engineer-world-of-warships-pc-at-wargaming-4478286586",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.056220",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Seniority level matches your 13+ years experience"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: qa engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "senior-software-test-engineer-at-arm-4481688397",
-      "title": "Senior Software Test Engineer",
-      "company": "Arm",
-      "location": "Budapest, Budapest, Hungary",
-      "url": "https://hu.linkedin.com/jobs/view/senior-software-test-engineer-at-arm-4481688397",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.105067",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 70,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Seniority level matches your 13+ years experience"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: software test engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "staff-release-test-automation-engineer-at-arm-4428423088",
-      "title": "Staff Release & Test Automation Engineer",
-      "company": "Arm",
-      "location": "Budapest, Budapest, Hungary",
-      "url": "https://hu.linkedin.com/jobs/view/staff-release-test-automation-engineer-at-arm-4428423088",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.153797",
+      "scraped_at": "2026-11-15T16:39:19.693528",
       "description": "",
       "type": "Outside Bangladesh Visa Sponsorship",
       "easy_apply": false,
@@ -230,16 +100,16 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "senior-test-engineer-%E2%80%93-hardware-software-at-a2g-consulting-bv-a2g-technologies-4489585210",
-      "title": "Senior Test Engineer – Hardware & Software",
-      "company": "A2G Consulting BV (A2G Technologies)",
-      "location": "Drachten, Friesland, Netherlands",
-      "url": "https://nl.linkedin.com/jobs/view/senior-test-engineer-%E2%80%93-hardware-software-at-a2g-consulting-bv-a2g-technologies-4489585210",
+      "id": "senior-software-quality-engineer-all-genders-vollzeit-teilzeit-at-expleo-group-4410046731",
+      "title": "Senior Software Quality Engineer (all genders) - Vollzeit & Teilzeit",
+      "company": "Expleo Group",
+      "location": "Stuttgart, Baden-Württemberg, Germany",
+      "url": "https://de.linkedin.com/jobs/view/senior-software-quality-engineer-all-genders-vollzeit-teilzeit-at-expleo-group-4410046731",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.219513",
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:20.017093",
       "description": "",
       "type": "Outside Bangladesh Visa Sponsorship",
       "easy_apply": false,
@@ -258,118 +128,22 @@
       "remote_type": "not_specified",
       "job_domain": "software_qa",
       "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: test engineer",
+      "domain_reason": "Title matches Software QA: software quality engineer",
       "scored_by": "title_fallback"
     },
     {
-      "id": "automation-test-engineer-at-accenture-federal-services-4485201547",
-      "title": "Automation Test Engineer",
-      "company": "Accenture Federal Services",
-      "location": "Washington, DC",
-      "url": "https://www.linkedin.com/jobs/view/automation-test-engineer-at-accenture-federal-services-4485201547",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "sponsorship": false,
-      "date_posted": "2026-11-14",
-      "scraped_at": "2026-11-14T16:00:21.786460",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: automation test engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "qa-engineer-at-trilogy-federal-4491008921",
-      "title": "QA Engineer",
-      "company": "Trilogy Federal",
-      "location": "Arlington, VA",
-      "url": "https://www.linkedin.com/jobs/view/qa-engineer-at-trilogy-federal-4491008921",
-      "source": "linkedin",
-      "category": "remote_worldwide",
-      "sponsorship": false,
-      "date_posted": "2026-11-14",
-      "scraped_at": "2026-11-14T16:00:22.138206",
-      "description": "",
-      "type": "Remote Worldwide",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: qa engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-automation-engineer-returnship-opportunity-at-precision-technologies-4489826398",
-      "title": "Test Automation Engineer- Returnship Opportunity",
-      "company": "Precision Technologies",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/test-automation-engineer-returnship-opportunity-at-precision-technologies-4489826398",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:33.137727",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 95,
-      "domain_reason": "Title matches Software QA: test automation engineer · Software tech stack: test automation",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "software-engineer-in-test-at-precision-technologies-4489812844",
+      "id": "software-engineer-in-test-at-veeva-systems-4482630195",
       "title": "Software Engineer in Test",
-      "company": "Precision Technologies",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/software-engineer-in-test-at-precision-technologies-4489812844",
+      "company": "Veeva Systems",
+      "location": "Raleigh, NC",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-in-test-at-veeva-systems-4482630195",
       "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:33.197253",
+      "category": "remote_worldwide",
+      "sponsorship": false,
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:36:35.205518",
       "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
+      "type": "Remote Worldwide",
       "easy_apply": false,
       "match_score": 65,
       "match_reasons": [
@@ -390,16 +164,16 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "quality-assurance-automation-engineer-at-baanyan-software-services-inc-4489817933",
-      "title": "Quality Assurance Automation Engineer",
-      "company": "Baanyan Software Services, Inc.",
-      "location": "Philadelphia, PA",
-      "url": "https://www.linkedin.com/jobs/view/quality-assurance-automation-engineer-at-baanyan-software-services-inc-4489817933",
+      "id": "software-development-engineer-in-test-sdet-at-precision-technologies-4490221077",
+      "title": "Software Development Engineer in Test (SDET)",
+      "company": "Precision Technologies",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/software-development-engineer-in-test-sdet-at-precision-technologies-4490221077",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:33.369470",
+      "date_posted": "2026-11-15",
+      "scraped_at": "2026-11-15T16:39:05.527408",
       "description": "",
       "type": "Outside Bangladesh Visa Sponsorship",
       "easy_apply": false,
@@ -418,20 +192,52 @@
       "remote_type": "not_specified",
       "job_domain": "software_qa",
       "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: automation engineer",
+      "domain_reason": "Title matches Software QA: sdet",
       "scored_by": "title_fallback"
     },
     {
-      "id": "test-engineer-at-loud-solutions-4490778320",
-      "title": "Test Engineer",
-      "company": "Loud Solutions",
-      "location": "San Francisco Bay Area",
-      "url": "https://www.linkedin.com/jobs/view/test-engineer-at-loud-solutions-4490778320",
+      "id": "firmware-release-test-automation-engineer-at-verkada-4483182145",
+      "title": "Firmware Release & Test Automation Engineer",
+      "company": "Verkada",
+      "location": "San Mateo, CA",
+      "url": "https://www.linkedin.com/jobs/view/firmware-release-test-automation-engineer-at-verkada-4483182145",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:33.425363",
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:05.611763",
+      "description": "",
+      "type": "Outside Bangladesh Visa Sponsorship",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title / description matches Software QA & Automation domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title and skill matching (deterministic fallback)",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "job_domain": "software_qa",
+      "domain_confidence": 95,
+      "domain_reason": "Title matches Software QA: test automation engineer · Software tech stack: test automation",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "valve-test-engineer-at-the-exploration-company-4481972283",
+      "title": "Valve Test Engineer",
+      "company": "The Exploration Company",
+      "location": "Bordeaux, Nouvelle-Aquitaine, France",
+      "url": "https://fr.linkedin.com/jobs/view/valve-test-engineer-at-the-exploration-company-4481972283",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "sponsorship": true,
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:19.730298",
       "description": "",
       "type": "Outside Bangladesh Visa Sponsorship",
       "easy_apply": false,
@@ -454,16 +260,112 @@
       "scored_by": "title_fallback"
     },
     {
-      "id": "guidewire-policycenter-qa-analyst-qa-engineer-%E2%80%93-guidewire-cloud-at-cis-technologies-inc-4488982680",
-      "title": "Guidewire PolicyCenter QA Analyst / QA Engineer – Guidewire Cloud",
-      "company": "CIS TECHNOLOGIES INC",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/guidewire-policycenter-qa-analyst-qa-engineer-%E2%80%93-guidewire-cloud-at-cis-technologies-inc-4488982680",
+      "id": "advanced-test-automation-engineer-web-android-embedded-applications-m-f-d-at-honeywell-aerospace-4483120556",
+      "title": "Advanced Test Automation Engineer (Web & Android Embedded Applications) (m/f/d)",
+      "company": "Honeywell Aerospace",
+      "location": "Czechia",
+      "url": "https://cz.linkedin.com/jobs/view/advanced-test-automation-engineer-web-android-embedded-applications-m-f-d-at-honeywell-aerospace-4483120556",
       "source": "linkedin",
       "category": "sponsorship_worldwide",
       "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:33.545786",
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:19.765112",
+      "description": "",
+      "type": "Outside Bangladesh Visa Sponsorship",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title / description matches Software QA & Automation domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title and skill matching (deterministic fallback)",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "job_domain": "software_qa",
+      "domain_confidence": 95,
+      "domain_reason": "Title matches Software QA: test automation engineer · Software tech stack: test automation",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "software-test-engineer-autosar-irc307415-at-globallogic-4481692829",
+      "title": "Software Test Engineer (AUTOSAR) IRC307415",
+      "company": "GlobalLogic",
+      "location": "Gothenburg, Västra Götaland County, Sweden",
+      "url": "https://se.linkedin.com/jobs/view/software-test-engineer-autosar-irc307415-at-globallogic-4481692829",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "sponsorship": true,
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:19.800821",
+      "description": "",
+      "type": "Outside Bangladesh Visa Sponsorship",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title / description matches Software QA & Automation domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title and skill matching (deterministic fallback)",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "job_domain": "software_qa",
+      "domain_confidence": 85,
+      "domain_reason": "Title matches Software QA: software test engineer",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "test-engineer-python-at-capgemini-engineering-4465692671",
+      "title": "Test Engineer Python",
+      "company": "Capgemini Engineering",
+      "location": "Rome, Latium, Italy",
+      "url": "https://it.linkedin.com/jobs/view/test-engineer-python-at-capgemini-engineering-4465692671",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "sponsorship": true,
+      "date_posted": "2026-11-14",
+      "scraped_at": "2026-11-15T16:39:19.871478",
+      "description": "",
+      "type": "Outside Bangladesh Visa Sponsorship",
+      "easy_apply": false,
+      "match_score": 65,
+      "match_reasons": [
+        "Job title / description matches Software QA & Automation domain",
+        "Mid-level position matches your profile"
+      ],
+      "missing_skills": [
+        "Cypress"
+      ],
+      "nice_to_have_present": [],
+      "recommendation": "APPLY",
+      "recommendation_reason": "Title and skill matching (deterministic fallback)",
+      "seniority_match": true,
+      "remote_type": "not_specified",
+      "job_domain": "software_qa",
+      "domain_confidence": 85,
+      "domain_reason": "Title matches Software QA: test engineer",
+      "scored_by": "title_fallback"
+    },
+    {
+      "id": "qa-engineer-functional-automation-%2B-ai-testing-at-aubay-spain-4489362975",
+      "title": "QA Engineer (Functional & Automation + AI Testing)",
+      "company": "Aubay Spain",
+      "location": "Barcelona, Catalonia, Spain",
+      "url": "https://es.linkedin.com/jobs/view/qa-engineer-functional-automation-%2B-ai-testing-at-aubay-spain-4489362975",
+      "source": "linkedin",
+      "category": "sponsorship_worldwide",
+      "sponsorship": true,
+      "date_posted": "2026-11-15",
+      "scraped_at": "2026-11-15T16:39:19.943717",
       "description": "",
       "type": "Outside Bangladesh Visa Sponsorship",
       "easy_apply": false,
@@ -484,147 +386,13 @@
       "domain_confidence": 85,
       "domain_reason": "Title matches Software QA: qa engineer",
       "scored_by": "title_fallback"
-    },
-    {
-      "id": "test-engineer-at-department-for-work-and-pensions-dwp-4489575054",
-      "title": "Test Engineer",
-      "company": "Department for Work and Pensions (DWP)",
-      "location": "Barwick In Elmet, England, United Kingdom",
-      "url": "https://uk.linkedin.com/jobs/view/test-engineer-at-department-for-work-and-pensions-dwp-4489575054",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.366330",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: test engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "ui-test-engineer-at-walaris-4488995006",
-      "title": "UI Test Engineer",
-      "company": "Walaris",
-      "location": "Nuremberg, Bavaria, Germany",
-      "url": "https://de.linkedin.com/jobs/view/ui-test-engineer-at-walaris-4488995006",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.471570",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: test engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "volvo-group-graduate-program-2027-automation-engineer-at-volvo-group-4482866121",
-      "title": "Volvo Group Graduate Program 2027 - Automation Engineer",
-      "company": "Volvo Group",
-      "location": "Gothenburg, Västra Götaland County, Sweden",
-      "url": "https://se.linkedin.com/jobs/view/volvo-group-graduate-program-2027-automation-engineer-at-volvo-group-4482866121",
-      "source": "linkedin",
-      "category": "sponsorship_worldwide",
-      "sponsorship": true,
-      "date_posted": "2026-11-13",
-      "scraped_at": "2026-11-14T16:02:48.520816",
-      "description": "",
-      "type": "Outside Bangladesh Visa Sponsorship",
-      "easy_apply": false,
-      "match_score": 65,
-      "match_reasons": [
-        "Job title / description matches Software QA & Automation domain",
-        "Mid-level position matches your profile"
-      ],
-      "missing_skills": [
-        "Cypress"
-      ],
-      "nice_to_have_present": [],
-      "recommendation": "APPLY",
-      "recommendation_reason": "Title and skill matching (deterministic fallback)",
-      "seniority_match": true,
-      "remote_type": "not_specified",
-      "job_domain": "software_qa",
-      "domain_confidence": 85,
-      "domain_reason": "Title matches Software QA: automation engineer",
-      "scored_by": "title_fallback"
-    },
-    {
-      "id": "arbeitnow_d9b3978bdd7b",
-      "title": "Senior Software Development Engineer in Test (SDET)",
-      "company": "capco",
-      "location": "",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/capco/senior-software-development-engineer-in-test-sdet-430568",
-      "description": "Senior Software Development Engineer in Test (SDET) Location: London (Hybrid) | Practice Area: Technology & Engineering | Type: Permanent Advance your testing career while shaping digital finance with automation The Role Capco is growing our Engineering team and we're looking for experienced SDETs with a passion for delivering innovative solutions in financial services. If you enjoy solving complex problems, working with cloud-native technologies, and collaborating in agile teams, we'd love to hear from you. As a Senior Software Development Engineer in Test (SDET) at Capco, you'll contribute to high-impact, client-facing projects that shape the future of financial services. You'll work alongside talented engineers, gain access to industry-leading training, and have opportunities to develop your expertise across multiple technology platforms and business domains within Financial Services & Energy. You'll also embrace AI-enabled ways of working, using approved AI and automation tools where appropriate to improve engineering productivity, accelerate test delivery, and enhance software quality while applying sound engineering judgement and responsible AI practices. What You'll Do Design and implement robust, reusable, and scalable test strategies and automation frameworks, applying AI-enabled engineering approaches where appropriate to improve efficiency and test coverage. Develop and maintain test artefacts, including test plans, specifications, automated scripts, and quality reporting to support end-to-end delivery. Manage test environments and generate reliable, consistent test data to support functional, integration, and regression testing. Execute UI and API automation using modern testing frameworks while integrating automated testing into CI/CD pipelines. Collaborate with engineers and cross-functional teams to deliver quality-first solutions, encouraging the responsible use of approved AI tools and automation to improve collaboration and engineering outcomes. What We're Looking For Strong knowledge of at least one object-oriented programming language, such as Java , Scala , or JavaScript . Experience designing and building test automation frameworks using tools such as Selenium , Cypress , Playwright, or equivalent technologies. Hands-on experience with UI and API automation, alongside a solid understanding of quality engineering practices. Familiarity with Jira, TestRail, Jenkins, GitHub, SonarQube, CI/CD pipelines, and cloud infrastructure. Experience using AI-enabled tools responsibly to improve engineering productivity while maintaining appropriate human oversight, governance, software quality, and testing standar",
-      "source": "arbeitnow",
-      "category": "remote_worldwide",
-      "type": "Remote Worldwide",
-      "sponsorship": false,
-      "date_posted": "2026-11-14",
-      "scraped_at": "2026-11-14T15:58:38.845100",
-      "match_score": 60,
-      "match_reasons": [
-        "Excellent technical alignment with Java, Selenium, Playwright, and API automation",
-        "Strong seniority match with 13 years of QA automation and framework design experience",
-        "Solid background in CI/CD pipelines, Git, and Agile QA practices"
-      ],
-      "missing_skills": [
-        "Jenkins",
-        "SonarQube",
-        "TestRail"
-      ],
-      "nice_to_have_present": [
-        "Jira",
-        "GitHub Actions",
-        "CI/CD test execution"
-      ],
-      "recommendation": "CONSIDER",
-      "recommendation_reason": "Outstanding technical and experience match, but score and recommendation are moderated due to the London (Hybrid) location requiring local UK presence.",
-      "seniority_match": true,
-      "remote_type": "hybrid",
-      "job_domain": "software_qa",
-      "domain_confidence": 100,
-      "domain_reason": "Role is explicitly for a Senior Software Development Engineer in Test (SDET) focused on UI and API automation frameworks, test strategies, and CI/CD integration.",
-      "scored_by": "gemini"
     }
   ],
   "skill_gap": {
     "critical_skills_to_learn": [
       {
         "skill": "Cypress",
-        "reason": "Appears in 18 matched job descriptions. Given your existing mastery of TypeScript and Playwright, mastering Cypress will immediately close the single biggest gap in your automation tooling repertoire.",
+        "reason": "Directly requested across 12 matched job postings. Since you already possess strong TypeScript and modern web automation skills with Playwright, picking up Cypress will be fast and will immediately eliminate your primary candidate filter gap.",
         "learning_time": "1-2 weeks",
         "resources": [
           "https://docs.cypress.io/",
@@ -632,44 +400,45 @@
         ]
       },
       {
-        "skill": "Jenkins",
-        "reason": "While you have solid GitHub Actions experience, enterprise companies still heavily rely on Jenkins for legacy and on-prem orchestration. Understanding declarative pipelines and Jenkinsfiles solidifies your enterprise CI/CD profile.",
-        "learning_time": "1-2 weeks",
+        "skill": "Docker & Test Containerization",
+        "reason": "At 13 years of experience, employers expect senior engineers to architect isolated, containerized test execution environments for CI/CD pipelines rather than just triggering execution.",
+        "learning_time": "2-3 weeks",
         "resources": [
-          "https://www.jenkins.io/doc/book/pipeline/"
+          "https://docs.docker.com/get-started/",
+          "https://testcontainers.com/"
         ]
       }
     ],
     "trending_in_qa": [
-      "AI-augmented automated test generation and self-healing tests",
-      "Contract testing (e.g., Pact) for microservice ecosystems",
-      "Observability and OpenTelemetry integration into automated test runs",
-      "Test containerization using Docker & Testcontainers"
+      "AI-augmented test generation and self-healing test suites",
+      "Consumer-driven contract testing (Pact)",
+      "Test observability, distributed tracing, and OpenTelemetry",
+      "Shift-right testing and feature flag validation (LaunchDarkly)"
     ],
     "certifications_recommended": [
       {
-        "cert": "AWS Certified Cloud Practitioner or Solutions Architect - Associate",
-        "reason": "For a 13-year senior engineer transitioning to Lead/Architect roles, demonstrating cloud architecture knowledge is significantly higher leverage than basic testing certifications.",
-        "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+        "cert": "AWS Certified Developer - Associate",
+        "reason": "Validates cloud-native automation architecture capabilities, critical for modern Staff/Lead QA roles designing cloud CI/CD pipelines.",
+        "url": "https://aws.amazon.com/certification/certified-developer-associate/"
       },
       {
-        "cert": "ISTQB Advanced Level Test Automation Engineer (CTAL-TAE)",
-        "reason": "Validates enterprise-grade test automation architecture, framework evaluation, and operational governance at the senior/lead level.",
-        "url": "https://www.istqb.org/certifications/test-automation-engineer"
+        "cert": "ISTQB Certified Tester Advanced Level - Test Automation Engineering (CTAL-TAE)",
+        "reason": "Solidifies 13 years of automation experience with formal, industry-recognized architectural credentials.",
+        "url": "https://www.istqb.org/certifications/test-automation-engineering"
       }
     ],
     "quick_wins": [
-      "Build a showcase Cypress framework using TypeScript on GitHub to directly address the #1 missing keyword from job matches.",
-      "Add Jenkins pipeline setup experience alongside your GitHub Actions skill on your resume to cover enterprise CI requirements.",
-      "Reframe your resume metrics around business impact, framework scalability, and cross-team test enablement to position yourself for Lead/Architect titles."
+      "Build a showcase GitHub repository porting a Playwright TypeScript suite to Cypress in under a weekend to prove immediate adaptability.",
+      "Reframe your resume metrics from test execution volume to business impact (e.g., pipeline speed-up, defect leakage reduction, test infrastructure cost optimization).",
+      "Add explicit mentions of Test Architecture, Framework Design, and Mentorship to align with Lead/Principal SDET profiles."
     ],
-    "career_advice": "With 13 years of experience covering mobile, web, API, and performance testing (K6), you have an exceptional full-stack QA profile. Your missing skills are purely incremental rather than foundational—Cypress is easily mastered within a couple of weeks given your Playwright and TypeScript background. Focus your positioning on QA Architect, Lead SDET, or Quality Engineering Manager roles. Emphasize architecture design, mentoring, cross-functional quality culture, and CI/CD governance rather than just hands-on execution."
+    "career_advice": "With 13 years of comprehensive QA and automation experience across web, mobile, API, and performance testing, you are positioned at the Lead SDET or Principal QA Engineer tier. Your core gap across prospective job matches is Cypress, which is trivial to close given your Playwright and TypeScript mastery. Spend one week building a sample Cypress project, add it to your profile, and shift your interview narrative toward automation strategy, mentoring junior engineers, and establishing company-wide quality gates."
   },
   "stats": {
-    "excellent": 1,
-    "good": 18,
-    "remote_worldwide": 5,
+    "excellent": 0,
+    "good": 12,
+    "remote_worldwide": 2,
     "bangladesh_remote": 0,
-    "sponsorship": 14
+    "sponsorship": 10
   }
 }
